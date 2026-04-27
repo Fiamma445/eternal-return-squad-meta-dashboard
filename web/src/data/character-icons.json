@@ -1,0 +1,698 @@
+[
+    {
+        "code":  "1",
+        "nameKo":  "재키",
+        "nameEn":  "Jackie",
+        "wikiFile":  "File:Jackie Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d5/Jackie_Mini.png/revision/latest?cb=20230918102721",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AJackie_Mini.png"
+    },
+    {
+        "code":  "2",
+        "nameKo":  "아야",
+        "nameEn":  "Aya",
+        "wikiFile":  "File:Aya Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/2/22/Aya_Mini.png/revision/latest?cb=20201201153842",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AAya_Mini.png"
+    },
+    {
+        "code":  "3",
+        "nameKo":  "피오라",
+        "nameEn":  "Fiora",
+        "wikiFile":  "File:Fiora Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/a6/Fiora_Mini.png/revision/latest?cb=20220922091642",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AFiora_Mini.png"
+    },
+    {
+        "code":  "4",
+        "nameKo":  "매그너스",
+        "nameEn":  "Magnus",
+        "wikiFile":  "File:Magnus Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/87/Magnus_Mini.png/revision/latest?cb=20230831081835",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AMagnus_Mini.png"
+    },
+    {
+        "code":  "5",
+        "nameKo":  "자히르",
+        "nameEn":  "Zahir",
+        "wikiFile":  "File:Zahir Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/4/4c/Zahir_Mini.png/revision/latest?cb=20220922091905",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AZahir_Mini.png"
+    },
+    {
+        "code":  "6",
+        "nameKo":  "나딘",
+        "nameEn":  "Nadine",
+        "wikiFile":  "File:Nadine Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/a9/Nadine_Mini.png/revision/latest?cb=20230721082230",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ANadine_Mini.png"
+    },
+    {
+        "code":  "7",
+        "nameKo":  "현우",
+        "nameEn":  "Hyunwoo",
+        "wikiFile":  "File:Hyunwoo Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/85/Hyunwoo_Mini.png/revision/latest?cb=20220922091706",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AHyunwoo_Mini.png"
+    },
+    {
+        "code":  "8",
+        "nameKo":  "하트",
+        "nameEn":  "Hart",
+        "wikiFile":  "File:Hart Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/ab/Hart_Mini.png/revision/latest?cb=20220922091650",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AHart_Mini.png"
+    },
+    {
+        "code":  "9",
+        "nameKo":  "아이솔",
+        "nameEn":  "Isol",
+        "wikiFile":  "File:Isol Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/06/Isol_Mini.png/revision/latest?cb=20220922091713",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AIsol_Mini.png"
+    },
+    {
+        "code":  "10",
+        "nameKo":  "리 다이린",
+        "nameEn":  "LiDailin",
+        "wikiFile":  "File:Li Dailin Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/87/Li_Dailin_Mini.png/revision/latest?cb=20220922091739",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ALi_Dailin_Mini.png"
+    },
+    {
+        "code":  "11",
+        "nameKo":  "유키",
+        "nameEn":  "Yuki",
+        "wikiFile":  "File:Yuki Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/87/Yuki_Mini.png/revision/latest?cb=20220922091857",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AYuki_Mini.png"
+    },
+    {
+        "code":  "12",
+        "nameKo":  "혜진",
+        "nameEn":  "Hyejin",
+        "wikiFile":  "File:Hyejin Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/4/4c/Hyejin_Mini.png/revision/latest?cb=20220922091657",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AHyejin_Mini.png"
+    },
+    {
+        "code":  "13",
+        "nameKo":  "쇼우",
+        "nameEn":  "Xiukai",
+        "wikiFile":  "File:Xiukai Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/99/Xiukai_Mini.png/revision/latest?cb=20220922091850",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AXiukai_Mini.png"
+    },
+    {
+        "code":  "14",
+        "nameKo":  "키아라",
+        "nameEn":  "Chiara",
+        "wikiFile":  "File:Chiara Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/98/Chiara_Mini.png/revision/latest?cb=20201201153857",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AChiara_Mini.png"
+    },
+    {
+        "code":  "15",
+        "nameKo":  "시셀라",
+        "nameEn":  "Sissela",
+        "wikiFile":  "File:Sissela Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/dc/Sissela_Mini.png/revision/latest?cb=20201201154149",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ASissela_Mini.png"
+    },
+    {
+        "code":  "16",
+        "nameKo":  "실비아",
+        "nameEn":  "Silvia",
+        "wikiFile":  "File:Silvia Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/4/4d/Silvia_Mini.png/revision/latest?cb=20201201154137",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ASilvia_Mini.png"
+    },
+    {
+        "code":  "17",
+        "nameKo":  "아드리아나",
+        "nameEn":  "Adriana",
+        "wikiFile":  "File:Adriana Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6f/Adriana_Mini.png/revision/latest?cb=20220922091548",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AAdriana_Mini.png"
+    },
+    {
+        "code":  "18",
+        "nameKo":  "쇼이치",
+        "nameEn":  "Shoichi",
+        "wikiFile":  "File:Shoichi Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/82/Shoichi_Mini.png/revision/latest?cb=20220922091833",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AShoichi_Mini.png"
+    },
+    {
+        "code":  "19",
+        "nameKo":  "엠마",
+        "nameEn":  "Emma",
+        "wikiFile":  "File:Emma Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/65/Emma_Mini.png/revision/latest?cb=20220922091630",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AEmma_Mini.png"
+    },
+    {
+        "code":  "20",
+        "nameKo":  "레녹스",
+        "nameEn":  "Lenox",
+        "wikiFile":  "File:Lenox Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/8f/Lenox_Mini.png/revision/latest?cb=20220922091730",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ALenox_Mini.png"
+    },
+    {
+        "code":  "21",
+        "nameKo":  "로지",
+        "nameEn":  "Rozzi",
+        "wikiFile":  "File:Rozzi Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/cc/Rozzi_Mini.png/revision/latest?cb=20220922091825",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ARozzi_Mini.png"
+    },
+    {
+        "code":  "22",
+        "nameKo":  "루크",
+        "nameEn":  "Luke",
+        "wikiFile":  "File:Luke Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/e/e4/Luke_Mini.png/revision/latest?cb=20220922091746",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ALuke_Mini.png"
+    },
+    {
+        "code":  "23",
+        "nameKo":  "캐시",
+        "nameEn":  "Cathy",
+        "wikiFile":  "File:Cathy Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/59/Cathy_Mini.png/revision/latest?cb=20220922091614",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ACathy_Mini.png"
+    },
+    {
+        "code":  "24",
+        "nameKo":  "아델라",
+        "nameEn":  "Adela",
+        "wikiFile":  "File:Adela Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/04/Adela_Mini.png/revision/latest?cb=20210305170715",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AAdela_Mini.png"
+    },
+    {
+        "code":  "25",
+        "nameKo":  "버니스",
+        "nameEn":  "Bernice",
+        "wikiFile":  "File:Bernice Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/2/2f/Bernice_Mini.png/revision/latest?cb=20210318064242",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ABernice_Mini.png"
+    },
+    {
+        "code":  "26",
+        "nameKo":  "바바라",
+        "nameEn":  "Barbara",
+        "wikiFile":  "File:Barbara Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/55/Barbara_Mini.png/revision/latest?cb=20210331050452",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ABarbara_Mini.png"
+    },
+    {
+        "code":  "27",
+        "nameKo":  "알렉스",
+        "nameEn":  "Alex",
+        "wikiFile":  "File:Alex Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/4/47/Alex_Mini.png/revision/latest?cb=20210414092048",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AAlex_Mini.png"
+    },
+    {
+        "code":  "28",
+        "nameKo":  "수아",
+        "nameEn":  "Sua",
+        "wikiFile":  "File:Sua Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/60/Sua_Mini.png/revision/latest?cb=20210429102609",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ASua_Mini.png"
+    },
+    {
+        "code":  "29",
+        "nameKo":  "레온",
+        "nameEn":  "Leon",
+        "wikiFile":  "File:Leon Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/3/30/Leon_Mini.png/revision/latest?cb=20210520180625",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ALeon_Mini.png"
+    },
+    {
+        "code":  "30",
+        "nameKo":  "일레븐",
+        "nameEn":  "Eleven",
+        "wikiFile":  "File:Eleven Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/ad/Eleven_Mini.png/revision/latest?cb=20210530224018",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AEleven_Mini.png"
+    },
+    {
+        "code":  "31",
+        "nameKo":  "리오",
+        "nameEn":  "Rio",
+        "wikiFile":  "File:Rio Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d9/Rio_Mini.png/revision/latest?cb=20210611074940",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ARio_Mini.png"
+    },
+    {
+        "code":  "32",
+        "nameKo":  "윌리엄",
+        "nameEn":  "William",
+        "wikiFile":  "File:William Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/2/21/William_Mini.png/revision/latest?cb=20210629071745",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AWilliam_Mini.png"
+    },
+    {
+        "code":  "33",
+        "nameKo":  "니키",
+        "nameEn":  "Nicky",
+        "wikiFile":  "File:Nicky Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0a/Nicky_Mini.png/revision/latest?cb=20210712042814",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ANicky_Mini.png"
+    },
+    {
+        "code":  "34",
+        "nameKo":  "나타폰",
+        "nameEn":  "Nathapon",
+        "wikiFile":  "File:Nathapon Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/3/36/Nathapon_Mini.png/revision/latest?cb=20210723063907",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ANathapon_Mini.png"
+    },
+    {
+        "code":  "35",
+        "nameKo":  "얀",
+        "nameEn":  "Jan",
+        "wikiFile":  "File:Jan Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/65/Jan_Mini.png/revision/latest?cb=20210808052331",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AJan_Mini.png"
+    },
+    {
+        "code":  "36",
+        "nameKo":  "이바",
+        "nameEn":  "Eva",
+        "wikiFile":  "File:Eva Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/db/Eva_Mini.png/revision/latest?cb=20210820021036",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AEva_Mini.png"
+    },
+    {
+        "code":  "37",
+        "nameKo":  "다니엘",
+        "nameEn":  "Daniel",
+        "wikiFile":  "File:Daniel Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/bb/Daniel_Mini.png/revision/latest?cb=20210902095004",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ADaniel_Mini.png"
+    },
+    {
+        "code":  "38",
+        "nameKo":  "제니",
+        "nameEn":  "Jenny",
+        "wikiFile":  "File:Jenny Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/a2/Jenny_Mini.png/revision/latest?cb=20210916145335",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AJenny_Mini.png"
+    },
+    {
+        "code":  "39",
+        "nameKo":  "카밀로",
+        "nameEn":  "Camilo",
+        "wikiFile":  "File:Camilo Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/3/32/Camilo_Mini.png/revision/latest?cb=20211014084608",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ACamilo_Mini.png"
+    },
+    {
+        "code":  "40",
+        "nameKo":  "클로에",
+        "nameEn":  "Chloe",
+        "wikiFile":  "File:Chloe Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/8a/Chloe_Mini.png/revision/latest?cb=20211028215758",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AChloe_Mini.png"
+    },
+    {
+        "code":  "41",
+        "nameKo":  "요한",
+        "nameEn":  "Johann",
+        "wikiFile":  "File:Johann Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/83/Johann_Mini.png/revision/latest?cb=20211112164414",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AJohann_Mini.png"
+    },
+    {
+        "code":  "42",
+        "nameKo":  "비앙카",
+        "nameEn":  "Bianca",
+        "wikiFile":  "File:Bianca Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/64/Bianca_Mini.png/revision/latest?cb=20211126032814",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ABianca_Mini.png"
+    },
+    {
+        "code":  "43",
+        "nameKo":  "셀린",
+        "nameEn":  "Celine",
+        "wikiFile":  "File:Celine Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/e/e2/Celine_Mini.png/revision/latest?cb=20211209051636",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ACeline_Mini.png"
+    },
+    {
+        "code":  "44",
+        "nameKo":  "에키온",
+        "nameEn":  "Echion",
+        "wikiFile":  "File:Echion Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/7/73/Echion_Mini.png/revision/latest?cb=20220106052529",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AEchion_Mini.png"
+    },
+    {
+        "code":  "45",
+        "nameKo":  "마이",
+        "nameEn":  "Mai",
+        "wikiFile":  "File:Mai Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/87/Mai_Mini.png/revision/latest?cb=20220105182342",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AMai_Mini.png"
+    },
+    {
+        "code":  "46",
+        "nameKo":  "에이든",
+        "nameEn":  "Aiden",
+        "wikiFile":  "File:Aiden Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/55/Aiden_Mini.png/revision/latest?cb=20220922091557",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AAiden_Mini.png"
+    },
+    {
+        "code":  "47",
+        "nameKo":  "라우라",
+        "nameEn":  "Laura",
+        "wikiFile":  "File:Laura Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c1/Laura_Mini.png/revision/latest?cb=20220218033610",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ALaura_Mini.png"
+    },
+    {
+        "code":  "48",
+        "nameKo":  "띠아",
+        "nameEn":  "Tia",
+        "wikiFile":  "File:Tia Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b4/Tia_Mini.png/revision/latest?cb=20220303213151",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ATia_Mini.png"
+    },
+    {
+        "code":  "49",
+        "nameKo":  "펠릭스",
+        "nameEn":  "Felix",
+        "wikiFile":  "File:Felix Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/5e/Felix_Mini.png/revision/latest?cb=20220409161613",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AFelix_Mini.png"
+    },
+    {
+        "code":  "50",
+        "nameKo":  "엘레나",
+        "nameEn":  "Elena",
+        "wikiFile":  "File:Elena Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/7/72/Elena_Mini.png/revision/latest?cb=20220409161735",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AElena_Mini.png"
+    },
+    {
+        "code":  "51",
+        "nameKo":  "프리야",
+        "nameEn":  "Priya",
+        "wikiFile":  "File:Priya Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/f6/Priya_Mini.png/revision/latest?cb=20220503190751",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3APriya_Mini.png"
+    },
+    {
+        "code":  "52",
+        "nameKo":  "아디나",
+        "nameEn":  "Adina",
+        "wikiFile":  "File:Adina Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b7/Adina_Mini.png/revision/latest?cb=20220503190646",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AAdina_Mini.png"
+    },
+    {
+        "code":  "53",
+        "nameKo":  "마커스",
+        "nameEn":  "Markus",
+        "wikiFile":  "File:Markus Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b6/Markus_Mini.png/revision/latest?cb=20220613212111",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AMarkus_Mini.png"
+    },
+    {
+        "code":  "54",
+        "nameKo":  "칼라",
+        "nameEn":  "Karla",
+        "wikiFile":  "File:Karla Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/cc/Karla_Mini.png/revision/latest?cb=20220622183610",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AKarla_Mini.png"
+    },
+    {
+        "code":  "55",
+        "nameKo":  "에스텔",
+        "nameEn":  "Estelle",
+        "wikiFile":  "File:Estelle Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/5e/Estelle_Mini.png/revision/latest?cb=20220721113857",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AEstelle_Mini.png"
+    },
+    {
+        "code":  "56",
+        "nameKo":  "피올로",
+        "nameEn":  "Piolo",
+        "wikiFile":  "File:Piolo Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/7/7f/Piolo_Mini.png/revision/latest?cb=20220807205725",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3APiolo_Mini.png"
+    },
+    {
+        "code":  "57",
+        "nameKo":  "마르티나",
+        "nameEn":  "Martina",
+        "wikiFile":  "File:Martina Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d2/Martina_Mini.png/revision/latest?cb=20220901093604",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AMartina_Mini.png"
+    },
+    {
+        "code":  "58",
+        "nameKo":  "헤이즈",
+        "nameEn":  "Haze",
+        "wikiFile":  "File:Haze Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0d/Haze_Mini.png/revision/latest?cb=20220929185104",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AHaze_Mini.png"
+    },
+    {
+        "code":  "59",
+        "nameKo":  "아이작",
+        "nameEn":  "Isaac",
+        "wikiFile":  "File:Isaac Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/4/4e/Isaac_Mini.png/revision/latest?cb=20221027072949",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AIsaac_Mini.png"
+    },
+    {
+        "code":  "60",
+        "nameKo":  "타지아",
+        "nameEn":  "Tazia",
+        "wikiFile":  "File:Tazia Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/1/1a/Tazia_Mini.png/revision/latest?cb=20221114094449",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ATazia_Mini.png"
+    },
+    {
+        "code":  "61",
+        "nameKo":  "이렘",
+        "nameEn":  "Irem",
+        "wikiFile":  "File:Irem Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/a8/Irem_Mini.png/revision/latest?cb=20221210090120",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AIrem_Mini.png"
+    },
+    {
+        "code":  "62",
+        "nameKo":  "테오도르",
+        "nameEn":  "Theodore",
+        "wikiFile":  "File:Theodore Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b4/Theodore_Mini.png/revision/latest?cb=20221214184516",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ATheodore_Mini.png"
+    },
+    {
+        "code":  "63",
+        "nameKo":  "이안",
+        "nameEn":  "Lyanh",
+        "wikiFile":  "File:Ly Anh Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/7/76/Ly_Anh_Mini.png/revision/latest?cb=20230219085154",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ALy_Anh_Mini.png"
+    },
+    {
+        "code":  "64",
+        "nameKo":  "바냐",
+        "nameEn":  "Vanya",
+        "wikiFile":  "File:Vanya Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/85/Vanya_Mini.png/revision/latest?cb=20230316053827",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AVanya_Mini.png"
+    },
+    {
+        "code":  "65",
+        "nameKo":  "데비\u0026마를렌",
+        "nameEn":  "DebiMarlene",
+        "wikiFile":  "File:Debi \u0026 Marlene Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/4/42/Debi_%26_Marlene_Mini.png/revision/latest?cb=20230721084728",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ADebi_%26_Marlene_Mini.png"
+    },
+    {
+        "code":  "66",
+        "nameKo":  "아르다",
+        "nameEn":  "Arda",
+        "wikiFile":  "File:Arda Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/2/22/Arda_Mini.png/revision/latest?cb=20230817190210",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AArda_Mini.png"
+    },
+    {
+        "code":  "67",
+        "nameKo":  "아비게일",
+        "nameEn":  "Abigail",
+        "wikiFile":  "File:Abigail Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b6/Abigail_Mini.png/revision/latest?cb=20230831081845",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AAbigail_Mini.png"
+    },
+    {
+        "code":  "68",
+        "nameKo":  "알론소",
+        "nameEn":  "Alonso",
+        "wikiFile":  "File:Alonso Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/1/17/Alonso_Mini.png/revision/latest?cb=20231012114646",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AAlonso_Mini.png"
+    },
+    {
+        "code":  "69",
+        "nameKo":  "레니",
+        "nameEn":  "Leni",
+        "wikiFile":  "File:Leni Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/63/Leni_Mini.png/revision/latest?cb=20231109083433",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ALeni_Mini.png"
+    },
+    {
+        "code":  "70",
+        "nameKo":  "츠바메",
+        "nameEn":  "Tsubame",
+        "wikiFile":  "File:Tsubame Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0d/Tsubame_Mini.png/revision/latest?cb=20231227090033",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ATsubame_Mini.png"
+    },
+    {
+        "code":  "71",
+        "nameKo":  "케네스",
+        "nameEn":  "Kenneth",
+        "wikiFile":  "File:Kenneth Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6f/Kenneth_Mini.png/revision/latest?cb=20240123112432",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AKenneth_Mini.png"
+    },
+    {
+        "code":  "72",
+        "nameKo":  "카티야",
+        "nameEn":  "Katja",
+        "wikiFile":  "File:Katja Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/f2/Katja_Mini.png/revision/latest?cb=20240304175803",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AKatja_Mini.png"
+    },
+    {
+        "code":  "73",
+        "nameKo":  "샬럿",
+        "nameEn":  "Charlotte",
+        "wikiFile":  "File:Charlotte Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/81/Charlotte_Mini.png/revision/latest?cb=20240416061912",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ACharlotte_Mini.png"
+    },
+    {
+        "code":  "74",
+        "nameKo":  "다르코",
+        "nameEn":  "Darko",
+        "wikiFile":  "File:Darko Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/93/Darko_Mini.png/revision/latest?cb=20240710033558",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ADarko_Mini.png"
+    },
+    {
+        "code":  "75",
+        "nameKo":  "르노어",
+        "nameEn":  "Lenore",
+        "wikiFile":  "File:Lenore Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/1/19/Lenore_Mini.png/revision/latest?cb=20240926022406",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ALenore_Mini.png"
+    },
+    {
+        "code":  "76",
+        "nameKo":  "가넷",
+        "nameEn":  "Garnet",
+        "wikiFile":  "File:Garnet Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/2/20/Garnet_Mini.png/revision/latest?cb=20240926022401",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AGarnet_Mini.png"
+    },
+    {
+        "code":  "77",
+        "nameKo":  "유민",
+        "nameEn":  "YuMin",
+        "wikiFile":  "File:Yumin Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/50/Yumin_Mini.png/revision/latest?cb=20241024065553",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AYumin_Mini.png"
+    },
+    {
+        "code":  "78",
+        "nameKo":  "히스이",
+        "nameEn":  "Hisui",
+        "wikiFile":  "File:Hisui Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/06/Hisui_Mini.png/revision/latest?cb=20250117011029",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AHisui_Mini.png"
+    },
+    {
+        "code":  "79",
+        "nameKo":  "유스티나",
+        "nameEn":  "Justyna",
+        "wikiFile":  "File:Justyna Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/f6/Justyna_Mini.png/revision/latest?cb=20250216051612",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AJustyna_Mini.png"
+    },
+    {
+        "code":  "80",
+        "nameKo":  "이슈트반",
+        "nameEn":  "Istvan",
+        "wikiFile":  "File:István Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c1/Istv%C3%A1n_Mini.png/revision/latest?cb=20250403063033",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AIstv%C3%A1n_Mini.png"
+    },
+    {
+        "code":  "81",
+        "nameKo":  "니아",
+        "nameEn":  "Niah",
+        "wikiFile":  "File:NiaH Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/4/48/NiaH_Mini.png/revision/latest?cb=20250311194402",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ANiaH_Mini.png"
+    },
+    {
+        "code":  "82",
+        "nameKo":  "슈린",
+        "nameEn":  "Xuelin",
+        "wikiFile":  "File:Xuelin Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/8b/Xuelin_Mini.png/revision/latest?cb=20250723231507",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AXuelin_Mini.png"
+    },
+    {
+        "code":  "83",
+        "nameKo":  "헨리",
+        "nameEn":  "Henry",
+        "wikiFile":  "File:Henry Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0c/Henry_Mini.png/revision/latest?cb=20250312030947",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AHenry_Mini.png"
+    },
+    {
+        "code":  "84",
+        "nameKo":  "블레어",
+        "nameEn":  "Blair",
+        "wikiFile":  "File:Blair Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/1/17/Blair_Mini.png/revision/latest?cb=20250624172933",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ABlair_Mini.png"
+    },
+    {
+        "code":  "85",
+        "nameKo":  "미르카",
+        "nameEn":  "Mirka",
+        "wikiFile":  "File:Mirka Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/3/3c/Mirka_Mini.png/revision/latest?cb=20251210144626",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AMirka_Mini.png"
+    },
+    {
+        "code":  "86",
+        "nameKo":  "펜리르",
+        "nameEn":  "Fenrir",
+        "wikiFile":  "File:Fenrir Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/3/32/Fenrir_Mini.png/revision/latest?cb=20260123223923",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3AFenrir_Mini.png"
+    },
+    {
+        "code":  "87",
+        "nameKo":  "코렐라인",
+        "nameEn":  "Coraline",
+        "wikiFile":  "File:Coraline Mini.png",
+        "iconUrl":  "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/4/48/Coraline_Mini.png/revision/latest?cb=20260113170027",
+        "sourceUrl":  "https://eternalreturn.fandom.com/wiki/File%3ACoraline_Mini.png"
+    }
+]

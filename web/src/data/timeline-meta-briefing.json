@@ -1,0 +1,2349 @@
+{
+  "generatedAt": "2026-04-25T06:43:30.984167+00:00",
+  "mode": "offline_static_timeline_ai_briefing",
+  "description": "API 호출 없이 버전·시계열 탭에서 읽는 패치 메타 변화 브리핑",
+  "sourceFiles": {
+    "characterDay": "output\\api_snowball_collect\\team3_top300_500_asia_30d\\mart\\character_day_mart.csv",
+    "versionCompare": "output\\api_snowball_collect\\team3_top300_500_asia_30d\\mart\\balanced_version_compare_labeled.csv",
+    "teamCompStructure": "output\\api_snowball_collect\\team3_top300_500_asia_30d\\mart\\team_comp_structure_mart.csv",
+    "duoSynergy": "output\\api_snowball_collect\\team3_top300_500_asia_30d\\mart\\duo_synergy_mart.csv"
+  },
+  "versions": [
+    {
+      "version": "2.0",
+      "dateCount": 5,
+      "dateMin": "2026-02-15",
+      "dateMax": "2026-02-19",
+      "totalTeams": 4047,
+      "totalSlots": 12141
+    },
+    {
+      "version": "3.0",
+      "dateCount": 15,
+      "dateMin": "2026-02-19",
+      "dateMax": "2026-03-05",
+      "totalTeams": 11247,
+      "totalSlots": 33741
+    },
+    {
+      "version": "4.0",
+      "dateCount": 11,
+      "dateMin": "2026-03-05",
+      "dateMax": "2026-03-15",
+      "totalTeams": 104529,
+      "totalSlots": 313587
+    }
+  ],
+  "overview": {
+    "title": "4.0 패치 메타 변화 요약",
+    "summary": "4.0에서는 탱커 | 원거리 딜러 | 메이지 역할 조합과 레녹스 + 리오 듀오의 점유가 가장 크게 상승했고, 캐릭터 단위에서는 아이작의 픽률 상승이 가장 컸다",
+    "bullets": [
+      "역할 조합 상승: 탱커 | 원거리 딜러 | 메이지 +1.49%p",
+      "역할 조합 하락: 브루저 | 원거리 딜러 | 암살 -0.65%p",
+      "캐릭터 상승: 아이작 +1.38%p",
+      "듀오 상승: 레녹스 + 리오 +0.12%p"
+    ],
+    "reportParagraph": "패치 4.0 기준 메타 변화는 캐릭터 단독 변화보다 조합 단위에서 더 분명하게 관찰된다. 역할 조합에서는 탱커 | 원거리 딜러 | 메이지 점유가 3.0 대비 +1.49%p 상승했고, 듀오에서는 레녹스 + 리오 점유가 +0.12%p 상승했다. 따라서 버전별 메타 해석은 개별 캐릭터 픽률뿐 아니라 역할 조합과 듀오 점유 변화까지 함께 보는 것이 적절하다",
+    "caution": "2.0과 3.0 표본은 4.0보다 작아서 절대 수치보다 방향성과 반복 등장 신호를 우선한다",
+    "leadSignals": {
+      "characterRiser": {
+        "id": "59",
+        "name": "아이작",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.01,
+            "top3Rate": 45.53,
+            "winRate": 17.07,
+            "avgRank": 4.11
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.38,
+            "top3Rate": 44.91,
+            "winRate": 17.37,
+            "avgRank": 4.13
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 1.38,
+        "deltaTop3Pp": null,
+        "label": "4.0 신규/재등장",
+        "sampleOk": true,
+        "metaShift": "지속 상승",
+        "patchImpact": "환경 변화 수혜"
+      },
+      "characterFaller": {
+        "id": "82",
+        "name": "슈린",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.28,
+            "top3Rate": 35.26,
+            "winRate": 9.62,
+            "avgRank": 4.62
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.13,
+            "top3Rate": 37.96,
+            "winRate": 13.14,
+            "avgRank": 4.42
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -1.13,
+        "deltaTop3Pp": null,
+        "label": "4.0 이탈/비노출",
+        "sampleOk": true,
+        "metaShift": "지속 하락",
+        "patchImpact": "보류"
+      },
+      "roleRiser": {
+        "id": "탱커|원거리 딜러|메이지",
+        "name": "탱커 | 원거리 딜러 | 메이지",
+        "versions": {
+          "2.0": {
+            "count": 281,
+            "sharePct": 6.9434148752162095,
+            "top3Rate": 42.34875444839858,
+            "winRate": 14.94661921708185,
+            "avgRank": 4.284697508896797
+          },
+          "3.0": {
+            "count": 756,
+            "sharePct": 6.721792477994132,
+            "top3Rate": 41.7989417989418,
+            "winRate": 16.402116402116402,
+            "avgRank": 4.212962962962963
+          },
+          "4.0": {
+            "count": 8582,
+            "sharePct": 8.210161773287796,
+            "top3Rate": 42.49592169657422,
+            "winRate": 15.963644838033092,
+            "avgRank": 4.158238172920065
+          }
+        },
+        "currentCount": 8582,
+        "previousCount": 756,
+        "deltaSharePp": 1.4883692952936638,
+        "deltaTop3Pp": 0.6969798976324242,
+        "label": "상승",
+        "sampleOk": true
+      },
+      "roleFaller": {
+        "id": "브루저|원거리 딜러|암살",
+        "name": "브루저 | 원거리 딜러 | 암살",
+        "versions": {
+          "2.0": {
+            "count": 210,
+            "sharePct": 5.1890289103039295,
+            "top3Rate": 38.57142857142858,
+            "winRate": 10.952380952380953,
+            "avgRank": 4.466666666666667
+          },
+          "3.0": {
+            "count": 606,
+            "sharePct": 5.388103494265137,
+            "top3Rate": 39.10891089108911,
+            "winRate": 13.036303630363037,
+            "avgRank": 4.420792079207921
+          },
+          "4.0": {
+            "count": 4950,
+            "sharePct": 4.735527939614844,
+            "top3Rate": 36.76767676767677,
+            "winRate": 11.373737373737374,
+            "avgRank": 4.448484848484848
+          }
+        },
+        "currentCount": 4950,
+        "previousCount": 606,
+        "deltaSharePp": -0.6525755546502934,
+        "deltaTop3Pp": -2.3412341234123417,
+        "label": "하락",
+        "sampleOk": true
+      },
+      "duoRiser": {
+        "id": "20|31",
+        "name": "레녹스 + 리오",
+        "versions": {
+          "2.0": {
+            "count": 17,
+            "pairCount": 17,
+            "sharePct": 0.1400214150399473,
+            "top3Rate": 47.059411764705885,
+            "winRate": 5.881764705882353,
+            "avgRank": 4.47064705882353
+          },
+          "3.0": {
+            "count": 64,
+            "pairCount": 64,
+            "sharePct": 0.18968021101923477,
+            "top3Rate": 31.24890625,
+            "winRate": 14.061875,
+            "avgRank": 4.7811875
+          },
+          "4.0": {
+            "count": 966,
+            "pairCount": 966,
+            "sharePct": 0.3080484841527232,
+            "top3Rate": 41.92368530020704,
+            "winRate": 17.184544513457556,
+            "avgRank": 4.153178053830228
+          }
+        },
+        "currentCount": 966,
+        "previousCount": 64,
+        "deltaSharePp": 0.11836827313348841,
+        "deltaTop3Pp": 10.67477905020704,
+        "label": "보합",
+        "sampleOk": true
+      },
+      "duoFaller": {
+        "id": "64|78",
+        "name": "바냐 + 히스이",
+        "versions": {
+          "2.0": {
+            "count": 29,
+            "pairCount": 29,
+            "sharePct": 0.23886006095049833,
+            "top3Rate": 34.48344827586207,
+            "winRate": 0.0,
+            "avgRank": 4.999931034482758
+          },
+          "3.0": {
+            "count": 82,
+            "pairCount": 82,
+            "sharePct": 0.24302777036839454,
+            "top3Rate": 36.585243902439025,
+            "winRate": 9.75670731707317,
+            "avgRank": 4.658524390243902
+          },
+          "4.0": {
+            "count": 321,
+            "pairCount": 321,
+            "sharePct": 0.1023639372805633,
+            "top3Rate": 33.02068535825545,
+            "winRate": 12.14943925233645,
+            "avgRank": 4.741367601246106
+          }
+        },
+        "currentCount": 321,
+        "previousCount": 82,
+        "deltaSharePp": -0.14066383308783126,
+        "deltaTop3Pp": -3.5645585441835763,
+        "label": "보합",
+        "sampleOk": true
+      }
+    }
+  },
+  "characterShifts": {
+    "topRising": [
+      {
+        "id": "59",
+        "name": "아이작",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.01,
+            "top3Rate": 45.53,
+            "winRate": 17.07,
+            "avgRank": 4.11
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.38,
+            "top3Rate": 44.91,
+            "winRate": 17.37,
+            "avgRank": 4.13
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 1.38,
+        "deltaTop3Pp": null,
+        "label": "4.0 신규/재등장",
+        "sampleOk": true,
+        "metaShift": "지속 상승",
+        "patchImpact": "환경 변화 수혜"
+      },
+      {
+        "id": "35",
+        "name": "얀",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.29,
+            "top3Rate": 35.67,
+            "winRate": 14.01,
+            "avgRank": 4.54
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 1.29,
+        "deltaTop3Pp": null,
+        "label": "4.0 신규/재등장",
+        "sampleOk": true,
+        "metaShift": "신규 유입",
+        "patchImpact": "환경 변화 수혜"
+      },
+      {
+        "id": "46",
+        "name": "에이든",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.27,
+            "top3Rate": 31.82,
+            "winRate": 13.64,
+            "avgRank": 4.6
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 1.27,
+        "deltaTop3Pp": null,
+        "label": "4.0 신규/재등장",
+        "sampleOk": true,
+        "metaShift": "신규 유입",
+        "patchImpact": "환경 변화 수혜"
+      },
+      {
+        "id": "6",
+        "name": "나딘",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.19,
+            "top3Rate": 45.14,
+            "winRate": 13.19,
+            "avgRank": 4.19
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 1.19,
+        "deltaTop3Pp": null,
+        "label": "4.0 신규/재등장",
+        "sampleOk": true,
+        "metaShift": "신규 유입",
+        "patchImpact": "직접 버프 수혜"
+      },
+      {
+        "id": "25",
+        "name": "버니스",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.09,
+            "top3Rate": 36.36,
+            "winRate": 9.09,
+            "avgRank": 4.58
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 1.09,
+        "deltaTop3Pp": null,
+        "label": "4.0 신규/재등장",
+        "sampleOk": true,
+        "metaShift": "신규 유입",
+        "patchImpact": "직접 버프 수혜"
+      }
+    ],
+    "topFalling": [
+      {
+        "id": "82",
+        "name": "슈린",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.28,
+            "top3Rate": 35.26,
+            "winRate": 9.62,
+            "avgRank": 4.62
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.13,
+            "top3Rate": 37.96,
+            "winRate": 13.14,
+            "avgRank": 4.42
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -1.13,
+        "deltaTop3Pp": null,
+        "label": "4.0 이탈/비노출",
+        "sampleOk": true,
+        "metaShift": "지속 하락",
+        "patchImpact": "보류"
+      },
+      {
+        "id": "17",
+        "name": "아드리아나",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.04,
+            "top3Rate": 46.83,
+            "winRate": 16.67,
+            "avgRank": 4.03
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -1.04,
+        "deltaTop3Pp": null,
+        "label": "4.0 이탈/비노출",
+        "sampleOk": true,
+        "metaShift": "보류",
+        "patchImpact": "보류"
+      },
+      {
+        "id": "68",
+        "name": "알론소",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.02,
+            "top3Rate": 41.13,
+            "winRate": 15.32,
+            "avgRank": 4.33
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -1.02,
+        "deltaTop3Pp": null,
+        "label": "4.0 이탈/비노출",
+        "sampleOk": true,
+        "metaShift": "보류",
+        "patchImpact": "보류"
+      },
+      {
+        "id": "48",
+        "name": "띠아",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.01,
+            "top3Rate": 35.77,
+            "winRate": 13.01,
+            "avgRank": 4.38
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -1.01,
+        "deltaTop3Pp": null,
+        "label": "4.0 이탈/비노출",
+        "sampleOk": true,
+        "metaShift": "보류",
+        "patchImpact": "보류"
+      },
+      {
+        "id": "86",
+        "name": "펜리르",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 2.53,
+            "top3Rate": 35.5,
+            "winRate": 9.77,
+            "avgRank": 4.54
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 2.13,
+            "top3Rate": 38.22,
+            "winRate": 11.97,
+            "avgRank": 4.39
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.15,
+            "top3Rate": 37.86,
+            "winRate": 7.86,
+            "avgRank": 4.47
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -0.98,
+        "deltaTop3Pp": -0.35999999999999943,
+        "label": "하락",
+        "sampleOk": true,
+        "metaShift": "지속 하락",
+        "patchImpact": "직접 너프 영향"
+      }
+    ],
+    "topTop3Rising": [
+      {
+        "id": "79",
+        "name": "유스티나",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.38,
+            "top3Rate": 42.51,
+            "winRate": 14.37,
+            "avgRank": 4.2
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.07,
+            "top3Rate": 28.46,
+            "winRate": 3.85,
+            "avgRank": 4.72
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.12,
+            "top3Rate": 41.18,
+            "winRate": 15.44,
+            "avgRank": 4.23
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 0.050000000000000044,
+        "deltaTop3Pp": 12.719999999999999,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "2.0 대비 정체·하락 / 3.0 대비 회복",
+        "patchImpact": "환경 변화 밀림"
+      },
+      {
+        "id": "42",
+        "name": "비앙카",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.23,
+            "top3Rate": 40.94,
+            "winRate": 14.09,
+            "avgRank": 4.33
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.0,
+            "top3Rate": 36.07,
+            "winRate": 11.48,
+            "avgRank": 4.42
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.21,
+            "top3Rate": 46.26,
+            "winRate": 14.97,
+            "avgRank": 4.06
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 0.20999999999999996,
+        "deltaTop3Pp": 10.189999999999998,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "2.0 대비 정체·하락 / 3.0 대비 회복",
+        "patchImpact": "환경 변화 밀림"
+      },
+      {
+        "id": "10",
+        "name": "리 다이린",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.57,
+            "top3Rate": 37.17,
+            "winRate": 14.14,
+            "avgRank": 4.43
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.28,
+            "top3Rate": 37.18,
+            "winRate": 10.9,
+            "avgRank": 4.29
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.28,
+            "top3Rate": 46.15,
+            "winRate": 14.74,
+            "avgRank": 4.24
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 0.0,
+        "deltaTop3Pp": 8.969999999999999,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "보류",
+        "patchImpact": "환경 변화 밀림"
+      },
+      {
+        "id": "65",
+        "name": "데비&마를렌",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 2.33,
+            "top3Rate": 36.75,
+            "winRate": 10.95,
+            "avgRank": 4.45
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 2.16,
+            "top3Rate": 33.21,
+            "winRate": 7.25,
+            "avgRank": 4.62
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 2.6,
+            "top3Rate": 39.87,
+            "winRate": 12.97,
+            "avgRank": 4.32
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 0.43999999999999995,
+        "deltaTop3Pp": 6.659999999999997,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "지속 상승",
+        "patchImpact": "직접 버프 수혜"
+      },
+      {
+        "id": "71",
+        "name": "케네스",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.05,
+            "top3Rate": 37.5,
+            "winRate": 10.94,
+            "avgRank": 4.38
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.17,
+            "top3Rate": 32.39,
+            "winRate": 11.97,
+            "avgRank": 4.45
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.25,
+            "top3Rate": 38.82,
+            "winRate": 13.82,
+            "avgRank": 4.36
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 0.08000000000000007,
+        "deltaTop3Pp": 6.43,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "지속 상승",
+        "patchImpact": "직접 너프 이후 유지/반등"
+      }
+    ],
+    "topTop3Falling": [
+      {
+        "id": "77",
+        "name": "유민",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 0.0,
+            "top3Rate": null,
+            "winRate": null,
+            "avgRank": null
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.0,
+            "top3Rate": 47.11,
+            "winRate": 17.36,
+            "avgRank": 3.94
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.05,
+            "top3Rate": 28.12,
+            "winRate": 13.28,
+            "avgRank": 4.81
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": 0.050000000000000044,
+        "deltaTop3Pp": -18.99,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "지속 상승",
+        "patchImpact": "환경 변화 수혜"
+      },
+      {
+        "id": "83",
+        "name": "헨리",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.47,
+            "top3Rate": 50.56,
+            "winRate": 16.29,
+            "avgRank": 3.93
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.65,
+            "top3Rate": 45.5,
+            "winRate": 20.0,
+            "avgRank": 3.96
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.35,
+            "top3Rate": 36.59,
+            "winRate": 13.41,
+            "avgRank": 4.41
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -0.2999999999999998,
+        "deltaTop3Pp": -8.909999999999997,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "지속 하락",
+        "patchImpact": "환경 변화 밀림"
+      },
+      {
+        "id": "4",
+        "name": "매그너스",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.67,
+            "top3Rate": 39.41,
+            "winRate": 8.87,
+            "avgRank": 4.4
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.73,
+            "top3Rate": 40.48,
+            "winRate": 13.33,
+            "avgRank": 4.28
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.59,
+            "top3Rate": 34.2,
+            "winRate": 12.44,
+            "avgRank": 4.45
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -0.1399999999999999,
+        "deltaTop3Pp": -6.279999999999994,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "지속 하락",
+        "patchImpact": "환경 변화 밀림"
+      },
+      {
+        "id": "85",
+        "name": "미르카",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 1.99,
+            "top3Rate": 37.76,
+            "winRate": 13.28,
+            "avgRank": 4.48
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 1.59,
+            "top3Rate": 42.49,
+            "winRate": 12.95,
+            "avgRank": 4.06
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 1.48,
+            "top3Rate": 36.67,
+            "winRate": 14.44,
+            "avgRank": 4.43
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -0.1100000000000001,
+        "deltaTop3Pp": -5.82,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "지속 하락",
+        "patchImpact": "환경 변화 밀림"
+      },
+      {
+        "id": "74",
+        "name": "다르코",
+        "versions": {
+          "2.0": {
+            "count": null,
+            "sharePct": 2.87,
+            "top3Rate": 38.79,
+            "winRate": 12.36,
+            "avgRank": 4.42
+          },
+          "3.0": {
+            "count": null,
+            "sharePct": 2.52,
+            "top3Rate": 38.89,
+            "winRate": 11.44,
+            "avgRank": 4.39
+          },
+          "4.0": {
+            "count": null,
+            "sharePct": 2.14,
+            "top3Rate": 33.85,
+            "winRate": 12.69,
+            "avgRank": 4.54
+          }
+        },
+        "currentCount": 0,
+        "previousCount": 0,
+        "deltaSharePp": -0.3799999999999999,
+        "deltaTop3Pp": -5.039999999999999,
+        "label": "보합",
+        "sampleOk": true,
+        "metaShift": "지속 하락",
+        "patchImpact": "직접 버프 대비 약세"
+      }
+    ]
+  },
+  "roleShifts": {
+    "topRising": [
+      {
+        "id": "탱커|원거리 딜러|메이지",
+        "name": "탱커 | 원거리 딜러 | 메이지",
+        "versions": {
+          "2.0": {
+            "count": 281,
+            "sharePct": 6.9434148752162095,
+            "top3Rate": 42.34875444839858,
+            "winRate": 14.94661921708185,
+            "avgRank": 4.284697508896797
+          },
+          "3.0": {
+            "count": 756,
+            "sharePct": 6.721792477994132,
+            "top3Rate": 41.7989417989418,
+            "winRate": 16.402116402116402,
+            "avgRank": 4.212962962962963
+          },
+          "4.0": {
+            "count": 8582,
+            "sharePct": 8.210161773287796,
+            "top3Rate": 42.49592169657422,
+            "winRate": 15.963644838033092,
+            "avgRank": 4.158238172920065
+          }
+        },
+        "currentCount": 8582,
+        "previousCount": 756,
+        "deltaSharePp": 1.4883692952936638,
+        "deltaTop3Pp": 0.6969798976324242,
+        "label": "상승",
+        "sampleOk": true
+      },
+      {
+        "id": "브루저|근거리 딜러|메이지",
+        "name": "브루저 | 근거리 딜러 | 메이지",
+        "versions": {
+          "2.0": {
+            "count": 191,
+            "sharePct": 4.719545342228812,
+            "top3Rate": 34.55497382198953,
+            "winRate": 9.947643979057592,
+            "avgRank": 4.56544502617801
+          },
+          "3.0": {
+            "count": 524,
+            "sharePct": 4.659020183159954,
+            "top3Rate": 37.786259541984734,
+            "winRate": 10.305343511450381,
+            "avgRank": 4.4541984732824424
+          },
+          "4.0": {
+            "count": 5886,
+            "sharePct": 5.630973222742014,
+            "top3Rate": 39.058783554196395,
+            "winRate": 12.844036697247708,
+            "avgRank": 4.362045531770303
+          }
+        },
+        "currentCount": 5886,
+        "previousCount": 524,
+        "deltaSharePp": 0.9719530395820604,
+        "deltaTop3Pp": 1.2725240122116617,
+        "label": "상승",
+        "sampleOk": true
+      },
+      {
+        "id": "브루저|원거리 딜러|근거리 딜러",
+        "name": "브루저 | 원거리 딜러 | 근거리 딜러",
+        "versions": {
+          "2.0": {
+            "count": 165,
+            "sharePct": 4.077094143810229,
+            "top3Rate": 31.515151515151512,
+            "winRate": 7.2727272727272725,
+            "avgRank": 4.757575757575758
+          },
+          "3.0": {
+            "count": 477,
+            "sharePct": 4.241130968258202,
+            "top3Rate": 37.316561844863735,
+            "winRate": 10.90146750524109,
+            "avgRank": 4.431865828092243
+          },
+          "4.0": {
+            "count": 4915,
+            "sharePct": 4.702044408728678,
+            "top3Rate": 36.86673448626653,
+            "winRate": 11.67853509664293,
+            "avgRank": 4.451881993896236
+          }
+        },
+        "currentCount": 4915,
+        "previousCount": 477,
+        "deltaSharePp": 0.46091344047047667,
+        "deltaTop3Pp": -0.44982735859720435,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "브루저|브루저|메이지",
+        "name": "브루저 | 브루저 | 메이지",
+        "versions": {
+          "2.0": {
+            "count": 197,
+            "sharePct": 4.867803311094638,
+            "top3Rate": 40.10152284263959,
+            "winRate": 16.243654822335024,
+            "avgRank": 4.3604060913705585
+          },
+          "3.0": {
+            "count": 585,
+            "sharePct": 5.201387036543078,
+            "top3Rate": 37.43589743589744,
+            "winRate": 11.282051282051283,
+            "avgRank": 4.427350427350428
+          },
+          "4.0": {
+            "count": 5793,
+            "sharePct": 5.542002697815917,
+            "top3Rate": 40.652511651993784,
+            "winRate": 13.274641809079924,
+            "avgRank": 4.275504919730709
+          }
+        },
+        "currentCount": 5793,
+        "previousCount": 585,
+        "deltaSharePp": 0.3406156612728388,
+        "deltaTop3Pp": 3.216614216096346,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "브루저|브루저|유틸",
+        "name": "브루저 | 브루저 | 유틸",
+        "versions": {
+          "2.0": {
+            "count": 18,
+            "sharePct": 0.4447739065974796,
+            "top3Rate": 38.88888888888889,
+            "winRate": 5.555555555555555,
+            "avgRank": 4.388888888888889
+          },
+          "3.0": {
+            "count": 38,
+            "sharePct": 0.3378678758780119,
+            "top3Rate": 34.21052631578947,
+            "winRate": 13.157894736842104,
+            "avgRank": 4.342105263157895
+          },
+          "4.0": {
+            "count": 660,
+            "sharePct": 0.6314037252819792,
+            "top3Rate": 41.060606060606055,
+            "winRate": 13.484848484848486,
+            "avgRank": 4.304545454545455
+          }
+        },
+        "currentCount": 660,
+        "previousCount": 38,
+        "deltaSharePp": 0.29353584940396726,
+        "deltaTop3Pp": 6.850079744816583,
+        "label": "보합",
+        "sampleOk": true
+      }
+    ],
+    "topFalling": [
+      {
+        "id": "브루저|원거리 딜러|암살",
+        "name": "브루저 | 원거리 딜러 | 암살",
+        "versions": {
+          "2.0": {
+            "count": 210,
+            "sharePct": 5.1890289103039295,
+            "top3Rate": 38.57142857142858,
+            "winRate": 10.952380952380953,
+            "avgRank": 4.466666666666667
+          },
+          "3.0": {
+            "count": 606,
+            "sharePct": 5.388103494265137,
+            "top3Rate": 39.10891089108911,
+            "winRate": 13.036303630363037,
+            "avgRank": 4.420792079207921
+          },
+          "4.0": {
+            "count": 4950,
+            "sharePct": 4.735527939614844,
+            "top3Rate": 36.76767676767677,
+            "winRate": 11.373737373737374,
+            "avgRank": 4.448484848484848
+          }
+        },
+        "currentCount": 4950,
+        "previousCount": 606,
+        "deltaSharePp": -0.6525755546502934,
+        "deltaTop3Pp": -2.3412341234123417,
+        "label": "하락",
+        "sampleOk": true
+      },
+      {
+        "id": "브루저|브루저|원거리 딜러",
+        "name": "브루저 | 브루저 | 원거리 딜러",
+        "versions": {
+          "2.0": {
+            "count": 190,
+            "sharePct": 4.694835680751173,
+            "top3Rate": 36.84210526315789,
+            "winRate": 12.631578947368421,
+            "avgRank": 4.573684210526316
+          },
+          "3.0": {
+            "count": 602,
+            "sharePct": 5.352538454699031,
+            "top3Rate": 39.3687707641196,
+            "winRate": 11.461794019933555,
+            "avgRank": 4.401993355481728
+          },
+          "4.0": {
+            "count": 4952,
+            "sharePct": 4.73744128423691,
+            "top3Rate": 37.419224555735056,
+            "winRate": 12.176898222940226,
+            "avgRank": 4.421647819063005
+          }
+        },
+        "currentCount": 4952,
+        "previousCount": 602,
+        "deltaSharePp": -0.6150971704621213,
+        "deltaTop3Pp": -1.9495462083845467,
+        "label": "하락",
+        "sampleOk": true
+      },
+      {
+        "id": "브루저|브루저|암살",
+        "name": "브루저 | 브루저 | 암살",
+        "versions": {
+          "2.0": {
+            "count": 55,
+            "sharePct": 1.3590313812700765,
+            "top3Rate": 41.81818181818181,
+            "winRate": 10.909090909090908,
+            "avgRank": 4.4
+          },
+          "3.0": {
+            "count": 179,
+            "sharePct": 1.5915355205832666,
+            "top3Rate": 34.07821229050279,
+            "winRate": 10.05586592178771,
+            "avgRank": 4.614525139664805
+          },
+          "4.0": {
+            "count": 1250,
+            "sharePct": 1.1958403887916274,
+            "top3Rate": 37.36,
+            "winRate": 11.44,
+            "avgRank": 4.4568
+          }
+        },
+        "currentCount": 1250,
+        "previousCount": 179,
+        "deltaSharePp": -0.3956951317916393,
+        "deltaTop3Pp": 3.281787709497209,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "브루저|암살|메이지",
+        "name": "브루저 | 암살 | 메이지",
+        "versions": {
+          "2.0": {
+            "count": 225,
+            "sharePct": 5.559673832468495,
+            "top3Rate": 42.22222222222222,
+            "winRate": 12.444444444444445,
+            "avgRank": 4.24
+          },
+          "3.0": {
+            "count": 649,
+            "sharePct": 5.770427669600783,
+            "top3Rate": 39.29121725731895,
+            "winRate": 14.637904468412943,
+            "avgRank": 4.460708782742681
+          },
+          "4.0": {
+            "count": 5648,
+            "sharePct": 5.403285212716089,
+            "top3Rate": 38.96954674220963,
+            "winRate": 12.110481586402265,
+            "avgRank": 4.350389518413598
+          }
+        },
+        "currentCount": 5648,
+        "previousCount": 649,
+        "deltaSharePp": -0.36714245688469394,
+        "deltaTop3Pp": -0.321670515109318,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "원거리 딜러|암살|암살",
+        "name": "원거리 딜러 | 암살 | 암살",
+        "versions": {
+          "2.0": {
+            "count": 51,
+            "sharePct": 1.2601927353595257,
+            "top3Rate": 37.254901960784316,
+            "winRate": 15.686274509803921,
+            "avgRank": 4.509803921568627
+          },
+          "3.0": {
+            "count": 148,
+            "sharePct": 1.315906463945941,
+            "top3Rate": 38.513513513513516,
+            "winRate": 11.486486486486488,
+            "avgRank": 4.47972972972973
+          },
+          "4.0": {
+            "count": 1023,
+            "sharePct": 0.9786757741870677,
+            "top3Rate": 37.92766373411535,
+            "winRate": 12.609970674486803,
+            "avgRank": 4.416422287390029
+          }
+        },
+        "currentCount": 1023,
+        "previousCount": 148,
+        "deltaSharePp": -0.33723068975887327,
+        "deltaTop3Pp": -0.585849779398167,
+        "label": "보합",
+        "sampleOk": true
+      }
+    ]
+  },
+  "duoShifts": {
+    "topRising": [
+      {
+        "id": "20|31",
+        "name": "레녹스 + 리오",
+        "versions": {
+          "2.0": {
+            "count": 17,
+            "pairCount": 17,
+            "sharePct": 0.1400214150399473,
+            "top3Rate": 47.059411764705885,
+            "winRate": 5.881764705882353,
+            "avgRank": 4.47064705882353
+          },
+          "3.0": {
+            "count": 64,
+            "pairCount": 64,
+            "sharePct": 0.18968021101923477,
+            "top3Rate": 31.24890625,
+            "winRate": 14.061875,
+            "avgRank": 4.7811875
+          },
+          "4.0": {
+            "count": 966,
+            "pairCount": 966,
+            "sharePct": 0.3080484841527232,
+            "top3Rate": 41.92368530020704,
+            "winRate": 17.184544513457556,
+            "avgRank": 4.153178053830228
+          }
+        },
+        "currentCount": 966,
+        "previousCount": 64,
+        "deltaSharePp": 0.11836827313348841,
+        "deltaTop3Pp": 10.67477905020704,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "20|9",
+        "name": "레녹스 + 아이솔",
+        "versions": {
+          "2.0": {
+            "count": 6,
+            "pairCount": 6,
+            "sharePct": 0.04941932295527551,
+            "top3Rate": 33.333333333333336,
+            "winRate": 0.0,
+            "avgRank": 4.333333333333333
+          },
+          "3.0": {
+            "count": 21,
+            "pairCount": 21,
+            "sharePct": 0.06223881924068641,
+            "top3Rate": 61.904761904761905,
+            "winRate": 28.57095238095238,
+            "avgRank": 3.095095238095238
+          },
+          "4.0": {
+            "count": 484,
+            "pairCount": 484,
+            "sharePct": 0.15434313284670603,
+            "top3Rate": 43.38545454545455,
+            "winRate": 16.324028925619835,
+            "avgRank": 4.1405123966942154
+          }
+        },
+        "currentCount": 484,
+        "previousCount": 21,
+        "deltaSharePp": 0.09210431360601962,
+        "deltaTop3Pp": -18.519307359307355,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "20|6",
+        "name": "레녹스 + 나딘",
+        "versions": {
+          "2.0": {
+            "count": 3,
+            "pairCount": 3,
+            "sharePct": 0.024709661477637757,
+            "top3Rate": 0.0,
+            "winRate": 0.0,
+            "avgRank": 6.0
+          },
+          "3.0": {
+            "count": 15,
+            "pairCount": 15,
+            "sharePct": 0.044456299457633144,
+            "top3Rate": 73.33466666666666,
+            "winRate": 33.332,
+            "avgRank": 2.8666666666666667
+          },
+          "4.0": {
+            "count": 348,
+            "pairCount": 348,
+            "sharePct": 0.110973988079863,
+            "top3Rate": 44.251293103448276,
+            "winRate": 16.091666666666665,
+            "avgRank": 4.040448275862069
+          }
+        },
+        "currentCount": 348,
+        "previousCount": 15,
+        "deltaSharePp": 0.06651768862222986,
+        "deltaTop3Pp": -29.083373563218387,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "69|78",
+        "name": "레니 + 히스이",
+        "versions": {
+          "2.0": {
+            "count": 11,
+            "pairCount": 11,
+            "sharePct": 0.09060209208467178,
+            "top3Rate": 36.36272727272728,
+            "winRate": 9.09,
+            "avgRank": 4.363727272727273
+          },
+          "3.0": {
+            "count": 20,
+            "pairCount": 20,
+            "sharePct": 0.05927506594351086,
+            "top3Rate": 40.0,
+            "winRate": 14.999500000000001,
+            "avgRank": 4.39995
+          },
+          "4.0": {
+            "count": 379,
+            "pairCount": 379,
+            "sharePct": 0.12085960196054045,
+            "top3Rate": 38.78548812664908,
+            "winRate": 12.929313984168862,
+            "avgRank": 4.350963060686016
+          }
+        },
+        "currentCount": 379,
+        "previousCount": 20,
+        "deltaSharePp": 0.06158453601702959,
+        "deltaTop3Pp": -1.2145118733509221,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "69|84",
+        "name": "레니 + 블레어",
+        "versions": {
+          "2.0": {
+            "count": 2,
+            "pairCount": 2,
+            "sharePct": 0.016473107651758506,
+            "top3Rate": 0.0,
+            "winRate": 0.0,
+            "avgRank": 4.5
+          },
+          "3.0": {
+            "count": 28,
+            "pairCount": 28,
+            "sharePct": 0.08298509232091521,
+            "top3Rate": 32.142857142857146,
+            "winRate": 10.714285714285714,
+            "avgRank": 4.3929285714285715
+          },
+          "4.0": {
+            "count": 450,
+            "pairCount": 450,
+            "sharePct": 0.14350084665499527,
+            "top3Rate": 38.888,
+            "winRate": 11.777177777777778,
+            "avgRank": 4.388842222222223
+          }
+        },
+        "currentCount": 450,
+        "previousCount": 28,
+        "deltaSharePp": 0.06051575433408006,
+        "deltaTop3Pp": 6.745142857142852,
+        "label": "보합",
+        "sampleOk": true
+      }
+    ],
+    "topFalling": [
+      {
+        "id": "64|78",
+        "name": "바냐 + 히스이",
+        "versions": {
+          "2.0": {
+            "count": 29,
+            "pairCount": 29,
+            "sharePct": 0.23886006095049833,
+            "top3Rate": 34.48344827586207,
+            "winRate": 0.0,
+            "avgRank": 4.999931034482758
+          },
+          "3.0": {
+            "count": 82,
+            "pairCount": 82,
+            "sharePct": 0.24302777036839454,
+            "top3Rate": 36.585243902439025,
+            "winRate": 9.75670731707317,
+            "avgRank": 4.658524390243902
+          },
+          "4.0": {
+            "count": 321,
+            "pairCount": 321,
+            "sharePct": 0.1023639372805633,
+            "top3Rate": 33.02068535825545,
+            "winRate": 12.14943925233645,
+            "avgRank": 4.741367601246106
+          }
+        },
+        "currentCount": 321,
+        "previousCount": 82,
+        "deltaSharePp": -0.14066383308783126,
+        "deltaTop3Pp": -3.5645585441835763,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "2|78",
+        "name": "아야 + 히스이",
+        "versions": {
+          "2.0": {
+            "count": 21,
+            "pairCount": 21,
+            "sharePct": 0.1729676303434643,
+            "top3Rate": 52.38,
+            "winRate": 23.809047619047618,
+            "avgRank": 3.761809523809524
+          },
+          "3.0": {
+            "count": 89,
+            "pairCount": 89,
+            "sharePct": 0.2637740434486233,
+            "top3Rate": 39.32584269662921,
+            "winRate": 8.988988764044944,
+            "avgRank": 4.314662921348314
+          },
+          "4.0": {
+            "count": 468,
+            "pairCount": 468,
+            "sharePct": 0.14924088052119508,
+            "top3Rate": 40.59660256410256,
+            "winRate": 14.957713675213677,
+            "avgRank": 4.2499700854700855
+          }
+        },
+        "currentCount": 468,
+        "previousCount": 89,
+        "deltaSharePp": -0.11453316292742824,
+        "deltaTop3Pp": 1.2707598674733518,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "21|78",
+        "name": "로지 + 히스이",
+        "versions": {
+          "2.0": {
+            "count": 20,
+            "pairCount": 20,
+            "sharePct": 0.16473107651758503,
+            "top3Rate": 25.002999999999997,
+            "winRate": 10.002500000000001,
+            "avgRank": 5.450149999999999
+          },
+          "3.0": {
+            "count": 71,
+            "pairCount": 71,
+            "sharePct": 0.21042648409946357,
+            "top3Rate": 39.43591549295775,
+            "winRate": 11.266901408450705,
+            "avgRank": 4.591521126760564
+          },
+          "4.0": {
+            "count": 302,
+            "pairCount": 302,
+            "sharePct": 0.09630501264401904,
+            "top3Rate": 35.09956953642384,
+            "winRate": 9.933774834437086,
+            "avgRank": 4.526493377483444
+          }
+        },
+        "currentCount": 302,
+        "previousCount": 71,
+        "deltaSharePp": -0.11412147145544453,
+        "deltaTop3Pp": -4.336345956533904,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "72|78",
+        "name": "카티야 + 히스이",
+        "versions": {
+          "2.0": {
+            "count": 45,
+            "pairCount": 45,
+            "sharePct": 0.37064492216456635,
+            "top3Rate": 37.779555555555554,
+            "winRate": 11.112444444444446,
+            "avgRank": 4.3556888888888885
+          },
+          "3.0": {
+            "count": 92,
+            "pairCount": 92,
+            "sharePct": 0.27266530334015,
+            "top3Rate": 33.69510869565217,
+            "winRate": 10.870108695652174,
+            "avgRank": 4.739021739130435
+          },
+          "4.0": {
+            "count": 553,
+            "pairCount": 553,
+            "sharePct": 0.17634659600047198,
+            "top3Rate": 37.432242314647375,
+            "winRate": 11.933399638336347,
+            "avgRank": 4.498922242314648
+          }
+        },
+        "currentCount": 553,
+        "previousCount": 92,
+        "deltaSharePp": -0.09631870733967801,
+        "deltaTop3Pp": 3.737133618995202,
+        "label": "보합",
+        "sampleOk": true
+      },
+      {
+        "id": "72|74",
+        "name": "카티야 + 다르코",
+        "versions": {
+          "2.0": {
+            "count": 57,
+            "pairCount": 57,
+            "sharePct": 0.4694835680751174,
+            "top3Rate": 28.07157894736842,
+            "winRate": 12.280701754385966,
+            "avgRank": 4.649175438596491
+          },
+          "3.0": {
+            "count": 109,
+            "pairCount": 109,
+            "sharePct": 0.3230491093921342,
+            "top3Rate": 35.77871559633028,
+            "winRate": 6.422477064220183,
+            "avgRank": 4.688091743119266
+          },
+          "4.0": {
+            "count": 721,
+            "pairCount": 721,
+            "sharePct": 0.22992024541833686,
+            "top3Rate": 37.03095700416089,
+            "winRate": 12.065117891816922,
+            "avgRank": 4.485486823855756
+          }
+        },
+        "currentCount": 721,
+        "previousCount": 109,
+        "deltaSharePp": -0.09312886397379735,
+        "deltaTop3Pp": 1.2522414078306099,
+        "label": "보합",
+        "sampleOk": true
+      }
+    ]
+  },
+  "characterBriefings": [
+    {
+      "characterCode": "1",
+      "characterName": "재키",
+      "title": "재키 4.0 픽률 1.58%, 3.0 대비 +0.25%p",
+      "summary": "재키은 3.0 픽률 1.33%에서 4.0 픽률 1.58%로 이동했고, Top3율은 32.72%에서 38.02%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.25%p",
+        "Top3율 변화: +5.30%p",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "재키은 4.0 패치에서 픽률 1.58%를 기록했고, 3.0 대비 +0.25%p 변화했다. Top3율 변화는 +5.30%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "2",
+      "characterName": "아야",
+      "title": "아야 4.0 픽률 2.55%, 3.0 대비 -0.15%p",
+      "summary": "아야은 3.0 픽률 2.70%에서 4.0 픽률 2.55%로 이동했고, Top3율은 38.11%에서 36.77%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.15%p",
+        "Top3율 변화: -1.34%p",
+        "분류: 2.0 대비 상승 / 3.0 대비 정체·하락 / 직접 버프 수혜"
+      ],
+      "reportParagraph": "아야은 4.0 패치에서 픽률 2.55%를 기록했고, 3.0 대비 -0.15%p 변화했다. Top3율 변화는 -1.34%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "4",
+      "characterName": "매그너스",
+      "title": "매그너스 4.0 픽률 1.59%, 3.0 대비 -0.14%p",
+      "summary": "매그너스은 3.0 픽률 1.73%에서 4.0 픽률 1.59%로 이동했고, Top3율은 40.48%에서 34.20%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.14%p",
+        "Top3율 변화: -6.28%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "매그너스은 4.0 패치에서 픽률 1.59%를 기록했고, 3.0 대비 -0.14%p 변화했다. Top3율 변화는 -6.28%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "6",
+      "characterName": "나딘",
+      "title": "나딘 4.0 픽률 1.19%, 3.0 대비 +1.19%p",
+      "summary": "나딘은 3.0 픽률 0.00%에서 4.0 픽률 1.19%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 45.14%다",
+      "bullets": [
+        "픽률 변화: +1.19%p",
+        "Top3율 변화: -",
+        "분류: 신규 유입 / 직접 버프 수혜"
+      ],
+      "reportParagraph": "나딘은 4.0 패치에서 픽률 1.19%를 기록했고, 3.0 대비 +1.19%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "7",
+      "characterName": "현우",
+      "title": "현우 4.0 픽률 1.45%, 3.0 대비 +0.28%p",
+      "summary": "현우은 3.0 픽률 1.17%에서 4.0 픽률 1.45%로 이동했고, Top3율은 40.85%에서 43.18%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.28%p",
+        "Top3율 변화: +2.33%p",
+        "분류: 지속 상승 / 직접 버프 수혜"
+      ],
+      "reportParagraph": "현우은 4.0 패치에서 픽률 1.45%를 기록했고, 3.0 대비 +0.28%p 변화했다. Top3율 변화는 +2.33%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "9",
+      "characterName": "아이솔",
+      "title": "아이솔 4.0 픽률 1.52%, 3.0 대비 +0.29%p",
+      "summary": "아이솔은 3.0 픽률 1.23%에서 4.0 픽률 1.52%로 이동했고, Top3율은 43.62%에서 40.22%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.29%p",
+        "Top3율 변화: -3.40%p",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "아이솔은 4.0 패치에서 픽률 1.52%를 기록했고, 3.0 대비 +0.29%p 변화했다. Top3율 변화는 -3.40%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "10",
+      "characterName": "리 다이린",
+      "title": "리 다이린 4.0 픽률 1.28%, 3.0 대비 0.00%p",
+      "summary": "리 다이린은 3.0 픽률 1.28%에서 4.0 픽률 1.28%로 이동했고, Top3율은 37.18%에서 46.15%로 변했다",
+      "bullets": [
+        "픽률 변화: 0.00%p",
+        "Top3율 변화: +8.97%p",
+        "분류: 보류 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "리 다이린은 4.0 패치에서 픽률 1.28%를 기록했고, 3.0 대비 0.00%p 변화했다. Top3율 변화는 +8.97%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "11",
+      "characterName": "유키",
+      "title": "유키 4.0 픽률 2.31%, 3.0 대비 +0.16%p",
+      "summary": "유키은 3.0 픽률 2.15%에서 4.0 픽률 2.31%로 이동했고, Top3율은 39.08%에서 37.86%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.16%p",
+        "Top3율 변화: -1.22%p",
+        "분류: 지속 상승 / 직접 버프 수혜"
+      ],
+      "reportParagraph": "유키은 4.0 패치에서 픽률 2.31%를 기록했고, 3.0 대비 +0.16%p 변화했다. Top3율 변화는 -1.22%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "14",
+      "characterName": "키아라",
+      "title": "키아라 4.0 픽률 1.04%, 3.0 대비 -0.54%p",
+      "summary": "키아라은 3.0 픽률 1.58%에서 4.0 픽률 1.04%로 이동했고, Top3율은 28.12%에서 33.33%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.54%p",
+        "Top3율 변화: +5.21%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "키아라은 4.0 패치에서 픽률 1.04%를 기록했고, 3.0 대비 -0.54%p 변화했다. Top3율 변화는 +5.21%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "15",
+      "characterName": "시셀라",
+      "title": "시셀라 4.0 픽률 1.03%, 3.0 대비 +1.03%p",
+      "summary": "시셀라은 3.0 픽률 0.00%에서 4.0 픽률 1.03%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 38.40%다",
+      "bullets": [
+        "픽률 변화: +1.03%p",
+        "Top3율 변화: -",
+        "분류: 신규 유입 / 보류"
+      ],
+      "reportParagraph": "시셀라은 4.0 패치에서 픽률 1.03%를 기록했고, 3.0 대비 +1.03%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "17",
+      "characterName": "아드리아나",
+      "title": "아드리아나 4.0 픽률 0.00%, 3.0 대비 -1.04%p",
+      "summary": "아드리아나은 3.0 픽률 1.04%에서 4.0 픽률 0.00%로 이동했고, Top3율은 46.83%에서 -로 변했다",
+      "bullets": [
+        "픽률 변화: -1.04%p",
+        "Top3율 변화: -",
+        "분류: 보류 / 보류"
+      ],
+      "reportParagraph": "아드리아나은 4.0 패치에서 픽률 0.00%를 기록했고, 3.0 대비 -1.04%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "18",
+      "characterName": "쇼이치",
+      "title": "쇼이치 4.0 픽률 1.40%, 3.0 대비 +0.14%p",
+      "summary": "쇼이치은 3.0 픽률 1.26%에서 4.0 픽률 1.40%로 이동했고, Top3율은 33.99%에서 33.53%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.14%p",
+        "Top3율 변화: -0.46%p",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "쇼이치은 4.0 패치에서 픽률 1.40%를 기록했고, 3.0 대비 +0.14%p 변화했다. Top3율 변화는 -0.46%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "20",
+      "characterName": "레녹스",
+      "title": "레녹스 4.0 픽률 1.98%, 3.0 대비 +0.48%p",
+      "summary": "레녹스은 3.0 픽률 1.50%에서 4.0 픽률 1.98%로 이동했고, Top3율은 40.11%에서 40.00%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.48%p",
+        "Top3율 변화: -0.11%p",
+        "분류: 지속 상승 / 직접 버프 수혜"
+      ],
+      "reportParagraph": "레녹스은 4.0 패치에서 픽률 1.98%를 기록했고, 3.0 대비 +0.48%p 변화했다. Top3율 변화는 -0.11%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "21",
+      "characterName": "로지",
+      "title": "로지 4.0 픽률 1.56%, 3.0 대비 -0.30%p",
+      "summary": "로지은 3.0 픽률 1.86%에서 4.0 픽률 1.56%로 이동했고, Top3율은 40.71%에서 35.79%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.30%p",
+        "Top3율 변화: -4.92%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "로지은 4.0 패치에서 픽률 1.56%를 기록했고, 3.0 대비 -0.30%p 변화했다. Top3율 변화는 -4.92%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "22",
+      "characterName": "루크",
+      "title": "루크 4.0 픽률 2.17%, 3.0 대비 +0.14%p",
+      "summary": "루크은 3.0 픽률 2.03%에서 4.0 픽률 2.17%로 이동했고, Top3율은 35.63%에서 35.61%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.14%p",
+        "Top3율 변화: -0.02%p",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "루크은 4.0 패치에서 픽률 2.17%를 기록했고, 3.0 대비 +0.14%p 변화했다. Top3율 변화는 -0.02%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "25",
+      "characterName": "버니스",
+      "title": "버니스 4.0 픽률 1.09%, 3.0 대비 +1.09%p",
+      "summary": "버니스은 3.0 픽률 0.00%에서 4.0 픽률 1.09%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 36.36%다",
+      "bullets": [
+        "픽률 변화: +1.09%p",
+        "Top3율 변화: -",
+        "분류: 신규 유입 / 직접 버프 수혜"
+      ],
+      "reportParagraph": "버니스은 4.0 패치에서 픽률 1.09%를 기록했고, 3.0 대비 +1.09%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "26",
+      "characterName": "바바라",
+      "title": "바바라 4.0 픽률 1.34%, 3.0 대비 -0.10%p",
+      "summary": "바바라은 3.0 픽률 1.44%에서 4.0 픽률 1.34%로 이동했고, Top3율은 42.29%에서 39.88%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.10%p",
+        "Top3율 변화: -2.41%p",
+        "분류: 2.0 대비 상승 / 3.0 대비 정체·하락 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "바바라은 4.0 패치에서 픽률 1.34%를 기록했고, 3.0 대비 -0.10%p 변화했다. Top3율 변화는 -2.41%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "27",
+      "characterName": "알렉스",
+      "title": "알렉스 4.0 픽률 1.69%, 3.0 대비 -0.44%p",
+      "summary": "알렉스은 3.0 픽률 2.13%에서 4.0 픽률 1.69%로 이동했고, Top3율은 40.31%에서 40.98%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.44%p",
+        "Top3율 변화: +0.67%p",
+        "분류: 2.0 대비 상승 / 3.0 대비 정체·하락 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "알렉스은 4.0 패치에서 픽률 1.69%를 기록했고, 3.0 대비 -0.44%p 변화했다. Top3율 변화는 +0.67%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "28",
+      "characterName": "수아",
+      "title": "수아 4.0 픽률 1.00%, 3.0 대비 +1.00%p",
+      "summary": "수아은 3.0 픽률 0.00%에서 4.0 픽률 1.00%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 33.06%다",
+      "bullets": [
+        "픽률 변화: +1.00%p",
+        "Top3율 변화: -",
+        "분류: 신규 유입 / 보류"
+      ],
+      "reportParagraph": "수아은 4.0 패치에서 픽률 1.00%를 기록했고, 3.0 대비 +1.00%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "29",
+      "characterName": "레온",
+      "title": "레온 4.0 픽률 1.45%, 3.0 대비 +0.17%p",
+      "summary": "레온은 3.0 픽률 1.28%에서 4.0 픽률 1.45%로 이동했고, Top3율은 41.94%에서 38.07%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.17%p",
+        "Top3율 변화: -3.87%p",
+        "분류: 2.0 대비 정체·하락 / 3.0 대비 회복 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "레온은 4.0 패치에서 픽률 1.45%를 기록했고, 3.0 대비 +0.17%p 변화했다. Top3율 변화는 -3.87%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "30",
+      "characterName": "일레븐",
+      "title": "일레븐 4.0 픽률 1.18%, 3.0 대비 -0.24%p",
+      "summary": "일레븐은 3.0 픽률 1.42%에서 4.0 픽률 1.18%로 이동했고, Top3율은 35.47%에서 37.06%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.24%p",
+        "Top3율 변화: +1.59%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "일레븐은 4.0 패치에서 픽률 1.18%를 기록했고, 3.0 대비 -0.24%p 변화했다. Top3율 변화는 +1.59%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "31",
+      "characterName": "리오",
+      "title": "리오 4.0 픽률 2.69%, 3.0 대비 +0.14%p",
+      "summary": "리오은 3.0 픽률 2.55%에서 4.0 픽률 2.69%로 이동했고, Top3율은 34.30%에서 38.84%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.14%p",
+        "Top3율 변화: +4.54%p",
+        "분류: 지속 상승 / 직접 버프 수혜"
+      ],
+      "reportParagraph": "리오은 4.0 패치에서 픽률 2.69%를 기록했고, 3.0 대비 +0.14%p 변화했다. Top3율 변화는 +4.54%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "33",
+      "characterName": "니키",
+      "title": "니키 4.0 픽률 1.43%, 3.0 대비 +0.30%p",
+      "summary": "니키은 3.0 픽률 1.13%에서 4.0 픽률 1.43%로 이동했고, Top3율은 39.42%에서 42.53%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.30%p",
+        "Top3율 변화: +3.11%p",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "니키은 4.0 패치에서 픽률 1.43%를 기록했고, 3.0 대비 +0.30%p 변화했다. Top3율 변화는 +3.11%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "34",
+      "characterName": "나타폰",
+      "title": "나타폰 4.0 픽률 1.06%, 3.0 대비 +1.06%p",
+      "summary": "나타폰은 3.0 픽률 0.00%에서 4.0 픽률 1.06%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 41.86%다",
+      "bullets": [
+        "픽률 변화: +1.06%p",
+        "Top3율 변화: -",
+        "분류: 신규 유입 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "나타폰은 4.0 패치에서 픽률 1.06%를 기록했고, 3.0 대비 +1.06%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "35",
+      "characterName": "얀",
+      "title": "얀 4.0 픽률 1.29%, 3.0 대비 +1.29%p",
+      "summary": "얀은 3.0 픽률 0.00%에서 4.0 픽률 1.29%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 35.67%다",
+      "bullets": [
+        "픽률 변화: +1.29%p",
+        "Top3율 변화: -",
+        "분류: 신규 유입 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "얀은 4.0 패치에서 픽률 1.29%를 기록했고, 3.0 대비 +1.29%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "39",
+      "characterName": "카밀로",
+      "title": "카밀로 4.0 픽률 1.31%, 3.0 대비 +0.15%p",
+      "summary": "카밀로은 3.0 픽률 1.16%에서 4.0 픽률 1.31%로 이동했고, Top3율은 39.72%에서 38.99%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.15%p",
+        "Top3율 변화: -0.73%p",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "카밀로은 4.0 패치에서 픽률 1.31%를 기록했고, 3.0 대비 +0.15%p 변화했다. Top3율 변화는 -0.73%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "42",
+      "characterName": "비앙카",
+      "title": "비앙카 4.0 픽률 1.21%, 3.0 대비 +0.21%p",
+      "summary": "비앙카은 3.0 픽률 1.00%에서 4.0 픽률 1.21%로 이동했고, Top3율은 36.07%에서 46.26%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.21%p",
+        "Top3율 변화: +10.19%p",
+        "분류: 2.0 대비 정체·하락 / 3.0 대비 회복 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "비앙카은 4.0 패치에서 픽률 1.21%를 기록했고, 3.0 대비 +0.21%p 변화했다. Top3율 변화는 +10.19%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "46",
+      "characterName": "에이든",
+      "title": "에이든 4.0 픽률 1.27%, 3.0 대비 +1.27%p",
+      "summary": "에이든은 3.0 픽률 0.00%에서 4.0 픽률 1.27%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 31.82%다",
+      "bullets": [
+        "픽률 변화: +1.27%p",
+        "Top3율 변화: -",
+        "분류: 신규 유입 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "에이든은 4.0 패치에서 픽률 1.27%를 기록했고, 3.0 대비 +1.27%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "48",
+      "characterName": "띠아",
+      "title": "띠아 4.0 픽률 0.00%, 3.0 대비 -1.01%p",
+      "summary": "띠아은 3.0 픽률 1.01%에서 4.0 픽률 0.00%로 이동했고, Top3율은 35.77%에서 -로 변했다",
+      "bullets": [
+        "픽률 변화: -1.01%p",
+        "Top3율 변화: -",
+        "분류: 보류 / 보류"
+      ],
+      "reportParagraph": "띠아은 4.0 패치에서 픽률 0.00%를 기록했고, 3.0 대비 -1.01%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "53",
+      "characterName": "마커스",
+      "title": "마커스 4.0 픽률 1.77%, 3.0 대비 +0.11%p",
+      "summary": "마커스은 3.0 픽률 1.66%에서 4.0 픽률 1.77%로 이동했고, Top3율은 35.82%에서 33.95%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.11%p",
+        "Top3율 변화: -1.87%p",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "마커스은 4.0 패치에서 픽률 1.77%를 기록했고, 3.0 대비 +0.11%p 변화했다. Top3율 변화는 -1.87%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "55",
+      "characterName": "에스텔",
+      "title": "에스텔 4.0 픽률 1.07%, 3.0 대비 +1.07%p",
+      "summary": "에스텔은 3.0 픽률 0.00%에서 4.0 픽률 1.07%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 39.23%다",
+      "bullets": [
+        "픽률 변화: +1.07%p",
+        "Top3율 변화: -",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "에스텔은 4.0 패치에서 픽률 1.07%를 기록했고, 3.0 대비 +1.07%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "58",
+      "characterName": "헤이즈",
+      "title": "헤이즈 4.0 픽률 1.82%, 3.0 대비 -0.39%p",
+      "summary": "헤이즈은 3.0 픽률 2.21%에서 4.0 픽률 1.82%로 이동했고, Top3율은 38.81%에서 40.72%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.39%p",
+        "Top3율 변화: +1.91%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "헤이즈은 4.0 패치에서 픽률 1.82%를 기록했고, 3.0 대비 -0.39%p 변화했다. Top3율 변화는 +1.91%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "59",
+      "characterName": "아이작",
+      "title": "아이작 4.0 픽률 1.38%, 3.0 대비 +1.38%p",
+      "summary": "아이작은 3.0 픽률 0.00%에서 4.0 픽률 1.38%로 이동했고, 3.0 Top3 비교 표본은 없고 4.0 Top3율은 44.91%다",
+      "bullets": [
+        "픽률 변화: +1.38%p",
+        "Top3율 변화: -",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "아이작은 4.0 패치에서 픽률 1.38%를 기록했고, 3.0 대비 +1.38%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "64",
+      "characterName": "바냐",
+      "title": "바냐 4.0 픽률 1.64%, 3.0 대비 -0.92%p",
+      "summary": "바냐은 3.0 픽률 2.56%에서 4.0 픽률 1.64%로 이동했고, Top3율은 41.16%에서 39.70%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.92%p",
+        "Top3율 변화: -1.46%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "바냐은 4.0 패치에서 픽률 1.64%를 기록했고, 3.0 대비 -0.92%p 변화했다. Top3율 변화는 -1.46%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "65",
+      "characterName": "데비&마를렌",
+      "title": "데비&마를렌 4.0 픽률 2.60%, 3.0 대비 +0.44%p",
+      "summary": "데비&마를렌은 3.0 픽률 2.16%에서 4.0 픽률 2.60%로 이동했고, Top3율은 33.21%에서 39.87%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.44%p",
+        "Top3율 변화: +6.66%p",
+        "분류: 지속 상승 / 직접 버프 수혜"
+      ],
+      "reportParagraph": "데비&마를렌은 4.0 패치에서 픽률 2.60%를 기록했고, 3.0 대비 +0.44%p 변화했다. Top3율 변화는 +6.66%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "67",
+      "characterName": "아비게일",
+      "title": "아비게일 4.0 픽률 2.12%, 3.0 대비 -0.31%p",
+      "summary": "아비게일은 3.0 픽률 2.43%에서 4.0 픽률 2.12%로 이동했고, Top3율은 35.25%에서 38.91%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.31%p",
+        "Top3율 변화: +3.66%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "아비게일은 4.0 패치에서 픽률 2.12%를 기록했고, 3.0 대비 -0.31%p 변화했다. Top3율 변화는 +3.66%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "68",
+      "characterName": "알론소",
+      "title": "알론소 4.0 픽률 0.00%, 3.0 대비 -1.02%p",
+      "summary": "알론소은 3.0 픽률 1.02%에서 4.0 픽률 0.00%로 이동했고, Top3율은 41.13%에서 -로 변했다",
+      "bullets": [
+        "픽률 변화: -1.02%p",
+        "Top3율 변화: -",
+        "분류: 보류 / 보류"
+      ],
+      "reportParagraph": "알론소은 4.0 패치에서 픽률 0.00%를 기록했고, 3.0 대비 -1.02%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "70",
+      "characterName": "츠바메",
+      "title": "츠바메 4.0 픽률 1.33%, 3.0 대비 -0.14%p",
+      "summary": "츠바메은 3.0 픽률 1.47%에서 4.0 픽률 1.33%로 이동했고, Top3율은 38.20%에서 38.89%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.14%p",
+        "Top3율 변화: +0.69%p",
+        "분류: 2.0 대비 상승 / 3.0 대비 정체·하락 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "츠바메은 4.0 패치에서 픽률 1.33%를 기록했고, 3.0 대비 -0.14%p 변화했다. Top3율 변화는 +0.69%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "71",
+      "characterName": "케네스",
+      "title": "케네스 4.0 픽률 1.25%, 3.0 대비 +0.08%p",
+      "summary": "케네스은 3.0 픽률 1.17%에서 4.0 픽률 1.25%로 이동했고, Top3율은 32.39%에서 38.82%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.08%p",
+        "Top3율 변화: +6.43%p",
+        "분류: 지속 상승 / 직접 너프 이후 유지/반등"
+      ],
+      "reportParagraph": "케네스은 4.0 패치에서 픽률 1.25%를 기록했고, 3.0 대비 +0.08%p 변화했다. Top3율 변화는 +6.43%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "72",
+      "characterName": "카티야",
+      "title": "카티야 4.0 픽률 3.08%, 3.0 대비 -0.62%p",
+      "summary": "카티야은 3.0 픽률 3.70%에서 4.0 픽률 3.08%로 이동했고, Top3율은 40.53%에서 37.97%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.62%p",
+        "Top3율 변화: -2.56%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "카티야은 4.0 패치에서 픽률 3.08%를 기록했고, 3.0 대비 -0.62%p 변화했다. Top3율 변화는 -2.56%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "74",
+      "characterName": "다르코",
+      "title": "다르코 4.0 픽률 2.14%, 3.0 대비 -0.38%p",
+      "summary": "다르코은 3.0 픽률 2.52%에서 4.0 픽률 2.14%로 이동했고, Top3율은 38.89%에서 33.85%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.38%p",
+        "Top3율 변화: -5.04%p",
+        "분류: 지속 하락 / 직접 버프 대비 약세"
+      ],
+      "reportParagraph": "다르코은 4.0 패치에서 픽률 2.14%를 기록했고, 3.0 대비 -0.38%p 변화했다. Top3율 변화는 -5.04%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "75",
+      "characterName": "르노어",
+      "title": "르노어 4.0 픽률 1.62%, 3.0 대비 -0.14%p",
+      "summary": "르노어은 3.0 픽률 1.76%에서 4.0 픽률 1.62%로 이동했고, Top3율은 35.51%에서 41.12%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.14%p",
+        "Top3율 변화: +5.61%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "르노어은 4.0 패치에서 픽률 1.62%를 기록했고, 3.0 대비 -0.14%p 변화했다. Top3율 변화는 +5.61%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "77",
+      "characterName": "유민",
+      "title": "유민 4.0 픽률 1.05%, 3.0 대비 +0.05%p",
+      "summary": "유민은 3.0 픽률 1.00%에서 4.0 픽률 1.05%로 이동했고, Top3율은 47.11%에서 28.12%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.05%p",
+        "Top3율 변화: -18.99%p",
+        "분류: 지속 상승 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "유민은 4.0 패치에서 픽률 1.05%를 기록했고, 3.0 대비 +0.05%p 변화했다. Top3율 변화는 -18.99%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "78",
+      "characterName": "히스이",
+      "title": "히스이 4.0 픽률 2.92%, 3.0 대비 -0.96%p",
+      "summary": "히스이은 3.0 픽률 3.88%에서 4.0 픽률 2.92%로 이동했고, Top3율은 34.39%에서 35.21%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.96%p",
+        "Top3율 변화: +0.82%p",
+        "분류: 지속 하락 / 직접 버프 대비 약세"
+      ],
+      "reportParagraph": "히스이은 4.0 패치에서 픽률 2.92%를 기록했고, 3.0 대비 -0.96%p 변화했다. Top3율 변화는 +0.82%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "79",
+      "characterName": "유스티나",
+      "title": "유스티나 4.0 픽률 1.12%, 3.0 대비 +0.05%p",
+      "summary": "유스티나은 3.0 픽률 1.07%에서 4.0 픽률 1.12%로 이동했고, Top3율은 28.46%에서 41.18%로 변했다",
+      "bullets": [
+        "픽률 변화: +0.05%p",
+        "Top3율 변화: +12.72%p",
+        "분류: 2.0 대비 정체·하락 / 3.0 대비 회복 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "유스티나은 4.0 패치에서 픽률 1.12%를 기록했고, 3.0 대비 +0.05%p 변화했다. Top3율 변화는 +12.72%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "80",
+      "characterName": "이슈트반",
+      "title": "이슈트반 4.0 픽률 1.10%, 3.0 대비 -0.06%p",
+      "summary": "이슈트반은 3.0 픽률 1.16%에서 4.0 픽률 1.10%로 이동했고, Top3율은 38.30%에서 36.84%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.06%p",
+        "Top3율 변화: -1.46%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "이슈트반은 4.0 패치에서 픽률 1.10%를 기록했고, 3.0 대비 -0.06%p 변화했다. Top3율 변화는 -1.46%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "81",
+      "characterName": "니아",
+      "title": "니아 4.0 픽률 1.15%, 3.0 대비 -0.06%p",
+      "summary": "니아은 3.0 픽률 1.21%에서 4.0 픽률 1.15%로 이동했고, Top3율은 33.33%에서 34.29%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.06%p",
+        "Top3율 변화: +0.96%p",
+        "분류: 2.0 대비 상승 / 3.0 대비 정체·하락 / 환경 변화 수혜"
+      ],
+      "reportParagraph": "니아은 4.0 패치에서 픽률 1.15%를 기록했고, 3.0 대비 -0.06%p 변화했다. Top3율 변화는 +0.96%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "82",
+      "characterName": "슈린",
+      "title": "슈린 4.0 픽률 0.00%, 3.0 대비 -1.13%p",
+      "summary": "슈린은 3.0 픽률 1.13%에서 4.0 픽률 0.00%로 이동했고, Top3율은 37.96%에서 -로 변했다",
+      "bullets": [
+        "픽률 변화: -1.13%p",
+        "Top3율 변화: -",
+        "분류: 지속 하락 / 보류"
+      ],
+      "reportParagraph": "슈린은 4.0 패치에서 픽률 0.00%를 기록했고, 3.0 대비 -1.13%p 변화했다. Top3율 변화는 -로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "83",
+      "characterName": "헨리",
+      "title": "헨리 4.0 픽률 1.35%, 3.0 대비 -0.30%p",
+      "summary": "헨리은 3.0 픽률 1.65%에서 4.0 픽률 1.35%로 이동했고, Top3율은 45.50%에서 36.59%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.30%p",
+        "Top3율 변화: -8.91%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "헨리은 4.0 패치에서 픽률 1.35%를 기록했고, 3.0 대비 -0.30%p 변화했다. Top3율 변화는 -8.91%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "84",
+      "characterName": "블레어",
+      "title": "블레어 4.0 픽률 1.75%, 3.0 대비 -0.25%p",
+      "summary": "블레어은 3.0 픽률 2.00%에서 4.0 픽률 1.75%로 이동했고, Top3율은 35.39%에서 33.49%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.25%p",
+        "Top3율 변화: -1.90%p",
+        "분류: 2.0 대비 상승 / 3.0 대비 정체·하락 / 직접 너프 이후 유지/반등"
+      ],
+      "reportParagraph": "블레어은 4.0 패치에서 픽률 1.75%를 기록했고, 3.0 대비 -0.25%p 변화했다. Top3율 변화는 -1.90%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "85",
+      "characterName": "미르카",
+      "title": "미르카 4.0 픽률 1.48%, 3.0 대비 -0.11%p",
+      "summary": "미르카은 3.0 픽률 1.59%에서 4.0 픽률 1.48%로 이동했고, Top3율은 42.49%에서 36.67%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.11%p",
+        "Top3율 변화: -5.82%p",
+        "분류: 지속 하락 / 환경 변화 밀림"
+      ],
+      "reportParagraph": "미르카은 4.0 패치에서 픽률 1.48%를 기록했고, 3.0 대비 -0.11%p 변화했다. Top3율 변화는 -5.82%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    },
+    {
+      "characterCode": "86",
+      "characterName": "펜리르",
+      "title": "펜리르 4.0 픽률 1.15%, 3.0 대비 -0.98%p",
+      "summary": "펜리르은 3.0 픽률 2.13%에서 4.0 픽률 1.15%로 이동했고, Top3율은 38.22%에서 37.86%로 변했다",
+      "bullets": [
+        "픽률 변화: -0.98%p",
+        "Top3율 변화: -0.36%p",
+        "분류: 지속 하락 / 직접 너프 영향"
+      ],
+      "reportParagraph": "펜리르은 4.0 패치에서 픽률 1.15%를 기록했고, 3.0 대비 -0.98%p 변화했다. Top3율 변화는 -0.36%p로, 단순 사용량 변화와 성과 변화가 같은 방향인지 함께 확인해야 한다",
+      "caution": "2.0과 3.0은 4.0보다 표본이 작으므로 변화 방향 중심으로 해석한다"
+    }
+  ]
+}

@@ -1,0 +1,2541 @@
+{
+  "generatedAt": "2026-04-25T02:58:48.258153+00:00",
+  "mode": "offline_static_ai_briefing",
+  "description": "API 호출 없이 대시보드에서 바로 읽는 사전 생성형 AI 브리핑",
+  "sourceFiles": {
+    "storyFeed": "output\\api_snowball_collect\\team3_top300_500_asia_30d\\mart\\tableau_main_story_feed_v4_0.csv",
+    "mlAdjustment": "web\\src\\data\\ml-role-adjustment.json",
+    "roleDuoValidation": "web\\src\\data\\role-duo-validation.json"
+  },
+  "briefings": [
+    {
+      "signatureKey": "메이지|원거리 딜러|탱커",
+      "roleSignature": "탱커|원거리 딜러|메이지",
+      "title": "탱커 | 원거리 딜러 | 메이지는 보정 후 +1.86%p 신호",
+      "summary": "탱커 | 원거리 딜러 | 메이지는 4.0 기준 8,582팀이 사용했고 실제 Top3율은 42.50%다. 경기 전 강도 기반 기대 Top3율은 40.63%로, 보정 차이는 +1.86%p다. 경기 전 강도를 보정한 뒤에도 기대값보다 높은 성과가 남아 있어 조합 신호가 비교적 뚜렷하다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 +3.36%p다.",
+        "실력 보정 기대값 대비 차이는 +1.86%p, 보정 lift는 1.05x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 3위다.",
+        "주요 듀오 신호: 레녹스 + 로지는 표본 203팀에서 Top3율 45.32%, 역할 평균 대비 +3.20%p다. 레녹스 + 카티야는 표본 612팀에서 Top3율 44.93%, 역할 평균 대비 +2.81%p다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 탱커 | 원거리 딜러 | 메이지이며, 4.0 패치 기준 8,582팀이 사용했다. 실제 Top3율은 42.50%이고, 경기 전 강도 기반 기대 Top3율 40.63%보다 1.86%p 높다. 따라서 이 조합은 단순히 높은 실력대 팀이 선택했기 때문만으로 설명되기보다는, 동일 강도 기대값 대비 우세 신호가 남는 조합으로 해석할 수 있다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 탱커|원거리 딜러|메이지",
+          "primary_signature": "탱커|원거리 딜러|메이지",
+          "primary_story_tag": "메인 강세 구조",
+          "primary_team_count": 8582,
+          "primary_team_share_pct": 8.21,
+          "primary_top3_rate": 42.5,
+          "primary_top3_rate_diff": 3.36,
+          "primary_win_rate": 15.96,
+          "primary_win_rate_diff": 2.91,
+          "primary_avg_rank": 4.158,
+          "primary_avg_rank_diff": -0.188,
+          "secondary_signature": "망치|아르카나|저격총",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 175.0,
+          "secondary_share_pct": 2.04,
+          "secondary_top3_rate": 37.71,
+          "secondary_win_rate": 13.71,
+          "secondary_avg_rank": 4.326,
+          "story_priority": 1,
+          "display_order": 1
+        },
+        "mlAdjustment": {
+          "signatureKey": "탱커|원거리 딜러|메이지",
+          "roleSignature": "탱커|원거리 딜러|메이지",
+          "roleParts": [
+            "탱커",
+            "원거리 딜러",
+            "메이지"
+          ],
+          "teamCount": 8582,
+          "actualTop3Rate": 42.495922,
+          "expectedTop3Rate": 40.633687,
+          "adjustedDiffPp": 1.862234,
+          "adjustedLift": 1.04583,
+          "actualTop3Count": 3647.0,
+          "expectedTop3Count": 3487.183038,
+          "avgRankPoint": 5449.517012,
+          "avgMmrBefore": 5432.489552,
+          "overRank": 3,
+          "underRank": 39,
+          "signal": {
+            "tone": "positive",
+            "label": "실력 대비 우세"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 8857,
+          "top3Rate": 42.124872981822286,
+          "winRate": 15.930902111324377,
+          "topDuos": [
+            {
+              "key": "20:레녹스|72:카티야",
+              "first": {
+                "code": "20",
+                "name": "레녹스"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 612,
+              "top3Rate": 44.93464052287582,
+              "winRate": 16.503267973856207,
+              "avgRank": 4.055555555555555,
+              "shareWithinRole": 6.90978886756238,
+              "confidence": {
+                "level": "high",
+                "label": "신뢰 높음"
+              }
+            },
+            {
+              "key": "20:레녹스|31:리오",
+              "first": {
+                "code": "20",
+                "name": "레녹스"
+              },
+              "second": {
+                "code": "31",
+                "name": "리오"
+              },
+              "count": 548,
+              "top3Rate": 44.70802919708029,
+              "winRate": 18.795620437956202,
+              "avgRank": 4.067518248175182,
+              "shareWithinRole": 6.187196567686576,
+              "confidence": {
+                "level": "high",
+                "label": "신뢰 높음"
+              }
+            },
+            {
+              "key": "30:일레븐|72:카티야",
+              "first": {
+                "code": "30",
+                "name": "일레븐"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 294,
+              "top3Rate": 41.83673469387755,
+              "winRate": 17.346938775510203,
+              "avgRank": 4.163265306122449,
+              "shareWithinRole": 3.3194083775544767,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "53:마커스|72:카티야",
+              "first": {
+                "code": "53",
+                "name": "마커스"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 288,
+              "top3Rate": 37.84722222222222,
+              "winRate": 13.194444444444445,
+              "avgRank": 4.381944444444445,
+              "shareWithinRole": 3.25166534944112,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "31:리오|30:일레븐",
+              "first": {
+                "code": "31",
+                "name": "리오"
+              },
+              "second": {
+                "code": "30",
+                "name": "일레븐"
+              },
+              "count": 262,
+              "top3Rate": 44.274809160305345,
+              "winRate": 19.84732824427481,
+              "avgRank": 4.087786259541985,
+              "shareWithinRole": 2.9581122276165743,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|메이지|브루저",
+      "roleSignature": "브루저|근거리 딜러|메이지",
+      "title": "브루저 | 근거리 딜러 | 메이지는 보정 후 +0.22%p 신호",
+      "summary": "브루저 | 근거리 딜러 | 메이지는 4.0 기준 5,886팀이 사용했고 실제 Top3율은 39.06%다. 경기 전 강도 기반 기대 Top3율은 38.83%로, 보정 차이는 +0.22%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 -0.08%p다.",
+        "실력 보정 기대값 대비 차이는 +0.22%p, 보정 lift는 1.01x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 15위다.",
+        "주요 듀오 신호: 데비&마를렌 + 아야는 표본 205팀에서 Top3율 40.98%, 역할 평균 대비 +2.06%p다. 데비&마를렌 + 히스이는 표본 246팀에서 Top3율 37.40%, 역할 평균 대비 -1.52%p다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 브루저 | 근거리 딜러 | 메이지이며, 4.0 패치 기준 5,886팀이 사용했다. 실제 Top3율은 39.06%이고, 경기 전 강도 기반 기대 Top3율 38.83%와의 차이는 +0.22%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 브루저|근거리 딜러|메이지",
+          "primary_signature": "브루저|근거리 딜러|메이지",
+          "primary_story_tag": "메인 표준 구조",
+          "primary_team_count": 5886,
+          "primary_team_share_pct": 5.63,
+          "primary_top3_rate": 39.06,
+          "primary_top3_rate_diff": -0.08,
+          "primary_win_rate": 12.84,
+          "primary_win_rate_diff": -0.21,
+          "primary_avg_rank": 4.362,
+          "primary_avg_rank_diff": 0.016,
+          "secondary_signature": "글러브|아르카나|양손검",
+          "secondary_story_tag": "고성능 니치 구조",
+          "secondary_team_count": 158.0,
+          "secondary_share_pct": 2.68,
+          "secondary_top3_rate": 44.94,
+          "secondary_win_rate": 12.03,
+          "secondary_avg_rank": 3.987,
+          "story_priority": 2,
+          "display_order": 2
+        },
+        "mlAdjustment": {
+          "signatureKey": "브루저|근거리 딜러|메이지",
+          "roleSignature": "브루저|근거리 딜러|메이지",
+          "roleParts": [
+            "브루저",
+            "근거리 딜러",
+            "메이지"
+          ],
+          "teamCount": 5886,
+          "actualTop3Rate": 39.058784,
+          "expectedTop3Rate": 38.834498,
+          "adjustedDiffPp": 0.224285,
+          "adjustedLift": 1.005775,
+          "actualTop3Count": 2299.0,
+          "expectedTop3Count": 2285.79857,
+          "avgRankPoint": 5548.823763,
+          "avgMmrBefore": 5534.931589,
+          "overRank": 15,
+          "underRank": 27,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 7933,
+          "top3Rate": 38.913399722677426,
+          "winRate": 12.227404512794655,
+          "topDuos": [
+            {
+              "key": "65:데비&마를렌|78:히스이",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 246,
+              "top3Rate": 37.39837398373984,
+              "winRate": 12.601626016260163,
+              "avgRank": 4.520325203252033,
+              "shareWithinRole": 3.100970629018026,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "22:루크|78:히스이",
+              "first": {
+                "code": "22",
+                "name": "루크"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 207,
+              "top3Rate": 27.053140096618357,
+              "winRate": 9.66183574879227,
+              "avgRank": 4.879227053140097,
+              "shareWithinRole": 2.6093533341737047,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "65:데비&마를렌|2:아야",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "2",
+                "name": "아야"
+              },
+              "count": 205,
+              "top3Rate": 40.97560975609756,
+              "winRate": 13.658536585365855,
+              "avgRank": 4.248780487804878,
+              "shareWithinRole": 2.584142190848355,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "11:유키|78:히스이",
+              "first": {
+                "code": "11",
+                "name": "유키"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 194,
+              "top3Rate": 34.02061855670103,
+              "winRate": 10.309278350515463,
+              "avgRank": 4.422680412371134,
+              "shareWithinRole": 2.445480902558931,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "65:데비&마를렌|58:헤이즈",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "58",
+                "name": "헤이즈"
+              },
+              "count": 166,
+              "top3Rate": 34.93975903614458,
+              "winRate": 9.036144578313253,
+              "avgRank": 4.626506024096385,
+              "shareWithinRole": 2.092524896004034,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "메이지|브루저|브루저",
+      "roleSignature": "브루저|브루저|메이지",
+      "title": "브루저 | 브루저 | 메이지는 보정 후 +0.78%p 신호",
+      "summary": "브루저 | 브루저 | 메이지는 4.0 기준 5,793팀이 사용했고 실제 Top3율은 40.65%다. 경기 전 강도 기반 기대 Top3율은 39.88%로, 보정 차이는 +0.78%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 +1.51%p다.",
+        "실력 보정 기대값 대비 차이는 +0.78%p, 보정 lift는 1.02x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 10위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 브루저 | 브루저 | 메이지이며, 4.0 패치 기준 5,793팀이 사용했다. 실제 Top3율은 40.65%이고, 경기 전 강도 기반 기대 Top3율 39.88%와의 차이는 +0.78%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 브루저|브루저|메이지",
+          "primary_signature": "브루저|브루저|메이지",
+          "primary_story_tag": "메인 표준 구조",
+          "primary_team_count": 5793,
+          "primary_team_share_pct": 5.54,
+          "primary_top3_rate": 40.65,
+          "primary_top3_rate_diff": 1.51,
+          "primary_win_rate": 13.27,
+          "primary_win_rate_diff": 0.22,
+          "primary_avg_rank": 4.276,
+          "primary_avg_rank_diff": -0.07,
+          "secondary_signature": "글러브|아르카나|양손검",
+          "secondary_story_tag": "고성능 니치 구조",
+          "secondary_team_count": 78.0,
+          "secondary_share_pct": 1.35,
+          "secondary_top3_rate": 47.44,
+          "secondary_win_rate": 24.36,
+          "secondary_avg_rank": 3.923,
+          "story_priority": 2,
+          "display_order": 3
+        },
+        "mlAdjustment": {
+          "signatureKey": "브루저|브루저|메이지",
+          "roleSignature": "브루저|브루저|메이지",
+          "roleParts": [
+            "브루저",
+            "브루저",
+            "메이지"
+          ],
+          "teamCount": 5793,
+          "actualTop3Rate": 40.652512,
+          "expectedTop3Rate": 39.877111,
+          "adjustedDiffPp": 0.7754,
+          "adjustedLift": 1.019445,
+          "actualTop3Count": 2355.0,
+          "expectedTop3Count": 2310.081061,
+          "avgRankPoint": 5534.709477,
+          "avgMmrBefore": 5518.788193,
+          "overRank": 10,
+          "underRank": 32,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 7925,
+          "top3Rate": 40.02523659305994,
+          "winRate": 12.782334384858043,
+          "topDuos": [
+            {
+              "key": "33:니키|78:히스이",
+              "first": {
+                "code": "33",
+                "name": "니키"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 178,
+              "top3Rate": 33.70786516853933,
+              "winRate": 11.797752808988763,
+              "avgRank": 4.685393258426966,
+              "shareWithinRole": 2.2460567823343847,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "2:아야|78:히스이",
+              "first": {
+                "code": "2",
+                "name": "아야"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 172,
+              "top3Rate": 39.53488372093023,
+              "winRate": 8.13953488372093,
+              "avgRank": 4.436046511627907,
+              "shareWithinRole": 2.170347003154574,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "64:바냐|78:히스이",
+              "first": {
+                "code": "64",
+                "name": "바냐"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 163,
+              "top3Rate": 34.96932515337423,
+              "winRate": 9.815950920245399,
+              "avgRank": 4.595092024539877,
+              "shareWithinRole": 2.056782334384858,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "58:헤이즈|78:히스이",
+              "first": {
+                "code": "58",
+                "name": "헤이즈"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 151,
+              "top3Rate": 34.437086092715234,
+              "winRate": 9.933774834437086,
+              "avgRank": 4.582781456953643,
+              "shareWithinRole": 1.9053627760252365,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "7:현우|78:히스이",
+              "first": {
+                "code": "7",
+                "name": "현우"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 141,
+              "top3Rate": 40.42553191489361,
+              "winRate": 12.76595744680851,
+              "avgRank": 4.432624113475177,
+              "shareWithinRole": 1.779179810725552,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "메이지|브루저|암살",
+      "roleSignature": "브루저|암살|메이지",
+      "title": "브루저 | 암살 | 메이지는 보정 후 -0.48%p 신호",
+      "summary": "브루저 | 암살 | 메이지는 4.0 기준 5,648팀이 사용했고 실제 Top3율은 38.97%다. 경기 전 강도 기반 기대 Top3율은 39.45%로, 보정 차이는 -0.48%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 -0.17%p다.",
+        "실력 보정 기대값 대비 차이는 -0.48%p, 보정 lift는 0.99x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 25위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 브루저 | 암살 | 메이지이며, 4.0 패치 기준 5,648팀이 사용했다. 실제 Top3율은 38.97%이고, 경기 전 강도 기반 기대 Top3율 39.45%와의 차이는 -0.48%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 브루저|암살|메이지",
+          "primary_signature": "브루저|암살|메이지",
+          "primary_story_tag": "메인 표준 구조",
+          "primary_team_count": 5648,
+          "primary_team_share_pct": 5.4,
+          "primary_top3_rate": 38.97,
+          "primary_top3_rate_diff": -0.17,
+          "primary_win_rate": 12.11,
+          "primary_win_rate_diff": -0.94,
+          "primary_avg_rank": 4.35,
+          "primary_avg_rank_diff": 0.004,
+          "secondary_signature": "글러브|단검|아르카나",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 79.0,
+          "secondary_share_pct": 1.4,
+          "secondary_top3_rate": 41.77,
+          "secondary_win_rate": 13.92,
+          "secondary_avg_rank": 3.962,
+          "story_priority": 2,
+          "display_order": 4
+        },
+        "mlAdjustment": {
+          "signatureKey": "브루저|암살|메이지",
+          "roleSignature": "브루저|암살|메이지",
+          "roleParts": [
+            "브루저",
+            "암살",
+            "메이지"
+          ],
+          "teamCount": 5648,
+          "actualTop3Rate": 38.969547,
+          "expectedTop3Rate": 39.453496,
+          "adjustedDiffPp": -0.483949,
+          "adjustedLift": 0.987734,
+          "actualTop3Count": 2201.0,
+          "expectedTop3Count": 2228.333435,
+          "avgRankPoint": 5489.406693,
+          "avgMmrBefore": 5474.234478,
+          "overRank": 25,
+          "underRank": 17,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 7918,
+          "top3Rate": 38.8481939883809,
+          "winRate": 12.301086132861833,
+          "topDuos": [
+            {
+              "key": "74:다르코|78:히스이",
+              "first": {
+                "code": "74",
+                "name": "다르코"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 193,
+              "top3Rate": 28.497409326424872,
+              "winRate": 10.362694300518134,
+              "avgRank": 4.865284974093265,
+              "shareWithinRole": 2.4374842131851477,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "74:다르코|2:아야",
+              "first": {
+                "code": "74",
+                "name": "다르코"
+              },
+              "second": {
+                "code": "2",
+                "name": "아야"
+              },
+              "count": 188,
+              "top3Rate": 36.17021276595745,
+              "winRate": 12.23404255319149,
+              "avgRank": 4.372340425531915,
+              "shareWithinRole": 2.374336953776206,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "67:아비게일|78:히스이",
+              "first": {
+                "code": "67",
+                "name": "아비게일"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 183,
+              "top3Rate": 32.240437158469945,
+              "winRate": 13.114754098360656,
+              "avgRank": 4.579234972677596,
+              "shareWithinRole": 2.3111896943672643,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "67:아비게일|2:아야",
+              "first": {
+                "code": "67",
+                "name": "아비게일"
+              },
+              "second": {
+                "code": "2",
+                "name": "아야"
+              },
+              "count": 149,
+              "top3Rate": 43.624161073825505,
+              "winRate": 10.738255033557047,
+              "avgRank": 4.23489932885906,
+              "shareWithinRole": 1.881788330386461,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "86:펜리르|78:히스이",
+              "first": {
+                "code": "86",
+                "name": "펜리르"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 127,
+              "top3Rate": 35.43307086614173,
+              "winRate": 10.236220472440944,
+              "avgRank": 4.6299212598425195,
+              "shareWithinRole": 1.603940388987118,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "브루저|원거리 딜러|탱커",
+      "roleSignature": "탱커|브루저|원거리 딜러",
+      "title": "탱커 | 브루저 | 원거리 딜러는 보정 후 +0.36%p 신호",
+      "summary": "탱커 | 브루저 | 원거리 딜러는 4.0 기준 5,555팀이 사용했고 실제 Top3율은 39.12%다. 경기 전 강도 기반 기대 Top3율은 38.75%로, 보정 차이는 +0.36%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 -0.02%p다.",
+        "실력 보정 기대값 대비 차이는 +0.36%p, 보정 lift는 1.01x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 13위다.",
+        "주요 듀오 신호: 레녹스 + 리오는 표본 206팀에서 Top3율 38.83%, 역할 평균 대비 +0.60%p다. 카티야 + 히스이는 표본 217팀에서 Top3율 38.25%, 역할 평균 대비 +0.01%p다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 탱커 | 브루저 | 원거리 딜러이며, 4.0 패치 기준 5,555팀이 사용했다. 실제 Top3율은 39.12%이고, 경기 전 강도 기반 기대 Top3율 38.75%와의 차이는 +0.36%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 탱커|브루저|원거리 딜러",
+          "primary_signature": "탱커|브루저|원거리 딜러",
+          "primary_story_tag": "메인 표준 구조",
+          "primary_team_count": 5555,
+          "primary_team_share_pct": 5.31,
+          "primary_top3_rate": 39.12,
+          "primary_top3_rate_diff": -0.02,
+          "primary_win_rate": 14.06,
+          "primary_win_rate_diff": 1.01,
+          "primary_avg_rank": 4.327,
+          "primary_avg_rank_diff": -0.019,
+          "secondary_signature": "망치|양손검|저격총",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 127.0,
+          "secondary_share_pct": 2.29,
+          "secondary_top3_rate": 44.88,
+          "secondary_win_rate": 14.17,
+          "secondary_avg_rank": 4.181,
+          "story_priority": 2,
+          "display_order": 5
+        },
+        "mlAdjustment": {
+          "signatureKey": "탱커|브루저|원거리 딜러",
+          "roleSignature": "탱커|브루저|원거리 딜러",
+          "roleParts": [
+            "탱커",
+            "브루저",
+            "원거리 딜러"
+          ],
+          "teamCount": 5555,
+          "actualTop3Rate": 39.117912,
+          "expectedTop3Rate": 38.753682,
+          "adjustedDiffPp": 0.36423,
+          "adjustedLift": 1.009399,
+          "actualTop3Count": 2173.0,
+          "expectedTop3Count": 2152.767032,
+          "avgRankPoint": 5251.058386,
+          "avgMmrBefore": 5235.229763,
+          "overRank": 13,
+          "underRank": 29,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 5254,
+          "top3Rate": 38.23753330795584,
+          "winRate": 13.494480395888846,
+          "topDuos": [
+            {
+              "key": "20:레녹스|72:카티야",
+              "first": {
+                "code": "20",
+                "name": "레녹스"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 232,
+              "top3Rate": 36.637931034482754,
+              "winRate": 13.793103448275861,
+              "avgRank": 4.327586206896552,
+              "shareWithinRole": 4.415683288922725,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "72:카티야|78:히스이",
+              "first": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 217,
+              "top3Rate": 38.24884792626728,
+              "winRate": 11.52073732718894,
+              "avgRank": 4.548387096774194,
+              "shareWithinRole": 4.130186524552721,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "20:레녹스|31:리오",
+              "first": {
+                "code": "20",
+                "name": "레녹스"
+              },
+              "second": {
+                "code": "31",
+                "name": "리오"
+              },
+              "count": 206,
+              "top3Rate": 38.83495145631068,
+              "winRate": 13.592233009708737,
+              "avgRank": 4.398058252427185,
+              "shareWithinRole": 3.9208222306813854,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "53:마커스|72:카티야",
+              "first": {
+                "code": "53",
+                "name": "마커스"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 183,
+              "top3Rate": 35.51912568306011,
+              "winRate": 13.114754098360656,
+              "avgRank": 4.502732240437158,
+              "shareWithinRole": 3.4830605253140465,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "31:리오|78:히스이",
+              "first": {
+                "code": "31",
+                "name": "리오"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 183,
+              "top3Rate": 34.97267759562842,
+              "winRate": 14.754098360655737,
+              "avgRank": 4.628415300546448,
+              "shareWithinRole": 3.4830605253140465,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "메이지|브루저|원거리 딜러",
+      "roleSignature": "브루저|원거리 딜러|메이지",
+      "title": "브루저 | 원거리 딜러 | 메이지는 보정 후 -0.18%p 신호",
+      "summary": "브루저 | 원거리 딜러 | 메이지는 4.0 기준 5,198팀이 사용했고 실제 Top3율은 39.88%다. 경기 전 강도 기반 기대 Top3율은 40.06%로, 보정 차이는 -0.18%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 +0.74%p다.",
+        "실력 보정 기대값 대비 차이는 -0.18%p, 보정 lift는 1.00x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 21위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 브루저 | 원거리 딜러 | 메이지이며, 4.0 패치 기준 5,198팀이 사용했다. 실제 Top3율은 39.88%이고, 경기 전 강도 기반 기대 Top3율 40.06%와의 차이는 -0.18%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 브루저|원거리 딜러|메이지",
+          "primary_signature": "브루저|원거리 딜러|메이지",
+          "primary_story_tag": "메인 표준 구조",
+          "primary_team_count": 5198,
+          "primary_team_share_pct": 4.97,
+          "primary_top3_rate": 39.88,
+          "primary_top3_rate_diff": 0.74,
+          "primary_win_rate": 13.62,
+          "primary_win_rate_diff": 0.57,
+          "primary_avg_rank": 4.293,
+          "primary_avg_rank_diff": -0.053,
+          "secondary_signature": "글러브|암기|저격총",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 74.0,
+          "secondary_share_pct": 1.42,
+          "secondary_top3_rate": 32.43,
+          "secondary_win_rate": 14.86,
+          "secondary_avg_rank": 4.649,
+          "story_priority": 2,
+          "display_order": 6
+        },
+        "mlAdjustment": {
+          "signatureKey": "브루저|원거리 딜러|메이지",
+          "roleSignature": "브루저|원거리 딜러|메이지",
+          "roleParts": [
+            "브루저",
+            "원거리 딜러",
+            "메이지"
+          ],
+          "teamCount": 5198,
+          "actualTop3Rate": 39.880723,
+          "expectedTop3Rate": 40.061771,
+          "adjustedDiffPp": -0.181048,
+          "adjustedLift": 0.995481,
+          "actualTop3Count": 2073.0,
+          "expectedTop3Count": 2082.410873,
+          "avgRankPoint": 5510.469411,
+          "avgMmrBefore": 5495.340772,
+          "overRank": 21,
+          "underRank": 21,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 4013,
+          "top3Rate": 39.89534014453028,
+          "winRate": 13.306753052579118,
+          "topDuos": [
+            {
+              "key": "33:니키|72:카티야",
+              "first": {
+                "code": "33",
+                "name": "니키"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 91,
+              "top3Rate": 37.362637362637365,
+              "winRate": 9.89010989010989,
+              "avgRank": 4.43956043956044,
+              "shareWithinRole": 2.2676302018440073,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "72:카티야|83:헨리",
+              "first": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "second": {
+                "code": "83",
+                "name": "헨리"
+              },
+              "count": 84,
+              "top3Rate": 38.095238095238095,
+              "winRate": 9.523809523809524,
+              "avgRank": 4.642857142857143,
+              "shareWithinRole": 2.0931971093944677,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "72:카티야|71:케네스",
+              "first": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "second": {
+                "code": "71",
+                "name": "케네스"
+              },
+              "count": 79,
+              "top3Rate": 30.37974683544304,
+              "winRate": 8.860759493670885,
+              "avgRank": 4.7215189873417724,
+              "shareWithinRole": 1.9686020433590827,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "72:카티야|7:현우",
+              "first": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "second": {
+                "code": "7",
+                "name": "현우"
+              },
+              "count": 79,
+              "top3Rate": 39.24050632911392,
+              "winRate": 10.126582278481013,
+              "avgRank": 4.3544303797468356,
+              "shareWithinRole": 1.9686020433590827,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "27:알렉스|72:카티야",
+              "first": {
+                "code": "27",
+                "name": "알렉스"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 77,
+              "top3Rate": 48.05194805194805,
+              "winRate": 14.285714285714285,
+              "avgRank": 4.0519480519480515,
+              "shareWithinRole": 1.918764016944929,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "메이지|브루저|탱커",
+      "roleSignature": "탱커|브루저|메이지",
+      "title": "탱커 | 브루저 | 메이지는 보정 후 +0.09%p 신호",
+      "summary": "탱커 | 브루저 | 메이지는 4.0 기준 4,301팀이 사용했고 실제 Top3율은 38.53%다. 경기 전 강도 기반 기대 Top3율은 38.43%로, 보정 차이는 +0.09%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 -0.61%p다.",
+        "실력 보정 기대값 대비 차이는 +0.09%p, 보정 lift는 1.00x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 19위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 탱커 | 브루저 | 메이지이며, 4.0 패치 기준 4,301팀이 사용했다. 실제 Top3율은 38.53%이고, 경기 전 강도 기반 기대 Top3율 38.43%와의 차이는 +0.09%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 탱커|브루저|메이지",
+          "primary_signature": "탱커|브루저|메이지",
+          "primary_story_tag": "메인 표준 구조",
+          "primary_team_count": 4301,
+          "primary_team_share_pct": 4.11,
+          "primary_top3_rate": 38.53,
+          "primary_top3_rate_diff": -0.61,
+          "primary_win_rate": 12.44,
+          "primary_win_rate_diff": -0.61,
+          "primary_avg_rank": 4.351,
+          "primary_avg_rank_diff": 0.005,
+          "secondary_signature": "망치|아르카나|양손검",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 63.0,
+          "secondary_share_pct": 1.46,
+          "secondary_top3_rate": 25.4,
+          "secondary_win_rate": 4.76,
+          "secondary_avg_rank": 5.0,
+          "story_priority": 2,
+          "display_order": 7
+        },
+        "mlAdjustment": {
+          "signatureKey": "탱커|브루저|메이지",
+          "roleSignature": "탱커|브루저|메이지",
+          "roleParts": [
+            "탱커",
+            "브루저",
+            "메이지"
+          ],
+          "teamCount": 4301,
+          "actualTop3Rate": 38.525924,
+          "expectedTop3Rate": 38.431707,
+          "adjustedDiffPp": 0.094217,
+          "adjustedLift": 1.002452,
+          "actualTop3Count": 1657.0,
+          "expectedTop3Count": 1652.947734,
+          "avgRankPoint": 5240.658142,
+          "avgMmrBefore": 5226.236147,
+          "overRank": 19,
+          "underRank": 23,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 7511,
+          "top3Rate": 38.96951138330449,
+          "winRate": 13.1939821594994,
+          "topDuos": [
+            {
+              "key": "53:마커스|78:히스이",
+              "first": {
+                "code": "53",
+                "name": "마커스"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 170,
+              "top3Rate": 37.05882352941177,
+              "winRate": 15.294117647058824,
+              "avgRank": 4.41764705882353,
+              "shareWithinRole": 2.263347090933298,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "2:아야|78:히스이",
+              "first": {
+                "code": "2",
+                "name": "아야"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 163,
+              "top3Rate": 42.944785276073624,
+              "winRate": 15.950920245398773,
+              "avgRank": 4.134969325153374,
+              "shareWithinRole": 2.170150446012515,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "4:매그너스|78:히스이",
+              "first": {
+                "code": "4",
+                "name": "매그너스"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 162,
+              "top3Rate": 32.098765432098766,
+              "winRate": 11.11111111111111,
+              "avgRank": 4.41358024691358,
+              "shareWithinRole": 2.15683663959526,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "85:미르카|78:히스이",
+              "first": {
+                "code": "85",
+                "name": "미르카"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 157,
+              "top3Rate": 33.75796178343949,
+              "winRate": 9.554140127388536,
+              "avgRank": 4.6369426751592355,
+              "shareWithinRole": 2.0902676075089865,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "20:레녹스|78:히스이",
+              "first": {
+                "code": "20",
+                "name": "레녹스"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 152,
+              "top3Rate": 32.89473684210527,
+              "winRate": 14.473684210526317,
+              "avgRank": 4.618421052631579,
+              "shareWithinRole": 2.0236985754227135,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "암살|원거리 딜러|탱커",
+      "roleSignature": "탱커|원거리 딜러|암살",
+      "title": "탱커 | 원거리 딜러 | 암살는 보정 후 +0.75%p 신호",
+      "summary": "탱커 | 원거리 딜러 | 암살는 4.0 기준 3,016팀이 사용했고 실제 Top3율은 39.39%다. 경기 전 강도 기반 기대 Top3율은 38.64%로, 보정 차이는 +0.75%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 +0.25%p다.",
+        "실력 보정 기대값 대비 차이는 +0.75%p, 보정 lift는 1.02x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 11위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 탱커 | 원거리 딜러 | 암살이며, 4.0 패치 기준 3,016팀이 사용했다. 실제 Top3율은 39.39%이고, 경기 전 강도 기반 기대 Top3율 38.64%와의 차이는 +0.75%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 탱커|원거리 딜러|암살",
+          "primary_signature": "탱커|원거리 딜러|암살",
+          "primary_story_tag": "메인 표준 구조",
+          "primary_team_count": 3016,
+          "primary_team_share_pct": 2.89,
+          "primary_top3_rate": 39.39,
+          "primary_top3_rate_diff": 0.25,
+          "primary_win_rate": 13.53,
+          "primary_win_rate_diff": 0.48,
+          "primary_avg_rank": 4.33,
+          "primary_avg_rank_diff": -0.016,
+          "secondary_signature": "단검|망치|저격총",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 106.0,
+          "secondary_share_pct": 3.51,
+          "secondary_top3_rate": 35.85,
+          "secondary_win_rate": 11.32,
+          "secondary_avg_rank": 4.528,
+          "story_priority": 2,
+          "display_order": 8
+        },
+        "mlAdjustment": {
+          "signatureKey": "탱커|원거리 딜러|암살",
+          "roleSignature": "탱커|원거리 딜러|암살",
+          "roleParts": [
+            "탱커",
+            "원거리 딜러",
+            "암살"
+          ],
+          "teamCount": 3016,
+          "actualTop3Rate": 39.38992,
+          "expectedTop3Rate": 38.641484,
+          "adjustedDiffPp": 0.748436,
+          "adjustedLift": 1.019369,
+          "actualTop3Count": 1188.0,
+          "expectedTop3Count": 1165.427171,
+          "avgRankPoint": 5256.106101,
+          "avgMmrBefore": 5239.641026,
+          "overRank": 11,
+          "underRank": 31,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 2875,
+          "top3Rate": 38.26086956521739,
+          "winRate": 13.217391304347824,
+          "topDuos": [
+            {
+              "key": "67:아비게일|72:카티야",
+              "first": {
+                "code": "67",
+                "name": "아비게일"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 174,
+              "top3Rate": 40.229885057471265,
+              "winRate": 12.643678160919542,
+              "avgRank": 4.442528735632184,
+              "shareWithinRole": 6.052173913043479,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "31:리오|67:아비게일",
+              "first": {
+                "code": "31",
+                "name": "리오"
+              },
+              "second": {
+                "code": "67",
+                "name": "아비게일"
+              },
+              "count": 152,
+              "top3Rate": 33.55263157894737,
+              "winRate": 13.815789473684212,
+              "avgRank": 4.526315789473684,
+              "shareWithinRole": 5.286956521739131,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "20:레녹스|72:카티야",
+              "first": {
+                "code": "20",
+                "name": "레녹스"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 120,
+              "top3Rate": 40,
+              "winRate": 15.833333333333332,
+              "avgRank": 4.225,
+              "shareWithinRole": 4.173913043478262,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "31:리오|18:쇼이치",
+              "first": {
+                "code": "31",
+                "name": "리오"
+              },
+              "second": {
+                "code": "18",
+                "name": "쇼이치"
+              },
+              "count": 118,
+              "top3Rate": 30.508474576271187,
+              "winRate": 10.16949152542373,
+              "avgRank": 4.8474576271186445,
+              "shareWithinRole": 4.104347826086956,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "20:레녹스|67:아비게일",
+              "first": {
+                "code": "20",
+                "name": "레녹스"
+              },
+              "second": {
+                "code": "67",
+                "name": "아비게일"
+              },
+              "count": 109,
+              "top3Rate": 36.69724770642202,
+              "winRate": 13.761467889908257,
+              "avgRank": 4.36697247706422,
+              "shareWithinRole": 3.791304347826087,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|메이지|원거리 딜러",
+      "roleSignature": "원거리 딜러|근거리 딜러|메이지",
+      "title": "원거리 딜러 | 근거리 딜러 | 메이지는 보정 후 -0.23%p 신호",
+      "summary": "원거리 딜러 | 근거리 딜러 | 메이지는 4.0 기준 2,382팀이 사용했고 실제 Top3율은 40.72%다. 경기 전 강도 기반 기대 Top3율은 40.95%로, 보정 차이는 -0.23%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 +1.58%p다.",
+        "실력 보정 기대값 대비 차이는 -0.23%p, 보정 lift는 0.99x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 23위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 원거리 딜러 | 근거리 딜러 | 메이지이며, 4.0 패치 기준 2,382팀이 사용했다. 실제 Top3율은 40.72%이고, 경기 전 강도 기반 기대 Top3율 40.95%와의 차이는 -0.23%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 원거리 딜러|근거리 딜러|메이지",
+          "primary_signature": "원거리 딜러|근거리 딜러|메이지",
+          "primary_story_tag": "고성능 니치 구조",
+          "primary_team_count": 2382,
+          "primary_team_share_pct": 2.28,
+          "primary_top3_rate": 40.72,
+          "primary_top3_rate_diff": 1.58,
+          "primary_win_rate": 13.98,
+          "primary_win_rate_diff": 0.93,
+          "primary_avg_rank": 4.23,
+          "primary_avg_rank_diff": -0.116,
+          "secondary_signature": "권총|아르카나|양손검",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 80.0,
+          "secondary_share_pct": 3.36,
+          "secondary_top3_rate": 38.75,
+          "secondary_win_rate": 15.0,
+          "secondary_avg_rank": 4.212,
+          "story_priority": 3,
+          "display_order": 9
+        },
+        "mlAdjustment": {
+          "signatureKey": "원거리 딜러|근거리 딜러|메이지",
+          "roleSignature": "원거리 딜러|근거리 딜러|메이지",
+          "roleParts": [
+            "원거리 딜러",
+            "근거리 딜러",
+            "메이지"
+          ],
+          "teamCount": 2382,
+          "actualTop3Rate": 40.722082,
+          "expectedTop3Rate": 40.952282,
+          "adjustedDiffPp": -0.230199,
+          "adjustedLift": 0.994379,
+          "actualTop3Count": 970.0,
+          "expectedTop3Count": 975.483351,
+          "avgRankPoint": 5669.857123,
+          "avgMmrBefore": 5655.20557,
+          "overRank": 23,
+          "underRank": 19,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 2113,
+          "top3Rate": 40.51112162801704,
+          "winRate": 13.535257927117842,
+          "topDuos": [
+            {
+              "key": "11:유키|72:카티야",
+              "first": {
+                "code": "11",
+                "name": "유키"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 118,
+              "top3Rate": 38.13559322033898,
+              "winRate": 14.40677966101695,
+              "avgRank": 4.440677966101695,
+              "shareWithinRole": 5.5844770468528155,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "31:리오|11:유키",
+              "first": {
+                "code": "31",
+                "name": "리오"
+              },
+              "second": {
+                "code": "11",
+                "name": "유키"
+              },
+              "count": 114,
+              "top3Rate": 46.49122807017544,
+              "winRate": 11.403508771929824,
+              "avgRank": 4.254385964912281,
+              "shareWithinRole": 5.395172740179839,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "65:데비&마를렌|72:카티야",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 94,
+              "top3Rate": 30.851063829787233,
+              "winRate": 14.893617021276595,
+              "avgRank": 4.48936170212766,
+              "shareWithinRole": 4.448651206814954,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "65:데비&마를렌|21:로지",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "21",
+                "name": "로지"
+              },
+              "count": 89,
+              "top3Rate": 40.44943820224719,
+              "winRate": 14.606741573033707,
+              "avgRank": 4.044943820224719,
+              "shareWithinRole": 4.212020823473734,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "65:데비&마를렌|31:리오",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "31",
+                "name": "리오"
+              },
+              "count": 88,
+              "top3Rate": 32.95454545454545,
+              "winRate": 14.772727272727273,
+              "avgRank": 4.556818181818182,
+              "shareWithinRole": 4.164694746805489,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|메이지|탱커",
+      "roleSignature": "탱커|근거리 딜러|메이지",
+      "title": "탱커 | 근거리 딜러 | 메이지는 보정 후 +0.18%p 신호",
+      "summary": "탱커 | 근거리 딜러 | 메이지는 4.0 기준 2,067팀이 사용했고 실제 Top3율은 40.20%다. 경기 전 강도 기반 기대 Top3율은 40.03%로, 보정 차이는 +0.18%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 +1.06%p다.",
+        "실력 보정 기대값 대비 차이는 +0.18%p, 보정 lift는 1.00x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 17위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 탱커 | 근거리 딜러 | 메이지이며, 4.0 패치 기준 2,067팀이 사용했다. 실제 Top3율은 40.20%이고, 경기 전 강도 기반 기대 Top3율 40.03%와의 차이는 +0.18%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 탱커|근거리 딜러|메이지",
+          "primary_signature": "탱커|근거리 딜러|메이지",
+          "primary_story_tag": "고성능 니치 구조",
+          "primary_team_count": 2067,
+          "primary_team_share_pct": 1.98,
+          "primary_top3_rate": 40.2,
+          "primary_top3_rate_diff": 1.06,
+          "primary_win_rate": 13.84,
+          "primary_win_rate_diff": 0.79,
+          "primary_avg_rank": 4.281,
+          "primary_avg_rank_diff": -0.065,
+          "secondary_signature": "망치|아르카나|양손검",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 94.0,
+          "secondary_share_pct": 4.55,
+          "secondary_top3_rate": 41.49,
+          "secondary_win_rate": 15.96,
+          "secondary_avg_rank": 4.223,
+          "story_priority": 3,
+          "display_order": 10
+        },
+        "mlAdjustment": {
+          "signatureKey": "탱커|근거리 딜러|메이지",
+          "roleSignature": "탱커|근거리 딜러|메이지",
+          "roleParts": [
+            "탱커",
+            "근거리 딜러",
+            "메이지"
+          ],
+          "teamCount": 2067,
+          "actualTop3Rate": 40.203193,
+          "expectedTop3Rate": 40.026117,
+          "adjustedDiffPp": 0.177076,
+          "adjustedLift": 1.004424,
+          "actualTop3Count": 831.0,
+          "expectedTop3Count": 827.339845,
+          "avgRankPoint": 5403.892114,
+          "avgMmrBefore": 5389.259313,
+          "overRank": 17,
+          "underRank": 25,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 3400,
+          "top3Rate": 40.61764705882353,
+          "winRate": 13.705882352941176,
+          "topDuos": [
+            {
+              "key": "65:데비&마를렌|53:마커스",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "53",
+                "name": "마커스"
+              },
+              "count": 131,
+              "top3Rate": 35.87786259541985,
+              "winRate": 12.977099236641221,
+              "avgRank": 4.312977099236641,
+              "shareWithinRole": 3.8529411764705883,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "65:데비&마를렌|4:매그너스",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "4",
+                "name": "매그너스"
+              },
+              "count": 122,
+              "top3Rate": 38.52459016393443,
+              "winRate": 9.836065573770492,
+              "avgRank": 4.475409836065574,
+              "shareWithinRole": 3.5882352941176467,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "4:매그너스|11:유키",
+              "first": {
+                "code": "4",
+                "name": "매그너스"
+              },
+              "second": {
+                "code": "11",
+                "name": "유키"
+              },
+              "count": 93,
+              "top3Rate": 34.40860215053764,
+              "winRate": 10.75268817204301,
+              "avgRank": 4.365591397849462,
+              "shareWithinRole": 2.735294117647059,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "22:루크|4:매그너스",
+              "first": {
+                "code": "22",
+                "name": "루크"
+              },
+              "second": {
+                "code": "4",
+                "name": "매그너스"
+              },
+              "count": 93,
+              "top3Rate": 43.01075268817204,
+              "winRate": 15.053763440860216,
+              "avgRank": 4.161290322580645,
+              "shareWithinRole": 2.735294117647059,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "65:데비&마를렌|85:미르카",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "85",
+                "name": "미르카"
+              },
+              "count": 92,
+              "top3Rate": 38.04347826086957,
+              "winRate": 14.130434782608695,
+              "avgRank": 4.358695652173913,
+              "shareWithinRole": 2.705882352941176,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "메이지|메이지|원거리 딜러",
+      "roleSignature": "원거리 딜러|메이지|메이지",
+      "title": "원거리 딜러 | 메이지 | 메이지는 보정 후 +0.14%p 신호",
+      "summary": "원거리 딜러 | 메이지 | 메이지는 4.0 기준 1,045팀이 사용했고 실제 Top3율은 40.57%다. 경기 전 강도 기반 기대 Top3율은 40.43%로, 보정 차이는 +0.14%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 +1.43%p다.",
+        "실력 보정 기대값 대비 차이는 +0.14%p, 보정 lift는 1.00x다.",
+        "표본 신뢰도는 표본 보통이며, 보정 우세 순위는 18위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 원거리 딜러 | 메이지 | 메이지이며, 4.0 패치 기준 1,045팀이 사용했다. 실제 Top3율은 40.57%이고, 경기 전 강도 기반 기대 Top3율 40.43%와의 차이는 +0.14%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 원거리 딜러|메이지|메이지",
+          "primary_signature": "원거리 딜러|메이지|메이지",
+          "primary_story_tag": "고성능 니치 구조",
+          "primary_team_count": 1045,
+          "primary_team_share_pct": 1.0,
+          "primary_top3_rate": 40.57,
+          "primary_top3_rate_diff": 1.43,
+          "primary_win_rate": 16.65,
+          "primary_win_rate_diff": 3.6,
+          "primary_avg_rank": 4.175,
+          "primary_avg_rank_diff": -0.171,
+          "secondary_signature": "세부 무기 조합 분산",
+          "secondary_story_tag": "대표 무기 조합 없음",
+          "secondary_team_count": 26.0,
+          "secondary_share_pct": 2.49,
+          "secondary_top3_rate": null,
+          "secondary_win_rate": null,
+          "secondary_avg_rank": null,
+          "story_priority": 3,
+          "display_order": 11
+        },
+        "mlAdjustment": {
+          "signatureKey": "원거리 딜러|메이지|메이지",
+          "roleSignature": "원거리 딜러|메이지|메이지",
+          "roleParts": [
+            "원거리 딜러",
+            "메이지",
+            "메이지"
+          ],
+          "teamCount": 1045,
+          "actualTop3Rate": 40.574163,
+          "expectedTop3Rate": 40.433193,
+          "adjustedDiffPp": 0.14097,
+          "adjustedLift": 1.003486,
+          "actualTop3Count": 424.0,
+          "expectedTop3Count": 422.526864,
+          "avgRankPoint": 5651.985646,
+          "avgMmrBefore": 5637.214673,
+          "overRank": 18,
+          "underRank": 24,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "medium",
+            "label": "표본 보통"
+          }
+        },
+        "duoValidation": {
+          "count": 1114,
+          "top3Rate": 40.394973070017954,
+          "winRate": 15.260323159784562,
+          "topDuos": [
+            {
+              "key": "72:카티야|83:헨리",
+              "first": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "second": {
+                "code": "83",
+                "name": "헨리"
+              },
+              "count": 65,
+              "top3Rate": 44.61538461538462,
+              "winRate": 12.307692307692308,
+              "avgRank": 4,
+              "shareWithinRole": 5.834829443447038,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "31:리오|83:헨리",
+              "first": {
+                "code": "31",
+                "name": "리오"
+              },
+              "second": {
+                "code": "83",
+                "name": "헨리"
+              },
+              "count": 50,
+              "top3Rate": 52,
+              "winRate": 22,
+              "avgRank": 3.92,
+              "shareWithinRole": 4.488330341113106,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "2:아야|72:카티야",
+              "first": {
+                "code": "2",
+                "name": "아야"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 47,
+              "top3Rate": 46.808510638297875,
+              "winRate": 19.148936170212767,
+              "avgRank": 4.0212765957446805,
+              "shareWithinRole": 4.21903052064632,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "8:하트|83:헨리",
+              "first": {
+                "code": "8",
+                "name": "하트"
+              },
+              "second": {
+                "code": "83",
+                "name": "헨리"
+              },
+              "count": 37,
+              "top3Rate": 43.24324324324324,
+              "winRate": 10.81081081081081,
+              "avgRank": 4.351351351351352,
+              "shareWithinRole": 3.321364452423698,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            },
+            {
+              "key": "26:바바라|72:카티야",
+              "first": {
+                "code": "26",
+                "name": "바바라"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 35,
+              "top3Rate": 20,
+              "winRate": 5.714285714285714,
+              "avgRank": 5.085714285714285,
+              "shareWithinRole": 3.141831238779174,
+              "confidence": {
+                "level": "low",
+                "label": "주의"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "브루저|원거리 딜러|원거리 딜러",
+      "roleSignature": "브루저|원거리 딜러|원거리 딜러",
+      "title": "브루저 | 원거리 딜러 | 원거리 딜러는 보정 후 +2.47%p 신호",
+      "summary": "브루저 | 원거리 딜러 | 원거리 딜러는 4.0 기준 985팀이 사용했고 실제 Top3율은 42.44%다. 경기 전 강도 기반 기대 Top3율은 39.96%로, 보정 차이는 +2.47%p다. 경기 전 강도를 보정한 뒤에도 기대값보다 높은 성과가 남아 있어 조합 신호가 비교적 뚜렷하다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 +3.30%p다.",
+        "실력 보정 기대값 대비 차이는 +2.47%p, 보정 lift는 1.06x다.",
+        "표본 신뢰도는 표본 보통이며, 보정 우세 순위는 1위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 브루저 | 원거리 딜러 | 원거리 딜러이며, 4.0 패치 기준 985팀이 사용했다. 실제 Top3율은 42.44%이고, 경기 전 강도 기반 기대 Top3율 39.96%보다 2.47%p 높다. 따라서 이 조합은 단순히 높은 실력대 팀이 선택했기 때문만으로 설명되기보다는, 동일 강도 기대값 대비 우세 신호가 남는 조합으로 해석할 수 있다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 브루저|원거리 딜러|원거리 딜러",
+          "primary_signature": "브루저|원거리 딜러|원거리 딜러",
+          "primary_story_tag": "고성능 니치 구조",
+          "primary_team_count": 985,
+          "primary_team_share_pct": 0.94,
+          "primary_top3_rate": 42.44,
+          "primary_top3_rate_diff": 3.3,
+          "primary_win_rate": 14.92,
+          "primary_win_rate_diff": 1.87,
+          "primary_avg_rank": 4.242,
+          "primary_avg_rank_diff": -0.104,
+          "secondary_signature": "권총|글러브|저격총",
+          "secondary_story_tag": "고성능 니치 구조",
+          "secondary_team_count": 32.0,
+          "secondary_share_pct": 3.25,
+          "secondary_top3_rate": 50.0,
+          "secondary_win_rate": 18.75,
+          "secondary_avg_rank": 3.844,
+          "story_priority": 3,
+          "display_order": 12
+        },
+        "mlAdjustment": {
+          "signatureKey": "브루저|원거리 딜러|원거리 딜러",
+          "roleSignature": "브루저|원거리 딜러|원거리 딜러",
+          "roleParts": [
+            "브루저",
+            "원거리 딜러",
+            "원거리 딜러"
+          ],
+          "teamCount": 985,
+          "actualTop3Rate": 42.436548,
+          "expectedTop3Rate": 39.963377,
+          "adjustedDiffPp": 2.473171,
+          "adjustedLift": 1.061886,
+          "actualTop3Count": 418.0,
+          "expectedTop3Count": 393.639266,
+          "avgRankPoint": 5435.12758,
+          "avgMmrBefore": 5417.751607,
+          "overRank": 1,
+          "underRank": 41,
+          "signal": {
+            "tone": "positive",
+            "label": "실력 대비 우세"
+          },
+          "confidence": {
+            "level": "medium",
+            "label": "표본 보통"
+          }
+        },
+        "duoValidation": {
+          "count": 378,
+          "top3Rate": 39.682539682539684,
+          "winRate": 12.433862433862434,
+          "topDuos": []
+        }
+      }
+    },
+    {
+      "signatureKey": "브루저|브루저|원거리 딜러",
+      "roleSignature": "브루저|브루저|원거리 딜러",
+      "title": "브루저 | 브루저 | 원거리 딜러는 보정 후 -1.28%p 신호",
+      "summary": "브루저 | 브루저 | 원거리 딜러는 4.0 기준 4,952팀이 사용했고 실제 Top3율은 37.42%다. 경기 전 강도 기반 기대 Top3율은 38.70%로, 보정 차이는 -1.28%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 -1.72%p다.",
+        "실력 보정 기대값 대비 차이는 -1.28%p, 보정 lift는 0.97x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 30위다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 브루저 | 브루저 | 원거리 딜러이며, 4.0 패치 기준 4,952팀이 사용했다. 실제 Top3율은 37.42%이고, 경기 전 강도 기반 기대 Top3율 38.70%와의 차이는 -1.28%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 브루저|브루저|원거리 딜러",
+          "primary_signature": "브루저|브루저|원거리 딜러",
+          "primary_story_tag": "자주 쓰이지만 약한 구조",
+          "primary_team_count": 4952,
+          "primary_team_share_pct": 4.74,
+          "primary_top3_rate": 37.42,
+          "primary_top3_rate_diff": -1.72,
+          "primary_win_rate": 12.18,
+          "primary_win_rate_diff": -0.87,
+          "primary_avg_rank": 4.422,
+          "primary_avg_rank_diff": 0.076,
+          "secondary_signature": "글러브|양손검|저격총",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 97.0,
+          "secondary_share_pct": 1.96,
+          "secondary_top3_rate": 36.08,
+          "secondary_win_rate": 5.15,
+          "secondary_avg_rank": 4.557,
+          "story_priority": 4,
+          "display_order": 13
+        },
+        "mlAdjustment": {
+          "signatureKey": "브루저|브루저|원거리 딜러",
+          "roleSignature": "브루저|브루저|원거리 딜러",
+          "roleParts": [
+            "브루저",
+            "브루저",
+            "원거리 딜러"
+          ],
+          "teamCount": 4952,
+          "actualTop3Rate": 37.419225,
+          "expectedTop3Rate": 38.697466,
+          "adjustedDiffPp": -1.278242,
+          "adjustedLift": 0.966968,
+          "actualTop3Count": 1853.0,
+          "expectedTop3Count": 1916.298521,
+          "avgRankPoint": 5465.466949,
+          "avgMmrBefore": 5451.536686,
+          "overRank": 30,
+          "underRank": 12,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 3827,
+          "top3Rate": 36.974131173242746,
+          "winRate": 12.124379409459106,
+          "topDuos": [
+            {
+              "key": "72:카티야|78:히스이",
+              "first": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 171,
+              "top3Rate": 30.409356725146196,
+              "winRate": 9.941520467836257,
+              "avgRank": 4.783625730994152,
+              "shareWithinRole": 4.4682518944342835,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "64:바냐|72:카티야",
+              "first": {
+                "code": "64",
+                "name": "바냐"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 125,
+              "top3Rate": 29.599999999999998,
+              "winRate": 11.200000000000001,
+              "avgRank": 4.8,
+              "shareWithinRole": 3.2662660047034233,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "31:리오|78:히스이",
+              "first": {
+                "code": "31",
+                "name": "리오"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 119,
+              "top3Rate": 36.97478991596639,
+              "winRate": 13.445378151260504,
+              "avgRank": 4.26890756302521,
+              "shareWithinRole": 3.1094852364776586,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "59:아이작|72:카티야",
+              "first": {
+                "code": "59",
+                "name": "아이작"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 118,
+              "top3Rate": 35.59322033898305,
+              "winRate": 9.322033898305085,
+              "avgRank": 4.601694915254237,
+              "shareWithinRole": 3.0833551084400312,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "21:로지|78:히스이",
+              "first": {
+                "code": "21",
+                "name": "로지"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 117,
+              "top3Rate": 35.04273504273504,
+              "winRate": 13.675213675213676,
+              "avgRank": 4.581196581196581,
+              "shareWithinRole": 3.0572249804024043,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "브루저|암살|원거리 딜러",
+      "roleSignature": "브루저|원거리 딜러|암살",
+      "title": "브루저 | 원거리 딜러 | 암살는 보정 후 -1.73%p 신호",
+      "summary": "브루저 | 원거리 딜러 | 암살는 4.0 기준 4,950팀이 사용했고 실제 Top3율은 36.77%다. 경기 전 강도 기반 기대 Top3율은 38.50%로, 보정 차이는 -1.73%p다. 경기 전 강도를 고려하면 실제 성과가 기대값보다 낮아 조합 우위로 해석하기 어렵다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 -2.37%p다.",
+        "실력 보정 기대값 대비 차이는 -1.73%p, 보정 lift는 0.96x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 37위다.",
+        "주요 듀오 신호: 다르코 + 카티야는 표본 267팀에서 Top3율 32.58%, 역할 평균 대비 -4.90%p다. 다르코 + 리오는 표본 208팀에서 Top3율 31.25%, 역할 평균 대비 -6.23%p다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 브루저 | 원거리 딜러 | 암살이며, 4.0 패치 기준 4,950팀이 사용했다. 실제 Top3율은 36.77%이지만, 경기 전 강도 기반 기대 Top3율 38.50%보다 1.73%p 낮다. 따라서 이 조합은 단순 성과 지표만으로 강세 조합이라고 보기 어렵고, 실력 보정 후에는 상대적으로 열세 신호가 남는 조합으로 해석하는 편이 안전하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 브루저|원거리 딜러|암살",
+          "primary_signature": "브루저|원거리 딜러|암살",
+          "primary_story_tag": "자주 쓰이지만 약한 구조",
+          "primary_team_count": 4950,
+          "primary_team_share_pct": 4.74,
+          "primary_top3_rate": 36.77,
+          "primary_top3_rate_diff": -2.37,
+          "primary_win_rate": 11.37,
+          "primary_win_rate_diff": -1.68,
+          "primary_avg_rank": 4.448,
+          "primary_avg_rank_diff": 0.102,
+          "secondary_signature": "글러브|방망이|저격총",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 82.0,
+          "secondary_share_pct": 1.66,
+          "secondary_top3_rate": 40.24,
+          "secondary_win_rate": 15.85,
+          "secondary_avg_rank": 4.402,
+          "story_priority": 4,
+          "display_order": 14
+        },
+        "mlAdjustment": {
+          "signatureKey": "브루저|원거리 딜러|암살",
+          "roleSignature": "브루저|원거리 딜러|암살",
+          "roleParts": [
+            "브루저",
+            "원거리 딜러",
+            "암살"
+          ],
+          "teamCount": 4950,
+          "actualTop3Rate": 36.767677,
+          "expectedTop3Rate": 38.497413,
+          "adjustedDiffPp": -1.729736,
+          "adjustedLift": 0.955069,
+          "actualTop3Count": 1820.0,
+          "expectedTop3Count": 1905.62193,
+          "avgRankPoint": 5373.65899,
+          "avgMmrBefore": 5360.165926,
+          "overRank": 37,
+          "underRank": 5,
+          "signal": {
+            "tone": "negative",
+            "label": "실력 대비 열세"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 3967,
+          "top3Rate": 37.48424502142677,
+          "winRate": 11.545248298462313,
+          "topDuos": [
+            {
+              "key": "74:다르코|72:카티야",
+              "first": {
+                "code": "74",
+                "name": "다르코"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 267,
+              "top3Rate": 32.58426966292135,
+              "winRate": 8.614232209737828,
+              "avgRank": 4.741573033707865,
+              "shareWithinRole": 6.73052684648349,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "74:다르코|31:리오",
+              "first": {
+                "code": "74",
+                "name": "다르코"
+              },
+              "second": {
+                "code": "31",
+                "name": "리오"
+              },
+              "count": 208,
+              "top3Rate": 31.25,
+              "winRate": 7.211538461538461,
+              "avgRank": 4.610576923076923,
+              "shareWithinRole": 5.243256869170658,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "67:아비게일|72:카티야",
+              "first": {
+                "code": "67",
+                "name": "아비게일"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 146,
+              "top3Rate": 32.19178082191781,
+              "winRate": 9.58904109589041,
+              "avgRank": 4.698630136986301,
+              "shareWithinRole": 3.680362994706327,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "74:다르코|78:히스이",
+              "first": {
+                "code": "74",
+                "name": "다르코"
+              },
+              "second": {
+                "code": "78",
+                "name": "히스이"
+              },
+              "count": 136,
+              "top3Rate": 38.23529411764706,
+              "winRate": 10.294117647058822,
+              "avgRank": 4.5588235294117645,
+              "shareWithinRole": 3.4282833375346606,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "72:카티야|86:펜리르",
+              "first": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "second": {
+                "code": "86",
+                "name": "펜리르"
+              },
+              "count": 116,
+              "top3Rate": 34.48275862068966,
+              "winRate": 8.620689655172415,
+              "avgRank": 4.655172413793103,
+              "shareWithinRole": 2.9241240231913284,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|브루저|원거리 딜러",
+      "roleSignature": "브루저|원거리 딜러|근거리 딜러",
+      "title": "브루저 | 원거리 딜러 | 근거리 딜러는 보정 후 -1.43%p 신호",
+      "summary": "브루저 | 원거리 딜러 | 근거리 딜러는 4.0 기준 4,915팀이 사용했고 실제 Top3율은 36.87%다. 경기 전 강도 기반 기대 Top3율은 38.30%로, 보정 차이는 -1.43%p다. 경기 전 강도를 보정하면 실제 성과가 기대값과 가까워 강한 조합 효과보다는 안정권 신호로 보는 편이 낫다.",
+      "bullets": [
+        "전체 역할 조합 평균 대비 Top3율 차이는 -2.27%p다.",
+        "실력 보정 기대값 대비 차이는 -1.43%p, 보정 lift는 0.96x다.",
+        "표본 신뢰도는 표본 높음이며, 보정 우세 순위는 32위다.",
+        "주요 듀오 신호: 데비&마를렌 + 카티야는 표본 215팀에서 Top3율 29.77%, 역할 평균 대비 -5.44%p다."
+      ],
+      "reportParagraph": "선택한 역할 조합은 브루저 | 원거리 딜러 | 근거리 딜러이며, 4.0 패치 기준 4,915팀이 사용했다. 실제 Top3율은 36.87%이고, 경기 전 강도 기반 기대 Top3율 38.30%와의 차이는 -1.43%p다. 따라서 이 조합은 강한 우세나 열세라기보다, 실력 보정 후에도 기대 수준에 가까운 안정권 조합으로 해석하는 편이 적절하다.",
+      "recommendedUse": "보고서에는 실제 Top3율과 실력 보정 기대 Top3율을 함께 제시한다.",
+      "caution": "이 문장은 인과 효과가 아니라 경기 전 강도를 보정한 관찰 신호로 해석한다.",
+      "promptContext": {
+        "role": {
+          "section": "역할 조합",
+          "section_order": 1,
+          "display_label": "역할 조합: 브루저|원거리 딜러|근거리 딜러",
+          "primary_signature": "브루저|원거리 딜러|근거리 딜러",
+          "primary_story_tag": "자주 쓰이지만 약한 구조",
+          "primary_team_count": 4915,
+          "primary_team_share_pct": 4.7,
+          "primary_top3_rate": 36.87,
+          "primary_top3_rate_diff": -2.27,
+          "primary_win_rate": 11.68,
+          "primary_win_rate_diff": -1.37,
+          "primary_avg_rank": 4.452,
+          "primary_avg_rank_diff": 0.106,
+          "secondary_signature": "글러브|양손검|저격총",
+          "secondary_story_tag": "보조 구조",
+          "secondary_team_count": 201.0,
+          "secondary_share_pct": 4.09,
+          "secondary_top3_rate": 35.82,
+          "secondary_win_rate": 10.45,
+          "secondary_avg_rank": 4.736,
+          "story_priority": 4,
+          "display_order": 15
+        },
+        "mlAdjustment": {
+          "signatureKey": "브루저|원거리 딜러|근거리 딜러",
+          "roleSignature": "브루저|원거리 딜러|근거리 딜러",
+          "roleParts": [
+            "브루저",
+            "원거리 딜러",
+            "근거리 딜러"
+          ],
+          "teamCount": 4915,
+          "actualTop3Rate": 36.866734,
+          "expectedTop3Rate": 38.295537,
+          "adjustedDiffPp": -1.428802,
+          "adjustedLift": 0.96269,
+          "actualTop3Count": 1812.0,
+          "expectedTop3Count": 1882.225642,
+          "avgRankPoint": 5442.025297,
+          "avgMmrBefore": 5429.152187,
+          "overRank": 32,
+          "underRank": 10,
+          "signal": {
+            "tone": "neutral",
+            "label": "기대 수준"
+          },
+          "confidence": {
+            "level": "high",
+            "label": "표본 높음"
+          }
+        },
+        "duoValidation": {
+          "count": 3852,
+          "top3Rate": 35.202492211838006,
+          "winRate": 11.059190031152648,
+          "topDuos": [
+            {
+              "key": "65:데비&마를렌|72:카티야",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 215,
+              "top3Rate": 29.767441860465116,
+              "winRate": 11.162790697674419,
+              "avgRank": 4.772093023255814,
+              "shareWithinRole": 5.581516095534787,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "11:유키|72:카티야",
+              "first": {
+                "code": "11",
+                "name": "유키"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 182,
+              "top3Rate": 36.81318681318682,
+              "winRate": 10.43956043956044,
+              "avgRank": 4.434065934065934,
+              "shareWithinRole": 4.724818276220145,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "31:리오|11:유키",
+              "first": {
+                "code": "31",
+                "name": "리오"
+              },
+              "second": {
+                "code": "11",
+                "name": "유키"
+              },
+              "count": 170,
+              "top3Rate": 37.64705882352941,
+              "winRate": 11.76470588235294,
+              "avgRank": 4.458823529411765,
+              "shareWithinRole": 4.413291796469367,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "65:데비&마를렌|31:리오",
+              "first": {
+                "code": "65",
+                "name": "데비&마를렌"
+              },
+              "second": {
+                "code": "31",
+                "name": "리오"
+              },
+              "count": 169,
+              "top3Rate": 37.278106508875744,
+              "winRate": 13.017751479289942,
+              "avgRank": 4.378698224852071,
+              "shareWithinRole": 4.3873312564901354,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            },
+            {
+              "key": "22:루크|72:카티야",
+              "first": {
+                "code": "22",
+                "name": "루크"
+              },
+              "second": {
+                "code": "72",
+                "name": "카티야"
+              },
+              "count": 147,
+              "top3Rate": 30.612244897959183,
+              "winRate": 9.523809523809524,
+              "avgRank": 4.64625850340136,
+              "shareWithinRole": 3.8161993769470404,
+              "confidence": {
+                "level": "medium",
+                "label": "참고 가능"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이터널 리턴 상위권 스쿼드 메타 대시보드</title>
+    <link rel="stylesheet" href="./src/styles/theme.css" />
+  </head>
+  <body>
+    <main class="dashboard-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">상위권 스쿼드 메타 분석</p>
+          <h1>이터널 리턴 상위권 스쿼드 메타 대시보드</h1>
+          <p class="hero-copy">역할 조합, 캐릭터, 듀오, 버전 흐름을 선택하면서 비교하는 분석 화면</p>
+        </div>
+        <div class="source-badges" aria-label="데이터 기준">
+          <span>Asia 서버</span>
+          <span>랭크 스쿼드</span>
+          <span>30일 상위권 표본</span>
+        </div>
+      </header>
+
+      <nav class="view-tabs" aria-label="분석 화면 전환">
+        <button class="view-tab is-active" type="button" data-view="role">역할 조합</button>
+        <button class="view-tab" type="button" data-view="character">캐릭터 분석</button>
+        <button class="view-tab" type="button" data-view="duo">듀오 시너지</button>
+        <button class="view-tab" type="button" data-view="timeline">버전·시계열</button>
+      </nav>
+
+      <section class="status-panel" id="statusPanel" hidden></section>
+
+      <section class="dashboard-grid view-section is-active" id="roleView" aria-label="역할 조합 분석 대시보드">
+        <aside class="panel selector-panel">
+          <div class="panel-heading">
+            <span class="heading-mark"></span>
+            <h2>역할 조합 선택</h2>
+          </div>
+          <div class="role-list" id="roleList" aria-label="역할 조합 목록"></div>
+        </aside>
+
+        <section class="main-stage">
+          <section class="kpi-grid" id="kpiGrid" aria-label="선택 역할 조합 핵심 지표"></section>
+
+          <section class="panel detail-panel" id="detailPanel" aria-label="선택 역할 조합 상세"></section>
+
+          <section class="panel chart-panel">
+            <div class="panel-heading">
+              <span class="heading-mark"></span>
+              <h2>선택 역할 조합 내 무기 Top5</h2>
+            </div>
+            <div class="bar-chart" id="weaponChart" aria-label="무기 Top5 막대그래프"></div>
+          </section>
+
+          <section class="panel ml-adjustment-panel" id="mlRoleAdjustment" aria-label="ML 실력 보정 역할 조합 신호"></section>
+
+          <section class="panel ai-briefing-panel" id="aiRoleBriefing" aria-label="AI 사전 생성 역할 조합 브리핑"></section>
+
+          <section class="panel validation-panel" id="roleDuoValidation" aria-label="역할 조합과 듀오 성능 검증"></section>
+        </section>
+      </section>
+
+      <section class="analysis-layout view-section" id="characterView" aria-label="캐릭터 분석 대시보드">
+        <section class="panel ranking-panel">
+          <div class="panel-heading">
+            <span class="heading-mark"></span>
+            <h2>캐릭터 선택</h2>
+          </div>
+          <div class="ranking-list" id="characterList" aria-label="캐릭터 목록"></div>
+        </section>
+
+        <section class="main-stage">
+          <section class="kpi-grid" id="characterKpiGrid" aria-label="선택 캐릭터 핵심 지표"></section>
+          <section class="panel detail-panel" id="characterDetailPanel" aria-label="선택 캐릭터 상세"></section>
+          <section class="panel chart-panel">
+            <div class="panel-heading">
+              <span class="heading-mark"></span>
+              <h2>캐릭터 픽률 Top10</h2>
+            </div>
+            <div class="bar-chart" id="characterChart" aria-label="캐릭터 픽률 막대그래프"></div>
+          </section>
+        </section>
+      </section>
+
+      <section class="analysis-layout view-section" id="duoView" aria-label="듀오 시너지 분석 대시보드">
+        <section class="panel ranking-panel">
+          <div class="panel-heading">
+            <span class="heading-mark"></span>
+            <h2>듀오 조합 선택</h2>
+          </div>
+          <div class="ranking-list" id="duoList" aria-label="듀오 조합 목록"></div>
+        </section>
+
+        <section class="main-stage">
+          <section class="kpi-grid" id="duoKpiGrid" aria-label="선택 듀오 핵심 지표"></section>
+          <section class="panel detail-panel compact-detail" id="duoDetailPanel" aria-label="선택 듀오 상세"></section>
+          <section class="panel chart-panel">
+            <div class="panel-heading">
+              <span class="heading-mark"></span>
+              <h2>표본 300팀 이상 듀오 Top3율 Top10</h2>
+            </div>
+            <div class="bar-chart" id="duoChart" aria-label="표본 300팀 이상 듀오 Top3율 막대그래프"></div>
+          </section>
+        </section>
+      </section>
+
+      <section class="analysis-layout view-section" id="timelineView" aria-label="버전과 시계열 분석 대시보드">
+        <section class="panel ranking-panel">
+          <div class="panel-heading">
+            <span class="heading-mark"></span>
+            <h2>변화 캐릭터 선택</h2>
+          </div>
+          <div class="ranking-list" id="timelineList" aria-label="버전 변화 캐릭터 목록"></div>
+        </section>
+
+        <section class="main-stage">
+          <section class="kpi-grid" id="timelineKpiGrid" aria-label="선택 캐릭터 버전 비교 핵심 지표"></section>
+          <section class="panel detail-panel" id="timelineDetailPanel" aria-label="선택 캐릭터 버전 흐름 상세"></section>
+          <section class="panel timeline-briefing-panel" id="timelineBriefing" aria-label="패치 메타 변화 AI 브리핑"></section>
+          <section class="panel chart-panel">
+            <div class="panel-heading">
+              <span class="heading-mark"></span>
+              <h2>선택 캐릭터 일자별 픽 점유율</h2>
+            </div>
+            <div class="timeline-chart" id="timelineChart" aria-label="선택 캐릭터 일자별 픽 점유율 시계열"></div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1526 @@
+{
+  "generatedAt": "2026-04-24T17:53:07.661046+00:00",
+  "model": {
+    "name": "lightgbm_strength_practical",
+    "trainVersions": [
+      "2.0",
+      "3.0"
+    ],
+    "testVersion": "4.0",
+    "features": [
+      "avg_rankPoint",
+      "avg_mmrBefore"
+    ],
+    "purpose": "경기 전 강도 기반 기대 Top3율을 만든 뒤 역할 조합별 실제 성과와 비교"
+  },
+  "summary": {
+    "train_rows": 15294,
+    "test_rows": 104529,
+    "min_team_count": 500,
+    "group_count": 41,
+    "test_positive_rate": 39.141291
+  },
+  "metrics": {
+    "accuracy": 0.773661,
+    "precision": 0.726011,
+    "recall": 0.677372,
+    "f1": 0.700848,
+    "roc_auc": 0.875528,
+    "average_precision": 0.829068,
+    "top_decile_lift": 2.521623,
+    "raw_expected_top3_rate": 41.88801,
+    "calibrated_expected_top3_rate": 39.141291,
+    "actual_top3_rate": 39.141291,
+    "calibration_offset": -0.191699
+  },
+  "groups": [
+    {
+      "signatureKey": "탱커|원거리 딜러|메이지",
+      "roleSignature": "탱커|원거리 딜러|메이지",
+      "roleParts": [
+        "탱커",
+        "원거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 8582,
+      "actualTop3Rate": 42.495922,
+      "expectedTop3Rate": 40.633687,
+      "adjustedDiffPp": 1.862234,
+      "adjustedLift": 1.04583,
+      "actualTop3Count": 3647.0,
+      "expectedTop3Count": 3487.183038,
+      "avgRankPoint": 5449.517012,
+      "avgMmrBefore": 5432.489552,
+      "overRank": 3,
+      "underRank": 39,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|근거리 딜러|메이지",
+      "roleSignature": "브루저|근거리 딜러|메이지",
+      "roleParts": [
+        "브루저",
+        "근거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 5886,
+      "actualTop3Rate": 39.058784,
+      "expectedTop3Rate": 38.834498,
+      "adjustedDiffPp": 0.224285,
+      "adjustedLift": 1.005775,
+      "actualTop3Count": 2299.0,
+      "expectedTop3Count": 2285.79857,
+      "avgRankPoint": 5548.823763,
+      "avgMmrBefore": 5534.931589,
+      "overRank": 15,
+      "underRank": 27,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|브루저|메이지",
+      "roleSignature": "브루저|브루저|메이지",
+      "roleParts": [
+        "브루저",
+        "브루저",
+        "메이지"
+      ],
+      "teamCount": 5793,
+      "actualTop3Rate": 40.652512,
+      "expectedTop3Rate": 39.877111,
+      "adjustedDiffPp": 0.7754,
+      "adjustedLift": 1.019445,
+      "actualTop3Count": 2355.0,
+      "expectedTop3Count": 2310.081061,
+      "avgRankPoint": 5534.709477,
+      "avgMmrBefore": 5518.788193,
+      "overRank": 10,
+      "underRank": 32,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|암살|메이지",
+      "roleSignature": "브루저|암살|메이지",
+      "roleParts": [
+        "브루저",
+        "암살",
+        "메이지"
+      ],
+      "teamCount": 5648,
+      "actualTop3Rate": 38.969547,
+      "expectedTop3Rate": 39.453496,
+      "adjustedDiffPp": -0.483949,
+      "adjustedLift": 0.987734,
+      "actualTop3Count": 2201.0,
+      "expectedTop3Count": 2228.333435,
+      "avgRankPoint": 5489.406693,
+      "avgMmrBefore": 5474.234478,
+      "overRank": 25,
+      "underRank": 17,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "탱커|브루저|원거리 딜러",
+      "roleSignature": "탱커|브루저|원거리 딜러",
+      "roleParts": [
+        "탱커",
+        "브루저",
+        "원거리 딜러"
+      ],
+      "teamCount": 5555,
+      "actualTop3Rate": 39.117912,
+      "expectedTop3Rate": 38.753682,
+      "adjustedDiffPp": 0.36423,
+      "adjustedLift": 1.009399,
+      "actualTop3Count": 2173.0,
+      "expectedTop3Count": 2152.767032,
+      "avgRankPoint": 5251.058386,
+      "avgMmrBefore": 5235.229763,
+      "overRank": 13,
+      "underRank": 29,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|원거리 딜러|메이지",
+      "roleSignature": "브루저|원거리 딜러|메이지",
+      "roleParts": [
+        "브루저",
+        "원거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 5198,
+      "actualTop3Rate": 39.880723,
+      "expectedTop3Rate": 40.061771,
+      "adjustedDiffPp": -0.181048,
+      "adjustedLift": 0.995481,
+      "actualTop3Count": 2073.0,
+      "expectedTop3Count": 2082.410873,
+      "avgRankPoint": 5510.469411,
+      "avgMmrBefore": 5495.340772,
+      "overRank": 21,
+      "underRank": 21,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|브루저|원거리 딜러",
+      "roleSignature": "브루저|브루저|원거리 딜러",
+      "roleParts": [
+        "브루저",
+        "브루저",
+        "원거리 딜러"
+      ],
+      "teamCount": 4952,
+      "actualTop3Rate": 37.419225,
+      "expectedTop3Rate": 38.697466,
+      "adjustedDiffPp": -1.278242,
+      "adjustedLift": 0.966968,
+      "actualTop3Count": 1853.0,
+      "expectedTop3Count": 1916.298521,
+      "avgRankPoint": 5465.466949,
+      "avgMmrBefore": 5451.536686,
+      "overRank": 30,
+      "underRank": 12,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|원거리 딜러|암살",
+      "roleSignature": "브루저|원거리 딜러|암살",
+      "roleParts": [
+        "브루저",
+        "원거리 딜러",
+        "암살"
+      ],
+      "teamCount": 4950,
+      "actualTop3Rate": 36.767677,
+      "expectedTop3Rate": 38.497413,
+      "adjustedDiffPp": -1.729736,
+      "adjustedLift": 0.955069,
+      "actualTop3Count": 1820.0,
+      "expectedTop3Count": 1905.62193,
+      "avgRankPoint": 5373.65899,
+      "avgMmrBefore": 5360.165926,
+      "overRank": 37,
+      "underRank": 5,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|원거리 딜러|근거리 딜러",
+      "roleSignature": "브루저|원거리 딜러|근거리 딜러",
+      "roleParts": [
+        "브루저",
+        "원거리 딜러",
+        "근거리 딜러"
+      ],
+      "teamCount": 4915,
+      "actualTop3Rate": 36.866734,
+      "expectedTop3Rate": 38.295537,
+      "adjustedDiffPp": -1.428802,
+      "adjustedLift": 0.96269,
+      "actualTop3Count": 1812.0,
+      "expectedTop3Count": 1882.225642,
+      "avgRankPoint": 5442.025297,
+      "avgMmrBefore": 5429.152187,
+      "overRank": 32,
+      "underRank": 10,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "탱커|브루저|메이지",
+      "roleSignature": "탱커|브루저|메이지",
+      "roleParts": [
+        "탱커",
+        "브루저",
+        "메이지"
+      ],
+      "teamCount": 4301,
+      "actualTop3Rate": 38.525924,
+      "expectedTop3Rate": 38.431707,
+      "adjustedDiffPp": 0.094217,
+      "adjustedLift": 1.002452,
+      "actualTop3Count": 1657.0,
+      "expectedTop3Count": 1652.947734,
+      "avgRankPoint": 5240.658142,
+      "avgMmrBefore": 5226.236147,
+      "overRank": 19,
+      "underRank": 23,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "탱커|원거리 딜러|암살",
+      "roleSignature": "탱커|원거리 딜러|암살",
+      "roleParts": [
+        "탱커",
+        "원거리 딜러",
+        "암살"
+      ],
+      "teamCount": 3016,
+      "actualTop3Rate": 39.38992,
+      "expectedTop3Rate": 38.641484,
+      "adjustedDiffPp": 0.748436,
+      "adjustedLift": 1.019369,
+      "actualTop3Count": 1188.0,
+      "expectedTop3Count": 1165.427171,
+      "avgRankPoint": 5256.106101,
+      "avgMmrBefore": 5239.641026,
+      "overRank": 11,
+      "underRank": 31,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|암살|메이지",
+      "roleSignature": "근거리 딜러|암살|메이지",
+      "roleParts": [
+        "근거리 딜러",
+        "암살",
+        "메이지"
+      ],
+      "teamCount": 2780,
+      "actualTop3Rate": 38.776978,
+      "expectedTop3Rate": 39.227959,
+      "adjustedDiffPp": -0.45098,
+      "adjustedLift": 0.988504,
+      "actualTop3Count": 1078.0,
+      "expectedTop3Count": 1090.53725,
+      "avgRankPoint": 5524.613789,
+      "avgMmrBefore": 5510.367986,
+      "overRank": 24,
+      "underRank": 18,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "탱커|원거리 딜러|근거리 딜러",
+      "roleSignature": "탱커|원거리 딜러|근거리 딜러",
+      "roleParts": [
+        "탱커",
+        "원거리 딜러",
+        "근거리 딜러"
+      ],
+      "teamCount": 2690,
+      "actualTop3Rate": 39.442379,
+      "expectedTop3Rate": 38.554414,
+      "adjustedDiffPp": 0.887966,
+      "adjustedLift": 1.023031,
+      "actualTop3Count": 1061.0,
+      "expectedTop3Count": 1037.113727,
+      "avgRankPoint": 5284.02404,
+      "avgMmrBefore": 5269.152045,
+      "overRank": 9,
+      "underRank": 33,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "탱커|암살|메이지",
+      "roleSignature": "탱커|암살|메이지",
+      "roleParts": [
+        "탱커",
+        "암살",
+        "메이지"
+      ],
+      "teamCount": 2499,
+      "actualTop3Rate": 39.335734,
+      "expectedTop3Rate": 37.77479,
+      "adjustedDiffPp": 1.560944,
+      "adjustedLift": 1.041322,
+      "actualTop3Count": 983.0,
+      "expectedTop3Count": 943.992006,
+      "avgRankPoint": 5282.900494,
+      "avgMmrBefore": 5269.222489,
+      "overRank": 5,
+      "underRank": 37,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "원거리 딜러|근거리 딜러|메이지",
+      "roleSignature": "원거리 딜러|근거리 딜러|메이지",
+      "roleParts": [
+        "원거리 딜러",
+        "근거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 2382,
+      "actualTop3Rate": 40.722082,
+      "expectedTop3Rate": 40.952282,
+      "adjustedDiffPp": -0.230199,
+      "adjustedLift": 0.994379,
+      "actualTop3Count": 970.0,
+      "expectedTop3Count": 975.483351,
+      "avgRankPoint": 5669.857123,
+      "avgMmrBefore": 5655.20557,
+      "overRank": 23,
+      "underRank": 19,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "원거리 딜러|근거리 딜러|암살",
+      "roleSignature": "원거리 딜러|근거리 딜러|암살",
+      "roleParts": [
+        "원거리 딜러",
+        "근거리 딜러",
+        "암살"
+      ],
+      "teamCount": 2340,
+      "actualTop3Rate": 36.923077,
+      "expectedTop3Rate": 38.42221,
+      "adjustedDiffPp": -1.499133,
+      "adjustedLift": 0.960983,
+      "actualTop3Count": 864.0,
+      "expectedTop3Count": 899.079718,
+      "avgRankPoint": 5414.749573,
+      "avgMmrBefore": 5401.553419,
+      "overRank": 33,
+      "underRank": 9,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "원거리 딜러|암살|메이지",
+      "roleSignature": "원거리 딜러|암살|메이지",
+      "roleParts": [
+        "원거리 딜러",
+        "암살",
+        "메이지"
+      ],
+      "teamCount": 2202,
+      "actualTop3Rate": 39.41871,
+      "expectedTop3Rate": 39.165412,
+      "adjustedDiffPp": 0.253298,
+      "adjustedLift": 1.006467,
+      "actualTop3Count": 868.0,
+      "expectedTop3Count": 862.422373,
+      "avgRankPoint": 5460.180139,
+      "avgMmrBefore": 5446.108992,
+      "overRank": 14,
+      "underRank": 28,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "탱커|근거리 딜러|메이지",
+      "roleSignature": "탱커|근거리 딜러|메이지",
+      "roleParts": [
+        "탱커",
+        "근거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 2067,
+      "actualTop3Rate": 40.203193,
+      "expectedTop3Rate": 40.026117,
+      "adjustedDiffPp": 0.177076,
+      "adjustedLift": 1.004424,
+      "actualTop3Count": 831.0,
+      "expectedTop3Count": 827.339845,
+      "avgRankPoint": 5403.892114,
+      "avgMmrBefore": 5389.259313,
+      "overRank": 17,
+      "underRank": 25,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|메이지|메이지",
+      "roleSignature": "브루저|메이지|메이지",
+      "roleParts": [
+        "브루저",
+        "메이지",
+        "메이지"
+      ],
+      "teamCount": 2018,
+      "actualTop3Rate": 39.890981,
+      "expectedTop3Rate": 39.823367,
+      "adjustedDiffPp": 0.067614,
+      "adjustedLift": 1.001698,
+      "actualTop3Count": 805.0,
+      "expectedTop3Count": 803.635555,
+      "avgRankPoint": 5392.62372,
+      "avgMmrBefore": 5378.274034,
+      "overRank": 20,
+      "underRank": 22,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "탱커|메이지|메이지",
+      "roleSignature": "탱커|메이지|메이지",
+      "roleParts": [
+        "탱커",
+        "메이지",
+        "메이지"
+      ],
+      "teamCount": 1787,
+      "actualTop3Rate": 40.29099,
+      "expectedTop3Rate": 38.195302,
+      "adjustedDiffPp": 2.095689,
+      "adjustedLift": 1.054868,
+      "actualTop3Count": 720.0,
+      "expectedTop3Count": 682.550042,
+      "avgRankPoint": 5277.813654,
+      "avgMmrBefore": 5265.118635,
+      "overRank": 2,
+      "underRank": 40,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "탱커|원거리 딜러|원거리 딜러",
+      "roleSignature": "탱커|원거리 딜러|원거리 딜러",
+      "roleParts": [
+        "탱커",
+        "원거리 딜러",
+        "원거리 딜러"
+      ],
+      "teamCount": 1723,
+      "actualTop3Rate": 39.117818,
+      "expectedTop3Rate": 38.910888,
+      "adjustedDiffPp": 0.20693,
+      "adjustedLift": 1.005318,
+      "actualTop3Count": 674.0,
+      "expectedTop3Count": 670.434602,
+      "avgRankPoint": 5430.879087,
+      "avgMmrBefore": 5417.062488,
+      "overRank": 16,
+      "underRank": 26,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "브루저|근거리 딜러|암살",
+      "roleSignature": "브루저|근거리 딜러|암살",
+      "roleParts": [
+        "브루저",
+        "근거리 딜러",
+        "암살"
+      ],
+      "teamCount": 1339,
+      "actualTop3Rate": 36.967886,
+      "expectedTop3Rate": 37.688176,
+      "adjustedDiffPp": -0.72029,
+      "adjustedLift": 0.980888,
+      "actualTop3Count": 495.0,
+      "expectedTop3Count": 504.644679,
+      "avgRankPoint": 5507.959671,
+      "avgMmrBefore": 5495.0117,
+      "overRank": 27,
+      "underRank": 15,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "브루저|브루저|암살",
+      "roleSignature": "브루저|브루저|암살",
+      "roleParts": [
+        "브루저",
+        "브루저",
+        "암살"
+      ],
+      "teamCount": 1250,
+      "actualTop3Rate": 37.36,
+      "expectedTop3Rate": 38.507047,
+      "adjustedDiffPp": -1.147047,
+      "adjustedLift": 0.970212,
+      "actualTop3Count": 467.0,
+      "expectedTop3Count": 481.338084,
+      "avgRankPoint": 5432.517333,
+      "avgMmrBefore": 5418.3008,
+      "overRank": 29,
+      "underRank": 13,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "암살|암살|메이지",
+      "roleSignature": "암살|암살|메이지",
+      "roleParts": [
+        "암살",
+        "암살",
+        "메이지"
+      ],
+      "teamCount": 1152,
+      "actualTop3Rate": 39.0625,
+      "expectedTop3Rate": 39.272785,
+      "adjustedDiffPp": -0.210285,
+      "adjustedLift": 0.994646,
+      "actualTop3Count": 450.0,
+      "expectedTop3Count": 452.422489,
+      "avgRankPoint": 5374.507812,
+      "avgMmrBefore": 5357.326389,
+      "overRank": 22,
+      "underRank": 20,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|근거리 딜러|메이지",
+      "roleSignature": "근거리 딜러|근거리 딜러|메이지",
+      "roleParts": [
+        "근거리 딜러",
+        "근거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 1151,
+      "actualTop3Rate": 39.530843,
+      "expectedTop3Rate": 38.125525,
+      "adjustedDiffPp": 1.405318,
+      "adjustedLift": 1.03686,
+      "actualTop3Count": 455.0,
+      "expectedTop3Count": 438.824789,
+      "avgRankPoint": 5542.889372,
+      "avgMmrBefore": 5529.972488,
+      "overRank": 6,
+      "underRank": 36,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "브루저|브루저|근거리 딜러",
+      "roleSignature": "브루저|브루저|근거리 딜러",
+      "roleParts": [
+        "브루저",
+        "브루저",
+        "근거리 딜러"
+      ],
+      "teamCount": 1134,
+      "actualTop3Rate": 37.566138,
+      "expectedTop3Rate": 39.706162,
+      "adjustedDiffPp": -2.140024,
+      "adjustedLift": 0.946103,
+      "actualTop3Count": 426.0,
+      "expectedTop3Count": 450.267873,
+      "avgRankPoint": 5474.993239,
+      "avgMmrBefore": 5460.142857,
+      "overRank": 39,
+      "underRank": 3,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "원거리 딜러|메이지|메이지",
+      "roleSignature": "원거리 딜러|메이지|메이지",
+      "roleParts": [
+        "원거리 딜러",
+        "메이지",
+        "메이지"
+      ],
+      "teamCount": 1045,
+      "actualTop3Rate": 40.574163,
+      "expectedTop3Rate": 40.433193,
+      "adjustedDiffPp": 0.14097,
+      "adjustedLift": 1.003486,
+      "actualTop3Count": 424.0,
+      "expectedTop3Count": 422.526864,
+      "avgRankPoint": 5651.985646,
+      "avgMmrBefore": 5637.214673,
+      "overRank": 18,
+      "underRank": 24,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "원거리 딜러|암살|암살",
+      "roleSignature": "원거리 딜러|암살|암살",
+      "roleParts": [
+        "원거리 딜러",
+        "암살",
+        "암살"
+      ],
+      "teamCount": 1023,
+      "actualTop3Rate": 37.927664,
+      "expectedTop3Rate": 39.457125,
+      "adjustedDiffPp": -1.529462,
+      "adjustedLift": 0.961237,
+      "actualTop3Count": 388.0,
+      "expectedTop3Count": 403.646392,
+      "avgRankPoint": 5349.459759,
+      "avgMmrBefore": 5334.487781,
+      "overRank": 34,
+      "underRank": 8,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "브루저|원거리 딜러|원거리 딜러",
+      "roleSignature": "브루저|원거리 딜러|원거리 딜러",
+      "roleParts": [
+        "브루저",
+        "원거리 딜러",
+        "원거리 딜러"
+      ],
+      "teamCount": 985,
+      "actualTop3Rate": 42.436548,
+      "expectedTop3Rate": 39.963377,
+      "adjustedDiffPp": 2.473171,
+      "adjustedLift": 1.061886,
+      "actualTop3Count": 418.0,
+      "expectedTop3Count": 393.639266,
+      "avgRankPoint": 5435.12758,
+      "avgMmrBefore": 5417.751607,
+      "overRank": 1,
+      "underRank": 41,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|메이지|메이지",
+      "roleSignature": "근거리 딜러|메이지|메이지",
+      "roleParts": [
+        "근거리 딜러",
+        "메이지",
+        "메이지"
+      ],
+      "teamCount": 959,
+      "actualTop3Rate": 40.250261,
+      "expectedTop3Rate": 38.513408,
+      "adjustedDiffPp": 1.736853,
+      "adjustedLift": 1.045097,
+      "actualTop3Count": 386.0,
+      "expectedTop3Count": 369.343582,
+      "avgRankPoint": 5443.447341,
+      "avgMmrBefore": 5430.937087,
+      "overRank": 4,
+      "underRank": 38,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "원거리 딜러|근거리 딜러|근거리 딜러",
+      "roleSignature": "원거리 딜러|근거리 딜러|근거리 딜러",
+      "roleParts": [
+        "원거리 딜러",
+        "근거리 딜러",
+        "근거리 딜러"
+      ],
+      "teamCount": 940,
+      "actualTop3Rate": 37.659574,
+      "expectedTop3Rate": 37.064201,
+      "adjustedDiffPp": 0.595373,
+      "adjustedLift": 1.016063,
+      "actualTop3Count": 354.0,
+      "expectedTop3Count": 348.403491,
+      "avgRankPoint": 5531.05,
+      "avgMmrBefore": 5519.57234,
+      "overRank": 12,
+      "underRank": 30,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "암살|메이지|메이지",
+      "roleSignature": "암살|메이지|메이지",
+      "roleParts": [
+        "암살",
+        "메이지",
+        "메이지"
+      ],
+      "teamCount": 808,
+      "actualTop3Rate": 35.767327,
+      "expectedTop3Rate": 37.161351,
+      "adjustedDiffPp": -1.394024,
+      "adjustedLift": 0.962487,
+      "actualTop3Count": 289.0,
+      "expectedTop3Count": 300.263715,
+      "avgRankPoint": 5416.388614,
+      "avgMmrBefore": 5405.057756,
+      "overRank": 31,
+      "underRank": 11,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "탱커|브루저|암살",
+      "roleSignature": "탱커|브루저|암살",
+      "roleParts": [
+        "탱커",
+        "브루저",
+        "암살"
+      ],
+      "teamCount": 796,
+      "actualTop3Rate": 38.567839,
+      "expectedTop3Rate": 40.145535,
+      "adjustedDiffPp": -1.577696,
+      "adjustedLift": 0.960701,
+      "actualTop3Count": 307.0,
+      "expectedTop3Count": 319.558459,
+      "avgRankPoint": 5386.036013,
+      "avgMmrBefore": 5369.743719,
+      "overRank": 35,
+      "underRank": 7,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "브루저|브루저|브루저",
+      "roleSignature": "브루저|브루저|브루저",
+      "roleParts": [
+        "브루저",
+        "브루저",
+        "브루저"
+      ],
+      "teamCount": 666,
+      "actualTop3Rate": 35.435435,
+      "expectedTop3Rate": 39.293511,
+      "adjustedDiffPp": -3.858076,
+      "adjustedLift": 0.901814,
+      "actualTop3Count": 236.0,
+      "expectedTop3Count": 261.694786,
+      "avgRankPoint": 5548.926927,
+      "avgMmrBefore": 5536.774775,
+      "overRank": 41,
+      "underRank": 1,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "브루저|브루저|유틸",
+      "roleSignature": "브루저|브루저|유틸",
+      "roleParts": [
+        "브루저",
+        "브루저",
+        "유틸"
+      ],
+      "teamCount": 660,
+      "actualTop3Rate": 41.060606,
+      "expectedTop3Rate": 41.670654,
+      "adjustedDiffPp": -0.610048,
+      "adjustedLift": 0.98536,
+      "actualTop3Count": 271.0,
+      "expectedTop3Count": 275.026316,
+      "avgRankPoint": 5764.764141,
+      "avgMmrBefore": 5749.589394,
+      "overRank": 26,
+      "underRank": 16,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "원거리 딜러|원거리 딜러|메이지",
+      "roleSignature": "원거리 딜러|원거리 딜러|메이지",
+      "roleParts": [
+        "원거리 딜러",
+        "원거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 632,
+      "actualTop3Rate": 40.822785,
+      "expectedTop3Rate": 39.842581,
+      "adjustedDiffPp": 0.980204,
+      "adjustedLift": 1.024602,
+      "actualTop3Count": 258.0,
+      "expectedTop3Count": 251.805112,
+      "avgRankPoint": 5739.368143,
+      "avgMmrBefore": 5727.125527,
+      "overRank": 8,
+      "underRank": 34,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "브루저|암살|유틸",
+      "roleSignature": "브루저|암살|유틸",
+      "roleParts": [
+        "브루저",
+        "암살",
+        "유틸"
+      ],
+      "teamCount": 621,
+      "actualTop3Rate": 39.613527,
+      "expectedTop3Rate": 42.534856,
+      "adjustedDiffPp": -2.921329,
+      "adjustedLift": 0.931319,
+      "actualTop3Count": 246.0,
+      "expectedTop3Count": 264.141454,
+      "avgRankPoint": 5685.142244,
+      "avgMmrBefore": 5667.566828,
+      "overRank": 40,
+      "underRank": 2,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "탱커|브루저|근거리 딜러",
+      "roleSignature": "탱커|브루저|근거리 딜러",
+      "roleParts": [
+        "탱커",
+        "브루저",
+        "근거리 딜러"
+      ],
+      "teamCount": 613,
+      "actualTop3Rate": 40.130506,
+      "expectedTop3Rate": 39.016503,
+      "adjustedDiffPp": 1.114002,
+      "adjustedLift": 1.028552,
+      "actualTop3Count": 246.0,
+      "expectedTop3Count": 239.171166,
+      "avgRankPoint": 5367.379554,
+      "avgMmrBefore": 5352.117999,
+      "overRank": 7,
+      "underRank": 35,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "탱커|브루저|브루저",
+      "roleSignature": "탱커|브루저|브루저",
+      "roleParts": [
+        "탱커",
+        "브루저",
+        "브루저"
+      ],
+      "teamCount": 603,
+      "actualTop3Rate": 39.303483,
+      "expectedTop3Rate": 40.196954,
+      "adjustedDiffPp": -0.893471,
+      "adjustedLift": 0.977773,
+      "actualTop3Count": 237.0,
+      "expectedTop3Count": 242.387633,
+      "avgRankPoint": 5300.830293,
+      "avgMmrBefore": 5285.029298,
+      "overRank": 28,
+      "underRank": 14,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "브루저|암살|암살",
+      "roleSignature": "브루저|암살|암살",
+      "roleParts": [
+        "브루저",
+        "암살",
+        "암살"
+      ],
+      "teamCount": 580,
+      "actualTop3Rate": 36.034483,
+      "expectedTop3Rate": 37.742079,
+      "adjustedDiffPp": -1.707597,
+      "adjustedLift": 0.954756,
+      "actualTop3Count": 209.0,
+      "expectedTop3Count": 218.90406,
+      "avgRankPoint": 5518.387931,
+      "avgMmrBefore": 5505.223563,
+      "overRank": 36,
+      "underRank": 6,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "브루저|근거리 딜러|유틸",
+      "roleSignature": "브루저|근거리 딜러|유틸",
+      "roleParts": [
+        "브루저",
+        "근거리 딜러",
+        "유틸"
+      ],
+      "teamCount": 577,
+      "actualTop3Rate": 37.088388,
+      "expectedTop3Rate": 39.03336,
+      "adjustedDiffPp": -1.944972,
+      "adjustedLift": 0.950172,
+      "actualTop3Count": 214.0,
+      "expectedTop3Count": 225.222489,
+      "avgRankPoint": 5781.26632,
+      "avgMmrBefore": 5770.842865,
+      "overRank": 38,
+      "underRank": 4,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    }
+  ],
+  "topOver": [
+    {
+      "signatureKey": "브루저|원거리 딜러|원거리 딜러",
+      "roleSignature": "브루저|원거리 딜러|원거리 딜러",
+      "roleParts": [
+        "브루저",
+        "원거리 딜러",
+        "원거리 딜러"
+      ],
+      "teamCount": 985,
+      "actualTop3Rate": 42.436548,
+      "expectedTop3Rate": 39.963377,
+      "adjustedDiffPp": 2.473171,
+      "adjustedLift": 1.061886,
+      "actualTop3Count": 418.0,
+      "expectedTop3Count": 393.639266,
+      "avgRankPoint": 5435.12758,
+      "avgMmrBefore": 5417.751607,
+      "overRank": 1,
+      "underRank": 41,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "탱커|메이지|메이지",
+      "roleSignature": "탱커|메이지|메이지",
+      "roleParts": [
+        "탱커",
+        "메이지",
+        "메이지"
+      ],
+      "teamCount": 1787,
+      "actualTop3Rate": 40.29099,
+      "expectedTop3Rate": 38.195302,
+      "adjustedDiffPp": 2.095689,
+      "adjustedLift": 1.054868,
+      "actualTop3Count": 720.0,
+      "expectedTop3Count": 682.550042,
+      "avgRankPoint": 5277.813654,
+      "avgMmrBefore": 5265.118635,
+      "overRank": 2,
+      "underRank": 40,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "탱커|원거리 딜러|메이지",
+      "roleSignature": "탱커|원거리 딜러|메이지",
+      "roleParts": [
+        "탱커",
+        "원거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 8582,
+      "actualTop3Rate": 42.495922,
+      "expectedTop3Rate": 40.633687,
+      "adjustedDiffPp": 1.862234,
+      "adjustedLift": 1.04583,
+      "actualTop3Count": 3647.0,
+      "expectedTop3Count": 3487.183038,
+      "avgRankPoint": 5449.517012,
+      "avgMmrBefore": 5432.489552,
+      "overRank": 3,
+      "underRank": 39,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|메이지|메이지",
+      "roleSignature": "근거리 딜러|메이지|메이지",
+      "roleParts": [
+        "근거리 딜러",
+        "메이지",
+        "메이지"
+      ],
+      "teamCount": 959,
+      "actualTop3Rate": 40.250261,
+      "expectedTop3Rate": 38.513408,
+      "adjustedDiffPp": 1.736853,
+      "adjustedLift": 1.045097,
+      "actualTop3Count": 386.0,
+      "expectedTop3Count": 369.343582,
+      "avgRankPoint": 5443.447341,
+      "avgMmrBefore": 5430.937087,
+      "overRank": 4,
+      "underRank": 38,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "탱커|암살|메이지",
+      "roleSignature": "탱커|암살|메이지",
+      "roleParts": [
+        "탱커",
+        "암살",
+        "메이지"
+      ],
+      "teamCount": 2499,
+      "actualTop3Rate": 39.335734,
+      "expectedTop3Rate": 37.77479,
+      "adjustedDiffPp": 1.560944,
+      "adjustedLift": 1.041322,
+      "actualTop3Count": 983.0,
+      "expectedTop3Count": 943.992006,
+      "avgRankPoint": 5282.900494,
+      "avgMmrBefore": 5269.222489,
+      "overRank": 5,
+      "underRank": 37,
+      "signal": {
+        "tone": "positive",
+        "label": "실력 대비 우세"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "근거리 딜러|근거리 딜러|메이지",
+      "roleSignature": "근거리 딜러|근거리 딜러|메이지",
+      "roleParts": [
+        "근거리 딜러",
+        "근거리 딜러",
+        "메이지"
+      ],
+      "teamCount": 1151,
+      "actualTop3Rate": 39.530843,
+      "expectedTop3Rate": 38.125525,
+      "adjustedDiffPp": 1.405318,
+      "adjustedLift": 1.03686,
+      "actualTop3Count": 455.0,
+      "expectedTop3Count": 438.824789,
+      "avgRankPoint": 5542.889372,
+      "avgMmrBefore": 5529.972488,
+      "overRank": 6,
+      "underRank": 36,
+      "signal": {
+        "tone": "neutral",
+        "label": "기대 수준"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    }
+  ],
+  "topUnder": [
+    {
+      "signatureKey": "브루저|브루저|브루저",
+      "roleSignature": "브루저|브루저|브루저",
+      "roleParts": [
+        "브루저",
+        "브루저",
+        "브루저"
+      ],
+      "teamCount": 666,
+      "actualTop3Rate": 35.435435,
+      "expectedTop3Rate": 39.293511,
+      "adjustedDiffPp": -3.858076,
+      "adjustedLift": 0.901814,
+      "actualTop3Count": 236.0,
+      "expectedTop3Count": 261.694786,
+      "avgRankPoint": 5548.926927,
+      "avgMmrBefore": 5536.774775,
+      "overRank": 41,
+      "underRank": 1,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "브루저|암살|유틸",
+      "roleSignature": "브루저|암살|유틸",
+      "roleParts": [
+        "브루저",
+        "암살",
+        "유틸"
+      ],
+      "teamCount": 621,
+      "actualTop3Rate": 39.613527,
+      "expectedTop3Rate": 42.534856,
+      "adjustedDiffPp": -2.921329,
+      "adjustedLift": 0.931319,
+      "actualTop3Count": 246.0,
+      "expectedTop3Count": 264.141454,
+      "avgRankPoint": 5685.142244,
+      "avgMmrBefore": 5667.566828,
+      "overRank": 40,
+      "underRank": 2,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "브루저|브루저|근거리 딜러",
+      "roleSignature": "브루저|브루저|근거리 딜러",
+      "roleParts": [
+        "브루저",
+        "브루저",
+        "근거리 딜러"
+      ],
+      "teamCount": 1134,
+      "actualTop3Rate": 37.566138,
+      "expectedTop3Rate": 39.706162,
+      "adjustedDiffPp": -2.140024,
+      "adjustedLift": 0.946103,
+      "actualTop3Count": 426.0,
+      "expectedTop3Count": 450.267873,
+      "avgRankPoint": 5474.993239,
+      "avgMmrBefore": 5460.142857,
+      "overRank": 39,
+      "underRank": 3,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "medium",
+        "label": "표본 보통"
+      }
+    },
+    {
+      "signatureKey": "브루저|근거리 딜러|유틸",
+      "roleSignature": "브루저|근거리 딜러|유틸",
+      "roleParts": [
+        "브루저",
+        "근거리 딜러",
+        "유틸"
+      ],
+      "teamCount": 577,
+      "actualTop3Rate": 37.088388,
+      "expectedTop3Rate": 39.03336,
+      "adjustedDiffPp": -1.944972,
+      "adjustedLift": 0.950172,
+      "actualTop3Count": 214.0,
+      "expectedTop3Count": 225.222489,
+      "avgRankPoint": 5781.26632,
+      "avgMmrBefore": 5770.842865,
+      "overRank": 38,
+      "underRank": 4,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    },
+    {
+      "signatureKey": "브루저|원거리 딜러|암살",
+      "roleSignature": "브루저|원거리 딜러|암살",
+      "roleParts": [
+        "브루저",
+        "원거리 딜러",
+        "암살"
+      ],
+      "teamCount": 4950,
+      "actualTop3Rate": 36.767677,
+      "expectedTop3Rate": 38.497413,
+      "adjustedDiffPp": -1.729736,
+      "adjustedLift": 0.955069,
+      "actualTop3Count": 1820.0,
+      "expectedTop3Count": 1905.62193,
+      "avgRankPoint": 5373.65899,
+      "avgMmrBefore": 5360.165926,
+      "overRank": 37,
+      "underRank": 5,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "high",
+        "label": "표본 높음"
+      }
+    },
+    {
+      "signatureKey": "브루저|암살|암살",
+      "roleSignature": "브루저|암살|암살",
+      "roleParts": [
+        "브루저",
+        "암살",
+        "암살"
+      ],
+      "teamCount": 580,
+      "actualTop3Rate": 36.034483,
+      "expectedTop3Rate": 37.742079,
+      "adjustedDiffPp": -1.707597,
+      "adjustedLift": 0.954756,
+      "actualTop3Count": 209.0,
+      "expectedTop3Count": 218.90406,
+      "avgRankPoint": 5518.387931,
+      "avgMmrBefore": 5505.223563,
+      "overRank": 36,
+      "underRank": 6,
+      "signal": {
+        "tone": "negative",
+        "label": "실력 대비 열세"
+      },
+      "confidence": {
+        "level": "low",
+        "label": "표본 주의"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.agent
+.playwright-cli
+_archive_noncurrent
+app
+data
+docs
+notebooks
+output
+scripts
+submissions
+tableau
+*.md

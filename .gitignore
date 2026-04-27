@@ -1,0 +1,12 @@
+# 제출용 저장소는 대시보드 실행 파일만 포함한다
+*
+
+!web/
+!web/**
+!Dockerfile
+!railway.json
+!.dockerignore
+!.gitignore
+
+*.md
+**/*.md
