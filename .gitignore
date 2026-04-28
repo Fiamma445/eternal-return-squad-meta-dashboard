@@ -1,4 +1,4 @@
-# 제출용 저장소는 대시보드 실행 파일만 포함한다
+# 제출용 저장소에는 웹 대시보드와 핵심 제출 산출물만 포함한다
 *
 
 !web/
@@ -7,6 +7,13 @@
 !railway.json
 !.dockerignore
 !.gitignore
+!.gitattributes
+!submissions/
+!submissions/소스코드_1팀(이터널리턴_상위권_스쿼드_메타_분석).ipynb
+!submissions/데이터파일_1팀(이터널리턴_상위권_스쿼드_메타_분석).zip
+!output/
+!output/portfolio/
+!output/portfolio/결과보고서_이터널리턴_상위권_스쿼드_메타_분석_최종본.pdf
 
 *.md
 **/*.md
