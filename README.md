@@ -216,14 +216,22 @@ eternal-return-squad-meta-dashboard/
 
 로컬 실행
 
-```bash
-python -m http.server 8787
+프로젝트 루트에서 실행합니다. `web/src` 폴더 안에서 실행하면 경로가 맞지 않습니다.
+
+```powershell
+py -3 -m http.server 8787 --directory web
 ```
 
 접속
 
 ```text
-http://localhost:8787/web/
+http://localhost:8787/
+```
+
+`python` 명령이 바로 종료되거나 `py -3`가 동작하지 않는 환경에서는 아래처럼 실행합니다.
+
+```bash
+python3 -m http.server 8787 --directory web
 ```
 
 Docker 실행
