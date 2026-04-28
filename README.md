@@ -195,62 +195,19 @@ flowchart LR
 
 ### 프로젝트 파일 및 실행법
 
-프로젝트 구조
+- 보고서(PDF)
+  - [결과보고서_이터널리턴_상위권_스쿼드_메타_분석_최종본.pdf](output/portfolio/결과보고서_이터널리턴_상위권_스쿼드_메타_분석_최종본.pdf)
+- 분석 노트북
+  - `submissions/소스코드_1팀(이터널리턴_상위권_스쿼드_메타_분석).ipynb`
+- 데이터 패키지
+  - `submissions/데이터파일_1팀(이터널리턴_상위권_스쿼드_메타_분석).zip`
+- 대시보드 코드 및 실행
+  - `web/`
+  - 실행: `py -3 -m http.server 8787 --directory web`
+  - 접속: `http://localhost:8787/`
+- Docker 실행
+  - `docker build -t eternal-return-squad-meta-dashboard .`
+  - `docker run -p 8080:8080 eternal-return-squad-meta-dashboard`
+  - 접속: `http://localhost:8080/`
 
-```text
-eternal-return-squad-meta-dashboard/
-├── web/                    # 정적 웹 대시보드
-│   ├── index.html
-│   └── src/
-│       ├── app.js
-│       ├── timeline.js
-│       ├── styles/theme.css
-│       └── data/           # 대시보드용 CSV/JSON 데이터
-├── scripts/                # API 수집 및 산출 데이터 생성 스크립트
-├── notebooks/active_2026/  # EDA, 코드북, ML 분석 노트북
-├── submissions/            # 제출용 소스코드/데이터 파일
-├── Dockerfile              # Railway 배포용 정적 서버
-├── railway.json
-└── README.md
-```
-
-로컬 실행
-
-프로젝트 루트에서 실행합니다. `web/src` 폴더 안에서 실행하면 경로가 맞지 않습니다.
-
-```powershell
-py -3 -m http.server 8787 --directory web
-```
-
-접속
-
-```text
-http://localhost:8787/
-```
-
-`python` 명령이 바로 종료되거나 `py -3`가 동작하지 않는 환경에서는 아래처럼 실행합니다.
-
-```bash
-python3 -m http.server 8787 --directory web
-```
-
-Docker 실행
-
-```bash
-docker build -t eternal-return-squad-meta-dashboard .
-docker run -p 8080:8080 eternal-return-squad-meta-dashboard
-```
-
-접속
-
-```text
-http://localhost:8080/
-```
-
-제출 산출물
-
-- 결과보고서 PDF: `output/portfolio/결과보고서_이터널리턴_상위권_스쿼드_메타_분석_최종본.pdf`
-- 제출용 소스코드: `submissions/소스코드_1팀(이터널리턴_상위권_스쿼드_메타_분석).ipynb`
-- 제출용 데이터: `submissions/데이터파일_1팀(이터널리턴_상위권_스쿼드_메타_분석).zip`
-
-> 주의: 이 저장소의 대시보드는 정적 CSV/JSON 데이터 기반으로 동작한다. 최신 데이터를 반영하려면 API 재수집 후 `web/src/data` 파일을 갱신하고 재배포해야 한다.
+> 주의: 위 대시보드는 정적 CSV/JSON 데이터 기준이며, API 재수집 또는 데이터 버전 변경 시 결과 수치가 달라질 수 있다.
