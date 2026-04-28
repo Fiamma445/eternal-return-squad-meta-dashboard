@@ -8,6 +8,10 @@
 !.dockerignore
 !.gitignore
 !.gitattributes
+!docs/
+!docs/assets/
+!docs/assets/readme/
+!docs/assets/readme/er-dashboard-*.png
 !submissions/
 !submissions/소스코드_1팀(이터널리턴_상위권_스쿼드_메타_분석).ipynb
 !submissions/데이터파일_1팀(이터널리턴_상위권_스쿼드_메타_분석).zip
